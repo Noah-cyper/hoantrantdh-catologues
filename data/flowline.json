@@ -9,9 +9,18 @@
   "intro": "Chọn công nghệ đo phù hợp môi chất: radar không tiếp xúc, radar dẫn sóng, siêu âm, siêu âm phản xạ; kèm công tắc mức điểm và bộ hiển thị / điều khiển. Bấm vào mã để chép, hoặc dùng “Chép mã đang lọc” để xuất danh sách hỏi giá.",
   "groupType": "tech",
   "sources": [
-    { "label": "Trang chủ Flowline", "url": "https://www.flowline.com" },
-    { "label": "Sản phẩm Flowline", "url": "https://www.flowline.com/products/" },
-    { "label": "Data sheets & manuals", "url": "https://www.flowline.com/data-sheets-manuals/" }
+    {
+      "label": "Trang chủ Flowline",
+      "url": "https://www.flowline.com"
+    },
+    {
+      "label": "Sản phẩm Flowline",
+      "url": "https://www.flowline.com/products/"
+    },
+    {
+      "label": "Data sheets & manuals",
+      "url": "https://www.flowline.com/data-sheets-manuals/"
+    }
   ],
   "sections": [
     {
@@ -24,18 +33,137 @@
         {
           "name": "A.1 EchoPulse® — radar xung 2 dây (4-20 mA)",
           "rows": [
-            ["LR10", "Radar xung 26 GHz cho chất lỏng, đo tới 10 m, 2 dây 4-20 mA."],
-            ["LR15", "Radar xung 26 GHz cho chất lỏng, tầm trung, 2 dây 4-20 mA."],
-            ["LR20", "Radar xung 26 GHz cho chất lỏng, đo tới 20 m, 2 dây 4-20 mA."],
-            ["LR25", "Radar xung 26 GHz cho chất lỏng, dải cao, 2 dây 4-20 mA."],
-            ["LR30", "Radar xung 26 GHz cho chất lỏng, đo tới 30 m, 2 dây 4-20 mA."]
+            [
+              "LR10",
+              "Radar xung 26 GHz cho chất lỏng, đo tới 10 m, 2 dây 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR10_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR10_LR15_LR20_LR25_LR30_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPulse_LR10_LR15_LR20_LR25_LR30_MN.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR15",
+              "Radar xung 26 GHz cho chất lỏng, tầm trung, 2 dây 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR15_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR10_LR15_LR20_LR25_LR30_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPulse_LR10_LR15_LR20_LR25_LR30_MN.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR20",
+              "Radar xung 26 GHz cho chất lỏng, đo tới 20 m, 2 dây 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR20_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR10_LR15_LR20_LR25_LR30_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPulse_LR10_LR15_LR20_LR25_LR30_MN.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR25",
+              "Radar xung 26 GHz cho chất lỏng, dải cao, 2 dây 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR25_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR10_LR15_LR20_LR25_LR30_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPulse_LR10_LR15_LR20_LR25_LR30_MN.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR30",
+              "Radar xung 26 GHz cho chất lỏng, đo tới 30 m, 2 dây 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR30_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPulse_LR10_LR15_LR20_LR25_LR30_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPulse_LR10_LR15_LR20_LR25_LR30_MN.pdf"
+                ]
+              ]
+            ]
           ]
         },
         {
           "name": "A.2 EchoPro® — radar xung có HART",
           "rows": [
-            ["LR21", "Radar xung 26 GHz cho chất lỏng, đo tới 20 m, 4-20 mA + HART."],
-            ["LR36", "Radar xung 26 GHz cho chất rắn / bột, đo tới 15 m, 4-20 mA + HART."]
+            [
+              "LR21",
+              "Radar xung 26 GHz cho chất lỏng, đo tới 20 m, 4-20 mA + HART.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro-LR21-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR11_LR16_LR21_LR26_LR31_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR11_LR16_LR21_LR26_LR31_MN.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR36",
+              "Radar xung 26 GHz cho chất rắn / bột, đo tới 15 m, 4-20 mA + HART.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro-LR36-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR36_LR41_LR46_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR36_LR41_LR46_m.pdf"
+                ]
+              ]
+            ]
           ]
         }
       ]
@@ -50,8 +178,42 @@
         {
           "name": "B.1 EchoWave® — guided wave radar (TDR)",
           "rows": [
-            ["LG10", "Radar dẫn sóng TDR cho chất lỏng, đo tới 5.5 m, 3 dây 4-20 mA."],
-            ["LG11", "Radar dẫn sóng TDR — biến thể đầu dò coaxial / que cho ứng dụng chuyên biệt."]
+            [
+              "LG10",
+              "Radar dẫn sóng TDR cho chất lỏng, đo tới 5.5 m, 3 dây 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoWave_LG10_LG11_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoWave_LG10_LG11_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoWave_LG10_LG11_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LG11",
+              "Radar dẫn sóng TDR — biến thể đầu dò coaxial / que cho ứng dụng chuyên biệt.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoWave_LG10_LG11_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoWave_LG10_LG11_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoWave_LG10_LG11_Manual.pdf"
+                ]
+              ]
+            ]
           ]
         }
       ]
@@ -66,25 +228,222 @@
         {
           "name": "C.1 EchoPod® — siêu âm compact đa năng",
           "rows": [
-            ["DL10", "Siêu âm liên tục, đo tới 1.25 m, 4-20 mA."],
-            ["DL14", "Siêu âm đa năng, đo tới 1.25 m, 4-20 mA + 4 relay."],
-            ["DL24", "Siêu âm đa năng, đo tới 3 m, 4-20 mA + 4 relay."],
-            ["DL34", "Siêu âm đa năng, đo tới 5.5 m, 4-20 mA."]
+            [
+              "DL10",
+              "Siêu âm liên tục, đo tới 1.25 m, 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPod_DL10_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPod_DL10_DL14_DL24_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DL10_DL14_DL24_DL34_DS14_DX10_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "DL14",
+              "Siêu âm đa năng, đo tới 1.25 m, 4-20 mA + 4 relay.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPod_DL14_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPod_DL10_DL14_DL24_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DL10_DL14_DL24_DL34_DS14_DX10_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "DL24",
+              "Siêu âm đa năng, đo tới 3 m, 4-20 mA + 4 relay.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPod_DL24_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPod_DL10_DL14_DL24_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DL10_DL14_DL24_DL34_DS14_DX10_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "DL34",
+              "Siêu âm đa năng, đo tới 5.5 m, 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/DL34_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/DL34_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DL10_DL14_DL24_DL34_DS14_DX10_m.pdf"
+                ]
+              ]
+            ]
           ]
         },
         {
           "name": "C.2 EchoSonic® II — transmitter siêu âm đầu rời",
           "rows": [
-            ["LU27", "Siêu âm liên tục, dải 10 cm – 3 m, 4-20 mA."],
-            ["LU23", "Siêu âm liên tục, dải 20 cm – 5.5 m, 4-20 mA."],
-            ["LU28", "Siêu âm liên tục, dải 20 cm – 8 m, 4-20 mA."],
-            ["LU29", "Siêu âm liên tục, dải 20 cm – 10 m, 4-20 mA."]
+            [
+              "LU27",
+              "Siêu âm liên tục, dải 10 cm – 3 m, 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU27_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Manual.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU27_conduit_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU27_conduit_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU27_conduit_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LU23",
+              "Siêu âm liên tục, dải 20 cm – 5.5 m, 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU28_LU29_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Manual.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU23_conduit_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU23_conduit_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU23_conduit_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LU28",
+              "Siêu âm liên tục, dải 20 cm – 8 m, 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU28_LU29_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Manual.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU28_conduit_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU28_conduit_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU28_conduit_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LU29",
+              "Siêu âm liên tục, dải 20 cm – 10 m, 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU28_LU29_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Manual.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU29_conduit_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU29_conduit_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU29_conduit_m.pdf"
+                ]
+              ]
+            ]
           ]
         },
         {
           "name": "C.3 EchoTouch® — siêu âm an toàn cháy nổ (IS)",
           "rows": [
-            ["LU30", "Transmitter siêu âm 3 dây, đo tới 7.4 m, 4-20 mA, bản an toàn cháy nổ."]
+            [
+              "LU30",
+              "Transmitter siêu âm 3 dây, đo tới 7.4 m, 4-20 mA, bản an toàn cháy nổ.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU30_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU30_m.pdf"
+                ]
+              ]
+            ]
           ]
         }
       ]
@@ -99,15 +458,83 @@
         {
           "name": "D.1 EchoPod® reflective — đa năng",
           "rows": [
-            ["UG01", "Siêu âm phản xạ đa năng, 4-20 mA, cấu hình 1 điểm chuyển đổi."],
-            ["UG03", "Siêu âm phản xạ đa năng, 4-20 mA, cấu hình đa điểm."]
+            [
+              "UG01",
+              "Siêu âm phản xạ đa năng, 4-20 mA, cấu hình 1 điểm chuyển đổi.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG01_UG03-Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG01_UG03_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG01_UG03_M.pdf"
+                ]
+              ]
+            ],
+            [
+              "UG03",
+              "Siêu âm phản xạ đa năng, 4-20 mA, cấu hình đa điểm.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG01_UG03-Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG01_UG03_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG01_UG03_M.pdf"
+                ]
+              ]
+            ]
           ]
         },
         {
           "name": "D.2 EchoTouch® reflective — transmitter",
           "rows": [
-            ["US01", "Transmitter siêu âm phản xạ, 4-20 mA, 1 điểm chuyển đổi."],
-            ["US03", "Transmitter siêu âm phản xạ, 4-20 mA, đa điểm."]
+            [
+              "US01",
+              "Transmitter siêu âm phản xạ, 4-20 mA, 1 điểm chuyển đổi.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_US06_US12_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_US06_US12_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "US03",
+              "Transmitter siêu âm phản xạ, 4-20 mA, đa điểm.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_US06_US12_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_US06_US12_Manual.pdf"
+                ]
+              ]
+            ]
           ]
         }
       ]
@@ -122,9 +549,48 @@
         {
           "name": "E.1 Switch-Tek™ — công tắc mức điểm",
           "rows": [
-            ["LU10", "Công tắc mức điểm siêu âm, phát hiện cao/thấp, ngõ ra relay."],
-            ["LV10", "Công tắc phao đứng (vertical buoyancy), ngõ ra reed switch 15 VA."],
-            ["LO10", "Công tắc quang học phát hiện rò rỉ / mức điểm chất lỏng."]
+            [
+              "LU10",
+              "Công tắc mức điểm siêu âm, phát hiện cao/thấp, ngõ ra relay.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/Switch-Tek_LU10_Data_Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Switch-Tek_LU10-LZ12-LO10-LP15_M.pdf"
+                ]
+              ]
+            ],
+            [
+              "LV10",
+              "Công tắc phao đứng (vertical buoyancy), ngõ ra reed switch 15 VA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/Switch-Tek_LV10_Data_Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/Switch-Tek_LV10_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LO10",
+              "Công tắc quang học phát hiện rò rỉ / mức điểm chất lỏng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/Switch-Tek_LO10_Data_Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Switch-Tek_LU10-LZ12-LO10-LP15_M.pdf"
+                ]
+              ]
+            ]
           ]
         }
       ]
@@ -139,7 +605,20 @@
         {
           "name": "F.1 Thermo-Flo™ — thermal dispersion flow switch",
           "rows": [
-            ["FT10", "Công tắc dòng chảy nhiệt cho chất lỏng, phát hiện low/no-flow trong ống."]
+            [
+              "FT10",
+              "Công tắc dòng chảy nhiệt cho chất lỏng, phát hiện low/no-flow trong ống.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/FT10_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/FT10_m.pdf"
+                ]
+              ]
+            ]
           ]
         }
       ]
@@ -154,15 +633,87 @@
         {
           "name": "G.1 DataLoop™ — bộ hiển thị mức loop-powered",
           "rows": [
-            ["LI23", "Bộ hiển thị mức loop-powered, 2 relay tuỳ chọn + repeater 4-20 mA cách ly."],
-            ["LI24", "Bộ hiển thị mức loop-powered bản an toàn cháy nổ (IS)."],
-            ["LI25", "Bộ hiển thị mức loop-powered gọn, hiển thị đơn vị kỹ thuật."]
+            [
+              "LI23",
+              "Bộ hiển thị mức loop-powered, 2 relay tuỳ chọn + repeater 4-20 mA cách ly.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI23_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI23_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI23_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LI24",
+              "Bộ hiển thị mức loop-powered bản an toàn cháy nổ (IS).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DataLoop_LI24_DS.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/DataLoop_LI24_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DataLoop_LI24_M.pdf"
+                ]
+              ]
+            ],
+            [
+              "LI25",
+              "Bộ hiển thị mức loop-powered gọn, hiển thị đơn vị kỹ thuật.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI25-1_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI25-1_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI25-1_m.pdf"
+                ],
+                [
+                  "Bản vẽ",
+                  "https://www.flowline.com/wp-content/uploads/LM91-1001_2001-LM92-1002_2002-DIM.pdf"
+                ]
+              ]
+            ]
           ]
         },
         {
           "name": "G.2 DataView™ — bộ điều khiển mức",
           "rows": [
-            ["LI55", "Bộ điều khiển mức, 2–4 relay lập trình + repeater 4-20 mA cách ly."]
+            [
+              "LI55",
+              "Bộ điều khiển mức, 2–4 relay lập trình + repeater 4-20 mA cách ly.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI55_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI55_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI55_m.pdf"
+                ]
+              ]
+            ]
           ]
         }
       ]
@@ -172,10 +723,22 @@
     "heading": "GHÉP NỐI VÀO CHUỖI TÍN HIỆU SENECA",
     "intro": "Ngõ ra của cảm biến Flowline (4-20 mA / HART / relay) đấu thẳng vào chuỗi cách ly – chuyển đổi – hiển thị – ghi dữ liệu của Seneca do HOANTRANTDH phân phối.",
     "rows": [
-      ["Tuyến 1 — Analog 4-20 mA", "Ngõ ra 4-20 mA (LR/LU/DL) → bộ cách ly / chuyển đổi tín hiệu Seneca (dòng K/Z) → PLC / SCADA."],
-      ["Tuyến 2 — HART", "LR21 / LR36 xuất 4-20 mA + HART → bộ tách HART hoặc gateway HART→Modbus của Seneca."],
-      ["Tuyến 3 — Relay cảnh báo", "Relay của DL14 / DL24 / LI55 → module vào/ra số Seneca (Z-PC / R-KEY) để logic báo mức."],
-      ["Tuyến 4 — Hiển thị & ghi dữ liệu", "Tín hiệu mức → màn hình / RTU / bộ ghi Seneca để giám sát và cảnh báo từ xa."]
+      [
+        "Tuyến 1 — Analog 4-20 mA",
+        "Ngõ ra 4-20 mA (LR/LU/DL) → bộ cách ly / chuyển đổi tín hiệu Seneca (dòng K/Z) → PLC / SCADA."
+      ],
+      [
+        "Tuyến 2 — HART",
+        "LR21 / LR36 xuất 4-20 mA + HART → bộ tách HART hoặc gateway HART→Modbus của Seneca."
+      ],
+      [
+        "Tuyến 3 — Relay cảnh báo",
+        "Relay của DL14 / DL24 / LI55 → module vào/ra số Seneca (Z-PC / R-KEY) để logic báo mức."
+      ],
+      [
+        "Tuyến 4 — Hiển thị & ghi dữ liệu",
+        "Tín hiệu mức → màn hình / RTU / bộ ghi Seneca để giám sát và cảnh báo từ xa."
+      ]
     ]
   },
   "note_end": "Danh mục tổng hợp từ tài liệu công khai của Flowline (flowline.com). Mã và cấu hình chi tiết (dải đo, ren, vật liệu, chứng nhận) xác nhận theo phiếu chọn mã của hãng khi báo giá."

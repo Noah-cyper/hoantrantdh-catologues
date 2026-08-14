@@ -79,7 +79,7 @@ Không có dependency runtime — `npm run build` chỉ cần Node ≥ 18.
 
 | Hãng | Nước | groupType | Trạng thái |
 |---|---|---|---|
-| **Flowline** | USA | tech (A–G) | ✅ 30 mã (từ catalog công khai flowline.com) |
+| **Flowline** | USA | tech (A–G) | ✅ 30 mã · 98 tài liệu (datasheet/manual/quick-start từ flowline.com) |
 | **Seneca** | Italy | stage (1–7) | ✅ 478 mã · 33 nhóm + Ghép nối (từ Short Form Catalog SFC_2401EN qua `scripts/migrate-seneca.js`) |
 | **Georgin** | France | tech | ⏳ khung |
 | **Dinel** | Czech | tech | ⏳ khung |
