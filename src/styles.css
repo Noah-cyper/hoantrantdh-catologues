@@ -497,6 +497,42 @@ main { padding: 26px 0 60px; }
   padding: 2px 8px; border-radius: 6px;
 }
 
+/* ---------- Per-code documents ---------- */
+.desc-text { display: block; }
+.docs { margin-top: 7px; }
+.doc-toggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--ink-2);
+  background: var(--surface-2); border: 1px solid var(--line-strong);
+  padding: 3px 9px; border-radius: 999px; cursor: pointer;
+  transition: color 0.12s, border-color 0.12s, background 0.12s;
+}
+.doc-toggle:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+.doc-toggle .doc-count { font-weight: 700; color: var(--ink); }
+.doc-toggle:hover .doc-count { color: var(--accent); }
+.doc-toggle .doc-caret { font-size: 10px; transition: transform 0.15s; }
+.doc-toggle.open .doc-caret { transform: rotate(180deg); }
+
+.doc-list {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  margin-top: 8px; padding: 9px 10px;
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius-sm);
+}
+.doc-list[hidden] { display: none; }
+.doc-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 500; color: var(--ink-2); text-decoration: none;
+  background: var(--surface); border: 1px solid var(--line-strong);
+  padding: 4px 9px; border-radius: 999px;
+  transition: color 0.12s, border-color 0.12s, background 0.12s;
+}
+.doc-link:hover { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+.doc-link .doc-ic {
+  font-family: var(--mono); font-weight: 700; font-size: 11px;
+  color: var(--ok); flex: none;
+}
+.doc-link:hover .doc-ic { color: var(--accent); }
+
 /* ---------- Responsive ---------- */
 @media (max-width: 640px) {
   .wrap { width: min(1120px, 100% - 28px); }

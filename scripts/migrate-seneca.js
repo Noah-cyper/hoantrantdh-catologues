@@ -93,6 +93,37 @@ function splitStages(html) {
 
 // ---- row / group extraction ---------------------------------------------
 
+// Map a link's title/text to a short Vietnamese category label.
+function classifyDoc(title) {
+  const t = (title || '').toLowerCase();
+  if (/^mở tài liệu/.test(t)) return 'Trang sản phẩm';
+  if (/compliance|dichiarazione|\bul\b/.test(t)) return 'Chứng nhận';
+  if (/drawing|\bcad\b/.test(t)) return 'Bản vẽ / CAD';
+  if (/firmware/.test(t)) return 'Firmware';
+  if (/manual|flyer/.test(t)) return 'Tài liệu / flyer';
+  if (/tool|software|suite|configuration/.test(t)) return 'Phần mềm / công cụ';
+  return 'Tài liệu';
+}
+
+// Pull every <a class="dl…"> inside a row → [ [label, url], … ].
+function extractDocs(trHtml) {
+  const docs = [];
+  const seen = new Set();
+  const re = /<a\b[^>]*\bclass="[^"]*\bdl\b[^"]*"[^>]*>/gi;
+  let a;
+  while ((a = re.exec(trHtml)) !== null) {
+    const tag = a[0];
+    const href = (tag.match(/\bhref="([^"]+)"/i) || [])[1];
+    if (!href) continue;
+    const title = decodeEntities((tag.match(/\btitle="([^"]*)"/i) || [])[1] || '');
+    const url = decodeEntities(href).trim();
+    if (seen.has(url)) continue;
+    seen.add(url);
+    docs.push([classifyDoc(title), url]);
+  }
+  return docs;
+}
+
 function extractRow(trHtml) {
   const codeMatch = /\bdata-code="([^"]+)"/i.exec(trHtml);
   if (!codeMatch) return null;
@@ -100,7 +131,8 @@ function extractRow(trHtml) {
   const code = decodeEntities(codeMatch[1]).trim();
   const desc = descMatch ? stripTags(descMatch[1]) : '';
   if (!code) return null;
-  return [code, desc];
+  const docs = extractDocs(trHtml);
+  return docs.length ? [code, desc, docs] : [code, desc];
 }
 
 // Each <div class="grp"> → { name, rows }. A stage may hold several groups.

@@ -46,13 +46,53 @@ function countCodes(data) {
 
 // ---- section / group rendering -----------------------------------------
 
+// Short filename (last path segment) — shown as the link's hover title.
+function docFileName(url) {
+  const clean = String(url || '').split('?')[0].split('#')[0];
+  const seg = clean.slice(clean.lastIndexOf('/') + 1);
+  return decodeURIComponent(seg || url || '');
+}
+
+// Optional per-code documents (row[2]) → a collapsible "N tệp" panel.
+function renderDocs(docs) {
+  if (!docs || !docs.length) return '';
+  const links = docs
+    .map((d) => {
+      const label = Array.isArray(d) ? d[0] : d.label;
+      const url = Array.isArray(d) ? d[1] : d.url;
+      const file = docFileName(url);
+      return (
+        `<a class="doc-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" ` +
+          `title="${escapeHtml(file)}">` +
+          `<span class="doc-ic" aria-hidden="true">↓</span>` +
+          `<span class="doc-label">${escapeHtml(label)}</span>` +
+        `</a>`
+      );
+    })
+    .join('');
+  return (
+    `<div class="docs">` +
+      `<button class="doc-toggle" type="button" aria-expanded="false">` +
+        `<span class="doc-toggle-ic" aria-hidden="true">📄</span>` +
+        `<span class="doc-count">${docs.length}</span> tệp` +
+        `<span class="doc-caret" aria-hidden="true">▾</span>` +
+      `</button>` +
+      `<div class="doc-list" hidden>${links}</div>` +
+    `</div>`
+  );
+}
+
 function renderRow(row) {
   const code = row[0];
   const desc = row[1] == null ? '' : row[1];
+  const docs = row[2];
   return (
     `<tr class="code-row" data-kind="code" data-section="__SEC__" data-search="${searchKey(code, desc)}">` +
       `<td class="code" data-code="${escapeHtml(code)}" title="Bấm để chép mã">${escapeHtml(code)}</td>` +
-      `<td class="desc">${escapeHtml(desc)}</td>` +
+      `<td class="desc">` +
+        `<span class="desc-text">${escapeHtml(desc)}</span>` +
+        renderDocs(docs) +
+      `</td>` +
     `</tr>`
   );
 }
@@ -266,6 +306,18 @@ function clientScript() {
     });
   });
 
+  // Toggle a row's document list open/closed.
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest ? e.target.closest('.doc-toggle') : null;
+    if (!btn) return;
+    var list = btn.parentNode.querySelector('.doc-list');
+    if (!list) return;
+    var open = list.hidden;
+    list.hidden = !open;
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.classList.toggle('open', open);
+  });
+
   // Click a code cell -> copy single code.
   document.addEventListener('click', function (e) {
     var cell = e.target.closest ? e.target.closest('td.code') : null;
@@ -296,7 +348,7 @@ function clientScript() {
       codeRows.forEach(function (row) {
         if (!row.hidden) {
           var c = row.querySelector('.code');
-          var d = row.querySelector('.desc');
+          var d = row.querySelector('.desc-text') || row.querySelector('.desc');
           lines.push((c ? c.getAttribute('data-code') : '') + '\t' + (d ? d.textContent : ''));
         }
       });
