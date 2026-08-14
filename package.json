@@ -1,0 +1,16 @@
+{
+  "name": "hoantrantdh-catalog-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HOANTRANTDH Product Catalog Hub — data-driven static order-code lookup for multiple instrumentation brands.",
+  "type": "commonjs",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch --serve",
+    "serve": "node build.js --serve"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

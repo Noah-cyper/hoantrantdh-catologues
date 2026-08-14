@@ -1,0 +1,16 @@
+{
+  "brand": "seneca",
+  "name": "SENECA",
+  "country": "Italy",
+  "tagline": "Made in Italy · Signal Conditioning & IIoT",
+  "accent": "#E4002B",
+  "title": "SENECA — Danh mục mã đặt hàng theo 7 giai đoạn chuỗi tín hiệu",
+  "subtitle": "Bộ cách ly, chuyển đổi, thu thập, truyền thông và giám sát tín hiệu của Seneca (Ý) do HOANTRANTDH phân phối.",
+  "intro": "Dữ liệu 478 mã sẽ được sinh tự động từ Short Form Catalog (SFC_2401EN) qua script scripts/migrate-seneca.js. Đặt file HTML tra cứu Seneca vào scripts/ rồi chạy migrate để điền đầy danh mục này.",
+  "groupType": "stage",
+  "sources": [
+    { "label": "Trang chủ Seneca", "url": "https://www.seneca.it" },
+    { "label": "Short Form Catalog (SFC_2401EN)", "url": "https://www.seneca.it" }
+  ],
+  "sections": []
+}

@@ -1,0 +1,15 @@
+{
+  "brand": "anhui-tiankang",
+  "name": "ANHUI TIANKANG",
+  "country": "China",
+  "tagline": "Cable · Wire · Electrical Equipment",
+  "accent": "#C1121F",
+  "title": "ANHUI TIANKANG — Cáp, dây & thiết bị điện",
+  "subtitle": "Cáp điện, dây dẫn và thiết bị điện của Anhui Tiankang (Trung Quốc) do HOANTRANTDH phân phối.",
+  "intro": "Khung danh mục — mã sẽ được nhập dần từ catalog chính hãng. Không nhập mã không có nguồn.",
+  "groupType": "tech",
+  "sources": [
+    { "label": "Trang chủ Anhui Tiankang", "url": "http://www.tiankang.com" }
+  ],
+  "sections": []
+}

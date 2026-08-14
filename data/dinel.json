@@ -1,0 +1,15 @@
+{
+  "brand": "dinel",
+  "name": "DINEL",
+  "country": "Czech",
+  "tagline": "Made in Czech · Level Measurement",
+  "accent": "#EF7D00",
+  "title": "DINEL — Cảm biến & công tắc đo mức",
+  "subtitle": "Cảm biến mức điện dung, radar, siêu âm và công tắc của Dinel (Séc) do HOANTRANTDH phân phối.",
+  "intro": "Khung danh mục — mã sẽ được nhập dần từ catalog chính hãng dinel.cz. Không nhập mã không có nguồn.",
+  "groupType": "tech",
+  "sources": [
+    { "label": "Trang chủ Dinel", "url": "https://www.dinel.cz" }
+  ],
+  "sections": []
+}

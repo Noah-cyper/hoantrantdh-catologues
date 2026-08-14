@@ -1,0 +1,15 @@
+{
+  "brand": "termotech",
+  "name": "TERMOTECH",
+  "country": "Italy",
+  "tagline": "Made in Italy · Temperature Sensing",
+  "accent": "#DC2626",
+  "title": "TERMOTECH — Cảm biến & transmitter nhiệt độ",
+  "subtitle": "Cảm biến nhiệt độ, can nhiệt, RTD và transmitter của Termotech (Ý) do HOANTRANTDH phân phối.",
+  "intro": "Khung danh mục — mã sẽ được nhập dần từ catalog chính hãng. Không nhập mã không có nguồn.",
+  "groupType": "tech",
+  "sources": [
+    { "label": "Trang chủ Termotech", "url": "https://www.termotech.it" }
+  ],
+  "sections": []
+}

@@ -1,0 +1,182 @@
+{
+  "brand": "flowline",
+  "name": "FLOWLINE",
+  "country": "USA",
+  "tagline": "Made in USA · Level Measurement",
+  "accent": "#C8102E",
+  "title": "FLOWLINE — Toàn bộ dải sản phẩm đo & kiểm soát mức",
+  "subtitle": "Cảm biến, transmitter, công tắc và bộ điều khiển mức của Flowline (Hoa Kỳ) do HOANTRANTDH phân phối.",
+  "intro": "Chọn công nghệ đo phù hợp môi chất: radar không tiếp xúc, radar dẫn sóng, siêu âm, siêu âm phản xạ; kèm công tắc mức điểm và bộ hiển thị / điều khiển. Bấm vào mã để chép, hoặc dùng “Chép mã đang lọc” để xuất danh sách hỏi giá.",
+  "groupType": "tech",
+  "sources": [
+    { "label": "Trang chủ Flowline", "url": "https://www.flowline.com" },
+    { "label": "Sản phẩm Flowline", "url": "https://www.flowline.com/products/" },
+    { "label": "Data sheets & manuals", "url": "https://www.flowline.com/data-sheets-manuals/" }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "short": "Radar",
+      "color": "#128377",
+      "heading": "Radar không tiếp xúc — EchoPulse® & EchoPro®",
+      "note": "Radar xung 26 GHz, đo mức không tiếp xúc, ít ảnh hưởng bởi hơi, bọt, bám dính.",
+      "groups": [
+        {
+          "name": "A.1 EchoPulse® — radar xung 2 dây (4-20 mA)",
+          "rows": [
+            ["LR10", "Radar xung 26 GHz cho chất lỏng, đo tới 10 m, 2 dây 4-20 mA."],
+            ["LR15", "Radar xung 26 GHz cho chất lỏng, tầm trung, 2 dây 4-20 mA."],
+            ["LR20", "Radar xung 26 GHz cho chất lỏng, đo tới 20 m, 2 dây 4-20 mA."],
+            ["LR25", "Radar xung 26 GHz cho chất lỏng, dải cao, 2 dây 4-20 mA."],
+            ["LR30", "Radar xung 26 GHz cho chất lỏng, đo tới 30 m, 2 dây 4-20 mA."]
+          ]
+        },
+        {
+          "name": "A.2 EchoPro® — radar xung có HART",
+          "rows": [
+            ["LR21", "Radar xung 26 GHz cho chất lỏng, đo tới 20 m, 4-20 mA + HART."],
+            ["LR36", "Radar xung 26 GHz cho chất rắn / bột, đo tới 15 m, 4-20 mA + HART."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Dẫn sóng",
+      "color": "#2563EB",
+      "heading": "Radar dẫn sóng TDR — EchoWave®",
+      "note": "Đo tiếp xúc bằng que/dây dẫn sóng, ổn định với chất lỏng có bọt hoặc hằng số điện môi thấp.",
+      "groups": [
+        {
+          "name": "B.1 EchoWave® — guided wave radar (TDR)",
+          "rows": [
+            ["LG10", "Radar dẫn sóng TDR cho chất lỏng, đo tới 5.5 m, 3 dây 4-20 mA."],
+            ["LG11", "Radar dẫn sóng TDR — biến thể đầu dò coaxial / que cho ứng dụng chuyên biệt."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Siêu âm",
+      "color": "#7C3AED",
+      "heading": "Siêu âm liên tục — EchoPod® · EchoSonic® II · EchoTouch®",
+      "note": "Đo mức liên tục không tiếp xúc bằng siêu âm cho bồn, hố ga, bể chứa.",
+      "groups": [
+        {
+          "name": "C.1 EchoPod® — siêu âm compact đa năng",
+          "rows": [
+            ["DL10", "Siêu âm liên tục, đo tới 1.25 m, 4-20 mA."],
+            ["DL14", "Siêu âm đa năng, đo tới 1.25 m, 4-20 mA + 4 relay."],
+            ["DL24", "Siêu âm đa năng, đo tới 3 m, 4-20 mA + 4 relay."],
+            ["DL34", "Siêu âm đa năng, đo tới 5.5 m, 4-20 mA."]
+          ]
+        },
+        {
+          "name": "C.2 EchoSonic® II — transmitter siêu âm đầu rời",
+          "rows": [
+            ["LU27", "Siêu âm liên tục, dải 10 cm – 3 m, 4-20 mA."],
+            ["LU23", "Siêu âm liên tục, dải 20 cm – 5.5 m, 4-20 mA."],
+            ["LU28", "Siêu âm liên tục, dải 20 cm – 8 m, 4-20 mA."],
+            ["LU29", "Siêu âm liên tục, dải 20 cm – 10 m, 4-20 mA."]
+          ]
+        },
+        {
+          "name": "C.3 EchoTouch® — siêu âm an toàn cháy nổ (IS)",
+          "rows": [
+            ["LU30", "Transmitter siêu âm 3 dây, đo tới 7.4 m, 4-20 mA, bản an toàn cháy nổ."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "short": "Phản xạ",
+      "color": "#DB2777",
+      "heading": "Siêu âm phản xạ — EchoPod® UG & EchoTouch® US",
+      "note": "Công nghệ phản xạ (Reflective) cho đo tin cậy trong môi trường ngưng tụ, hơi ẩm.",
+      "groups": [
+        {
+          "name": "D.1 EchoPod® reflective — đa năng",
+          "rows": [
+            ["UG01", "Siêu âm phản xạ đa năng, 4-20 mA, cấu hình 1 điểm chuyển đổi."],
+            ["UG03", "Siêu âm phản xạ đa năng, 4-20 mA, cấu hình đa điểm."]
+          ]
+        },
+        {
+          "name": "D.2 EchoTouch® reflective — transmitter",
+          "rows": [
+            ["US01", "Transmitter siêu âm phản xạ, 4-20 mA, 1 điểm chuyển đổi."],
+            ["US03", "Transmitter siêu âm phản xạ, 4-20 mA, đa điểm."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "short": "Công tắc",
+      "color": "#EA580C",
+      "heading": "Công tắc mức điểm — Switch-Tek™",
+      "note": "Phát hiện mức cao/thấp bằng siêu âm, phao hoặc quang học.",
+      "groups": [
+        {
+          "name": "E.1 Switch-Tek™ — công tắc mức điểm",
+          "rows": [
+            ["LU10", "Công tắc mức điểm siêu âm, phát hiện cao/thấp, ngõ ra relay."],
+            ["LV10", "Công tắc phao đứng (vertical buoyancy), ngõ ra reed switch 15 VA."],
+            ["LO10", "Công tắc quang học phát hiện rò rỉ / mức điểm chất lỏng."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "short": "Dòng chảy",
+      "color": "#CA8A04",
+      "heading": "Công tắc dòng chảy nhiệt — Thermo-Flo™",
+      "note": "Phát hiện có/không dòng chảy trong đường ống bằng nguyên lý phân tán nhiệt.",
+      "groups": [
+        {
+          "name": "F.1 Thermo-Flo™ — thermal dispersion flow switch",
+          "rows": [
+            ["FT10", "Công tắc dòng chảy nhiệt cho chất lỏng, phát hiện low/no-flow trong ống."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "short": "Hiển thị",
+      "color": "#0891B2",
+      "heading": "Bộ hiển thị & điều khiển — DataLoop™ · DataView™",
+      "note": "Hiển thị mức theo đơn vị kỹ thuật, relay cảnh báo và repeater 4-20 mA.",
+      "groups": [
+        {
+          "name": "G.1 DataLoop™ — bộ hiển thị mức loop-powered",
+          "rows": [
+            ["LI23", "Bộ hiển thị mức loop-powered, 2 relay tuỳ chọn + repeater 4-20 mA cách ly."],
+            ["LI24", "Bộ hiển thị mức loop-powered bản an toàn cháy nổ (IS)."],
+            ["LI25", "Bộ hiển thị mức loop-powered gọn, hiển thị đơn vị kỹ thuật."]
+          ]
+        },
+        {
+          "name": "G.2 DataView™ — bộ điều khiển mức",
+          "rows": [
+            ["LI55", "Bộ điều khiển mức, 2–4 relay lập trình + repeater 4-20 mA cách ly."]
+          ]
+        }
+      ]
+    }
+  ],
+  "bridge": {
+    "heading": "GHÉP NỐI VÀO CHUỖI TÍN HIỆU SENECA",
+    "intro": "Ngõ ra của cảm biến Flowline (4-20 mA / HART / relay) đấu thẳng vào chuỗi cách ly – chuyển đổi – hiển thị – ghi dữ liệu của Seneca do HOANTRANTDH phân phối.",
+    "rows": [
+      ["Tuyến 1 — Analog 4-20 mA", "Ngõ ra 4-20 mA (LR/LU/DL) → bộ cách ly / chuyển đổi tín hiệu Seneca (dòng K/Z) → PLC / SCADA."],
+      ["Tuyến 2 — HART", "LR21 / LR36 xuất 4-20 mA + HART → bộ tách HART hoặc gateway HART→Modbus của Seneca."],
+      ["Tuyến 3 — Relay cảnh báo", "Relay của DL14 / DL24 / LI55 → module vào/ra số Seneca (Z-PC / R-KEY) để logic báo mức."],
+      ["Tuyến 4 — Hiển thị & ghi dữ liệu", "Tín hiệu mức → màn hình / RTU / bộ ghi Seneca để giám sát và cảnh báo từ xa."]
+    ]
+  },
+  "note_end": "Danh mục tổng hợp từ tài liệu công khai của Flowline (flowline.com). Mã và cấu hình chi tiết (dải đo, ren, vật liệu, chứng nhận) xác nhận theo phiếu chọn mã của hãng khi báo giá."
+}

@@ -1,0 +1,15 @@
+{
+  "brand": "georgin",
+  "name": "GEORGIN",
+  "country": "France",
+  "tagline": "Made in France · Pressure · Temperature · Safety",
+  "accent": "#003DA5",
+  "title": "GEORGIN — Van, transmitter áp suất, nhiệt độ & thiết bị an toàn",
+  "subtitle": "Transmitter và công tắc áp suất/nhiệt độ, van an toàn, thiết bị đo của Georgin (Pháp) do HOANTRANTDH phân phối.",
+  "intro": "Khung danh mục — mã sẽ được nhập dần từ catalog chính hãng georgin.com. Không nhập mã không có nguồn.",
+  "groupType": "tech",
+  "sources": [
+    { "label": "Trang chủ Georgin", "url": "https://www.georgin.com" }
+  ],
+  "sections": []
+}
