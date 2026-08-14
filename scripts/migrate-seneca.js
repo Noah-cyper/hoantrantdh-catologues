@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 // =====================================================================
 // scripts/migrate-seneca.js
-// Parse the existing Seneca lookup HTML (7-stage "giai đoạn" layout,
-// source: Short Form Catalog SFC_2401EN) into data/seneca.json,
-// matching the schema in src/template.js.
+// Parse the Seneca lookup HTML (7-stage "giai đoạn" layout, source:
+// Short Form Catalog SFC_2401EN) into data/seneca.json, matching the
+// schema in src/template.js.
 //
 // Usage:
 //   node scripts/migrate-seneca.js [path/to/seneca-source.html]
@@ -11,9 +11,16 @@
 // Default input:  scripts/seneca-source.html
 // Output:         data/seneca.json  (groupType "stage", sections id "1".."7")
 //
-// Dependency-free. The parser is deliberately tolerant: it locates the
-// seven "Giai đoạn N" boundaries, then extracts every [code, description]
-// pair inside each. Vietnamese descriptions are preserved verbatim.
+// Dependency-free. The source markup is purpose-built, so the parser
+// reads its explicit structure instead of guessing:
+//   <section class="stage s-*" id="gdN"> … </section>   → one stage
+//     <span class="tier">…</span>                        → note
+//     <h2>Heading <em>N mã</em></h2>                      → heading
+//     <div class="grp"><div class="grp-h"><span class="t">…</span>  → group name
+//       <tr data-st data-code="CODE"> … <td class="desc">…</td>     → [code, desc]
+// Stage 5 ("Đường truyền") carries no order codes — its bearer matrix
+// is emitted as the OPTIONAL "bridge" block so no information is lost.
+// Vietnamese descriptions are preserved verbatim.
 // =====================================================================
 
 'use strict';
@@ -25,18 +32,25 @@ const ROOT = path.join(__dirname, '..');
 const INPUT = process.argv[2] || path.join(__dirname, 'seneca-source.html');
 const OUTPUT = path.join(ROOT, 'data', 'seneca.json');
 
-// Palette for the 7 stages (id 1..7).
-const STAGE_COLORS = ['#E4002B', '#EA580C', '#CA8A04', '#128377', '#2563EB', '#7C3AED', '#0891B2'];
+// Accent per stage, taken from the source's own class palette so the hub
+// page mirrors the original design intent.
+const CLASS_COLORS = {
+  's-field': '#BE6B34',
+  's-control': '#128377',
+  's-super': '#544CD1',
+  's-steel': '#556378',
+};
+const FALLBACK_COLORS = ['#E4002B', '#EA580C', '#CA8A04', '#128377', '#2563EB', '#7C3AED', '#0891B2'];
 
-// Human labels for each stage — override here if the source uses other wording.
-const STAGE_HEADINGS = {
-  '1': 'Giai đoạn 1',
-  '2': 'Giai đoạn 2',
-  '3': 'Giai đoạn 3',
-  '4': 'Giai đoạn 4',
-  '5': 'Giai đoạn 5',
-  '6': 'Giai đoạn 6',
-  '7': 'Giai đoạn 7',
+// Concise filter-button labels per stage id (the <h2> headings are longer).
+const SHORT = {
+  '1': 'Đo',
+  '2': 'Điều hòa tín hiệu',
+  '3': 'Thu thập · điều khiển',
+  '4': 'Giao thức lên tầng',
+  '5': 'Đường truyền',
+  '6': 'Server / Cloud',
+  '7': 'Dashboard / HMI',
 };
 
 // ---- html helpers -------------------------------------------------------
@@ -59,70 +73,77 @@ function stripTags(html) {
     .trim();
 }
 
-// ---- stage splitting ----------------------------------------------------
-// Find the byte offset of each "Giai đoạn N" (or "GĐ N") marker and slice
-// the document into 7 chunks. Returns { '1': html, ... }.
+// ---- section splitting --------------------------------------------------
+// Slice the document into <section class="stage …" id="gdN"> blocks.
+// Sections do not nest, so cutting on the opening tag is safe.
 
-function splitByStage(html) {
-  const re = /Giai\s*đo[aạ]n\s*([1-7])|G[ĐĐ]\s*([1-7])/gi;
+function splitStages(html) {
+  const re = /<section\b[^>]*\bclass="stage([^"]*)"[^>]*\bid="gd([1-7])"[^>]*>/gi;
   const marks = [];
   let m;
   while ((m = re.exec(html)) !== null) {
-    const stage = m[1] || m[2];
-    marks.push({ stage, index: m.index });
+    marks.push({ id: m[2], cls: m[1].trim(), index: m.index });
   }
-  const chunks = {};
-  for (let i = 0; i < marks.length; i++) {
-    const start = marks[i].index;
-    const end = i + 1 < marks.length ? marks[i + 1].index : html.length;
-    // Keep the first occurrence per stage (later ones are usually nav links).
-    if (!chunks[marks[i].stage]) chunks[marks[i].stage] = html.slice(start, end);
-  }
-  return chunks;
+  return marks.map((mk, i) => ({
+    id: mk.id,
+    cls: mk.cls,
+    html: html.slice(mk.index, i + 1 < marks.length ? marks[i + 1].index : html.length),
+  }));
 }
 
-// ---- row extraction -----------------------------------------------------
-// Strategy 1: <tr> ... first two <td> => [code, desc].
-// Strategy 2: elements carrying data-code="..." plus sibling description.
+// ---- row / group extraction ---------------------------------------------
 
-function extractRows(chunkHtml) {
-  const rows = [];
-  const seen = new Set();
+function extractRow(trHtml) {
+  const codeMatch = /\bdata-code="([^"]+)"/i.exec(trHtml);
+  if (!codeMatch) return null;
+  const descMatch = /<td[^>]*class="[^"]*\bdesc\b[^"]*"[^>]*>([\s\S]*?)<\/td>/i.exec(trHtml);
+  const code = decodeEntities(codeMatch[1]).trim();
+  const desc = descMatch ? stripTags(descMatch[1]) : '';
+  if (!code) return null;
+  return [code, desc];
+}
 
-  // Strategy 1 — table rows.
-  const trRe = /<tr\b[^>]*>([\s\S]*?)<\/tr>/gi;
-  let tr;
-  while ((tr = trRe.exec(chunkHtml)) !== null) {
-    const cellRe = /<t[dh]\b[^>]*>([\s\S]*?)<\/t[dh]>/gi;
-    const cells = [];
-    let c;
-    while ((c = cellRe.exec(tr[1])) !== null) cells.push(stripTags(c[1]));
-    if (cells.length >= 2 && cells[0] && cells[1]) {
-      const code = cells[0];
-      // Skip header rows.
-      if (/^(mã|code|m[oô] t[aả]|description)$/i.test(code)) continue;
-      pushRow(rows, seen, code, cells.slice(1).join(' — '));
+// Each <div class="grp"> → { name, rows }. A stage may hold several groups.
+// Match class="grp" exactly so the sibling <div class="grp-h"> title bar
+// (and any other grp-* helper class) never starts a new group.
+function extractGroups(stageHtml) {
+  const groups = [];
+  const grpRe = /<div\b[^>]*\bclass="grp"[^>]*>([\s\S]*?)(?=<div\b[^>]*\bclass="grp"|<\/section>)/gi;
+  let g;
+  while ((g = grpRe.exec(stageHtml)) !== null) {
+    const chunk = g[1];
+    const nameMatch = /<div\b[^>]*\bclass="grp-h"[^>]*>[\s\S]*?<span\b[^>]*\bclass="t"[^>]*>([\s\S]*?)<\/span>/i.exec(chunk);
+    const name = nameMatch ? stripTags(nameMatch[1]) : '';
+    const rows = [];
+    const trRe = /<tr\b[^>]*\bdata-code="[^"]*"[^>]*>[\s\S]*?<\/tr>/gi;
+    let tr;
+    while ((tr = trRe.exec(chunk)) !== null) {
+      const row = extractRow(tr[0]);
+      if (row) rows.push(row);
     }
+    if (rows.length) groups.push({ name, rows });
   }
-  if (rows.length) return rows;
+  return groups;
+}
 
-  // Strategy 2 — data-code attributes.
-  const dcRe = /data-code=["']([^"']+)["'][^>]*>([\s\S]*?)</gi;
-  let d;
-  while ((d = dcRe.exec(chunkHtml)) !== null) {
-    pushRow(rows, seen, stripTags(d[1]), stripTags(d[2]));
+// Stage 5 bearer matrix → bridge rows [medium, note].
+function extractMatrix(stageHtml) {
+  const rows = [];
+  const re = /<div\b[^>]*\bclass="row"[^>]*>\s*<div\b[^>]*\bclass="k"[^>]*>([\s\S]*?)<\/div>\s*<div\b[^>]*\bclass="v"[^>]*>([\s\S]*?)<\/div>/gi;
+  let m;
+  while ((m = re.exec(stageHtml)) !== null) {
+    rows.push([stripTags(m[1]), stripTags(m[2])]);
   }
   return rows;
 }
 
-function pushRow(rows, seen, code, desc) {
-  code = code.trim();
-  desc = (desc || '').trim();
-  if (!code) return;
-  const key = code + '|' + desc;
-  if (seen.has(key)) return;
-  seen.add(key);
-  rows.push([code, desc]);
+// A stage's <h2>Heading <em>…</em></h2> and <span class="tier">…</span>.
+function extractMeta(stageHtml) {
+  const h2 = /<h2\b[^>]*>([\s\S]*?)<\/h2>/i.exec(stageHtml);
+  let heading = '';
+  if (h2) heading = stripTags(h2[1].replace(/<em\b[^>]*>[\s\S]*?<\/em>/i, ''));
+  const tier = /<span\b[^>]*\bclass="[^"]*\btier\b[^"]*"[^>]*>([\s\S]*?)<\/span>/i.exec(stageHtml);
+  return { heading, note: tier ? stripTags(tier[1]) : '' };
 }
 
 // ---- main ---------------------------------------------------------------
@@ -136,27 +157,49 @@ function main() {
   }
 
   const html = fs.readFileSync(INPUT, 'utf8');
-  const chunks = splitByStage(html);
-  const stageIds = Object.keys(chunks).sort();
+  const stages = splitStages(html);
 
-  if (!stageIds.length) {
-    console.error('✖ Không nhận diện được "Giai đoạn N" nào trong file. Kiểm tra định dạng nguồn.');
+  if (!stages.length) {
+    console.error('✖ Không nhận diện được <section class="stage" id="gdN"> nào. Kiểm tra định dạng nguồn.');
     process.exit(1);
   }
 
   const sections = [];
+  let bridge = null;
   let total = 0;
-  for (const id of stageIds) {
-    const rows = extractRows(chunks[id]);
-    total += rows.length;
+
+  for (const stage of stages) {
+    const { heading, note } = extractMeta(stage.html);
+    const color = CLASS_COLORS[stage.cls] || FALLBACK_COLORS[(Number(stage.id) - 1) % FALLBACK_COLORS.length];
+    const groups = extractGroups(stage.html);
+    const count = groups.reduce((n, g) => n + g.rows.length, 0);
+
+    if (count === 0) {
+      // Bearer stage (no order codes) → optional bridge block.
+      const matrix = extractMatrix(stage.html);
+      if (matrix.length) {
+        bridge = {
+          heading: `Giai đoạn ${stage.id} · ${heading || 'Đường truyền'}`,
+          intro: note ? `${note} — bearer nằm sẵn trong thiết bị, không có mã đặt hàng riêng.` : '',
+          rows: matrix,
+        };
+        console.log(`  Giai đoạn ${stage.id}: bearer (${matrix.length} tuyến) → mục "Ghép nối"`);
+      } else {
+        console.log(`  Giai đoạn ${stage.id}: 0 mã (bỏ qua)`);
+      }
+      continue;
+    }
+
+    total += count;
     sections.push({
-      id,
-      short: `GĐ ${id}`,
-      color: STAGE_COLORS[(Number(id) - 1) % STAGE_COLORS.length],
-      heading: STAGE_HEADINGS[id] || `Giai đoạn ${id}`,
-      groups: [{ name: `Giai đoạn ${id}`, rows }],
+      id: stage.id,
+      short: SHORT[stage.id] || `GĐ ${stage.id}`,
+      color,
+      heading,
+      note,
+      groups,
     });
-    console.log(`  Giai đoạn ${id}: ${rows.length} mã`);
+    console.log(`  Giai đoạn ${stage.id}: ${count} mã · ${groups.length} nhóm`);
   }
 
   // Preserve brand metadata from the existing skeleton if present.
@@ -170,17 +213,18 @@ function main() {
     tagline: meta.tagline || 'Made in Italy · Signal Conditioning & IIoT',
     accent: meta.accent || '#E4002B',
     title: meta.title || 'SENECA — Danh mục mã đặt hàng theo 7 giai đoạn chuỗi tín hiệu',
-    subtitle: meta.subtitle || 'Bộ cách ly, chuyển đổi, thu thập, truyền thông và giám sát tín hiệu của Seneca (Ý).',
-    intro: `Tổng ${total} mã theo 7 giai đoạn chuỗi tín hiệu (nguồn: Short Form Catalog SFC_2401EN).`,
+    subtitle: meta.subtitle || 'Bộ cách ly, chuyển đổi, thu thập, truyền thông và giám sát tín hiệu của Seneca (Ý) do HOANTRANTDH phân phối.',
+    intro: `Tổng ${total} mã theo chuỗi tín hiệu 7 giai đoạn (nguồn: Short Form Catalog SFC_2401EN).`,
     groupType: 'stage',
     sources: meta.sources || [{ label: 'Trang chủ Seneca', url: 'https://www.seneca.it' }],
     sections,
   };
+  if (bridge) out.bridge = bridge;
 
   fs.writeFileSync(OUTPUT, JSON.stringify(out, null, 2) + '\n', 'utf8');
-  console.log(`\n✔ Đã ghi ${OUTPUT} — ${sections.length} giai đoạn · ${total} mã.`);
-  if (total < 478) {
-    console.warn(`⚠ Chỉ trích được ${total}/478 mã. Kiểm tra lại selector trong extractRows().`);
+  console.log(`\n✔ Đã ghi ${OUTPUT} — ${sections.length} giai đoạn có mã · ${total} mã${bridge ? ' + 1 mục Ghép nối' : ''}.`);
+  if (total !== 478) {
+    console.warn(`⚠ Trích được ${total} mã (kỳ vọng 478). Kiểm tra lại selector trong extractGroups().`);
   }
 }
 

@@ -6,11 +6,2183 @@
   "accent": "#E4002B",
   "title": "SENECA — Danh mục mã đặt hàng theo 7 giai đoạn chuỗi tín hiệu",
   "subtitle": "Bộ cách ly, chuyển đổi, thu thập, truyền thông và giám sát tín hiệu của Seneca (Ý) do HOANTRANTDH phân phối.",
-  "intro": "Dữ liệu 478 mã sẽ được sinh tự động từ Short Form Catalog (SFC_2401EN) qua script scripts/migrate-seneca.js. Đặt file HTML tra cứu Seneca vào scripts/ rồi chạy migrate để điền đầy danh mục này.",
+  "intro": "Tổng 478 mã theo chuỗi tín hiệu 7 giai đoạn (nguồn: Short Form Catalog SFC_2401EN).",
   "groupType": "stage",
   "sources": [
-    { "label": "Trang chủ Seneca", "url": "https://www.seneca.it" },
-    { "label": "Short Form Catalog (SFC_2401EN)", "url": "https://www.seneca.it" }
+    {
+      "label": "Trang chủ Seneca",
+      "url": "https://www.seneca.it"
+    },
+    {
+      "label": "Short Form Catalog (SFC_2401EN)",
+      "url": "https://www.seneca.it"
+    }
   ],
-  "sections": []
+  "sections": [
+    {
+      "id": "1",
+      "short": "Đo",
+      "color": "#BE6B34",
+      "heading": "Đo",
+      "note": "Hiện trường",
+      "groups": [
+        {
+          "name": "Đồng hồ đo điện S500",
+          "rows": [
+            [
+              "S500-MOD",
+              "Module giao tiếp quang RS485 Modbus RTU gắn thêm cho công tơ S500"
+            ],
+            [
+              "S501-40-0",
+              "Công tơ 1 pha 40A, 2 dây, 1 DIN"
+            ],
+            [
+              "S501-40-0-MID",
+              "Công tơ 1 pha 40A, 2 dây, 1 DIN, chứng nhận MID"
+            ],
+            [
+              "S501-40-MOD-MID",
+              "Công tơ 1 pha 40A, 1 DIN, RS485 Modbus, MID"
+            ],
+            [
+              "S501-40-MBU-MID",
+              "Công tơ 1 pha 40A, 1 DIN, RS485 M-Bus, MID"
+            ],
+            [
+              "S502-80-MOD",
+              "Công tơ 1 pha 80A, 2 dây, 2 DIN, RS485 Modbus"
+            ],
+            [
+              "S502-80-MBU",
+              "Công tơ 1 pha 80A, 2 dây, 2 DIN, M-Bus"
+            ],
+            [
+              "S502-80-ETH",
+              "Công tơ 1 pha 80A, 2 dây, 2 DIN, Ethernet"
+            ],
+            [
+              "S502-80-MID",
+              "Công tơ 1 pha 80A, 2 dây, MID"
+            ],
+            [
+              "S504C-6-MOD-MID",
+              "Công tơ 3 pha 6A (qua CT), 4 dây, 4 DIN, Modbus, MID"
+            ],
+            [
+              "S504C-6-MBU-MID",
+              "Công tơ 3 pha 6A, 4 dây, 4 DIN, M-Bus, MID"
+            ],
+            [
+              "S504C-6-ETH-MID",
+              "Công tơ 3 pha 6A, 4 dây, 4 DIN, Ethernet, MID"
+            ],
+            [
+              "S504C-80-MOD-MID",
+              "Công tơ 3 pha 80A đấu trực tiếp, 4 DIN, Modbus, MID"
+            ],
+            [
+              "S504C-80-MBU-MID",
+              "Công tơ 3 pha 80A đấu trực tiếp, 4 DIN, M-Bus, MID"
+            ],
+            [
+              "S504C-80-ETH-MID",
+              "Công tơ 3 pha 80A đấu trực tiếp, 4 DIN, Ethernet, MID"
+            ],
+            [
+              "S534-6-MID",
+              "Công tơ 3 pha 6A, 3/4 dây, 4 DIN, MID — gắn module COM rời"
+            ],
+            [
+              "S534-80-MID",
+              "Công tơ 3 pha 80A, 3/4 dây, 4 DIN, MID — gắn module COM rời"
+            ]
+          ]
+        },
+        {
+          "name": "Đo & phân tích điện S203 / R203 / T203PM",
+          "rows": [
+            [
+              "S203R",
+              "Bộ phân tích mạng 3 pha, ngõ vào 100 mA"
+            ],
+            [
+              "S203TA-D",
+              "Bộ phân tích 3 pha AC kèm bộ đếm điện năng"
+            ],
+            [
+              "S203RC-D",
+              "Bộ phân tích 3 pha cho cảm biến Rogowski"
+            ],
+            [
+              "RC-V250-100",
+              "Cuộn Rogowski 100 mV/kA, 50-60 Hz, Ø65 mm (cho S203RC)"
+            ],
+            [
+              "RC-V400-050",
+              "Cuộn Rogowski 50 mV/kA, 50-60 Hz, Ø115 mm"
+            ],
+            [
+              "RC-V400-100",
+              "Cuộn Rogowski 100 mV/kA, 50-60 Hz, Ø115 mm"
+            ],
+            [
+              "RC-V500-100",
+              "Cuộn Rogowski 100 mV/kA, 50-60 Hz, Ø147 mm"
+            ],
+            [
+              "R203-2-L",
+              "Đồng hồ 3 pha, 2 cổng ETH, 10-40 Vdc/19-28 Vac, Modbus RTU/TCP-IP"
+            ],
+            [
+              "R203-2-H",
+              "Đồng hồ 3 pha, 2 cổng ETH, 90-264 Vac, Modbus RTU/TCP-IP"
+            ],
+            [
+              "R203-2-L-P",
+              "Đồng hồ 3 pha, 2 cổng ETH, 10-40 Vdc/19-28 Vac, Profinet IO"
+            ],
+            [
+              "R203-2-H-P",
+              "Đồng hồ 3 pha, 2 cổng ETH, 90-264 Vac, Profinet IO"
+            ],
+            [
+              "T203PM100-MU",
+              "Đồng hồ 1 pha AC/DC TRMS tới 100 Vac/dc, Modbus, ngõ ra analog+digital"
+            ],
+            [
+              "T203PM300-MU",
+              "Đồng hồ 1 pha AC/DC TRMS tới 300 Vac/dc, Modbus, analog+digital"
+            ],
+            [
+              "T203PM600-MU",
+              "Đồng hồ 1 pha AC/DC TRMS tới 600 Vac/dc, Modbus, analog+digital"
+            ],
+            [
+              "CU-A-MICROB",
+              "Cáp Micro USB-A/USB-B 5P (cấu hình T203PM)"
+            ]
+          ]
+        },
+        {
+          "name": "Đồng hồ đa năng S604 / S711",
+          "rows": [
+            [
+              "S604B-6-MOD",
+              "Đồng hồ 3 pha BASIC cho CT/5A, Modbus, log 1MB"
+            ],
+            [
+              "S604B-6-ETH",
+              "Đồng hồ 3 pha BASIC cho CT/5A, Ethernet, log 1MB"
+            ],
+            [
+              "S604B-80-MOD",
+              "Đồng hồ 3 pha BASIC 80A trực tiếp, Modbus, log 1MB"
+            ],
+            [
+              "S604E-6-MOD",
+              "Đồng hồ 3 pha Energy PLUS cho CT/5A, Modbus, log 8MB, sóng hài"
+            ],
+            [
+              "S604E-6-ETH",
+              "Đồng hồ 3 pha Energy PLUS cho CT/5A, Ethernet, log 8MB, sóng hài"
+            ],
+            [
+              "S604E-80-MOD",
+              "Đồng hồ 3 pha Energy PLUS 80A, Modbus, log 8MB, sóng hài"
+            ],
+            [
+              "S604E-80-ETH",
+              "Đồng hồ 3 pha Energy PLUS 80A, Ethernet, log 8MB, sóng hài"
+            ],
+            [
+              "S604E-ROG-MOD-30",
+              "Bộ kit Energy PLUS Modbus + 3 cuộn Rogowski RC150 L=30cm"
+            ],
+            [
+              "S604E-ROG-MOD-45",
+              "Bộ kit Energy PLUS Modbus + 3 cuộn Rogowski RC150 L=45cm"
+            ],
+            [
+              "S604E-ROG-MOD-70",
+              "Bộ kit Energy PLUS Modbus + 3 cuộn Rogowski RC150 L=70cm"
+            ],
+            [
+              "S711B6MOD",
+              "Đồng hồ mặt tủ LCD 96x96 BASIC, CT 1/5A, Modbus, có I/O"
+            ],
+            [
+              "S711E6MOD",
+              "Đồng hồ LCD 96x96 Energy PLUS, CT 1/5A, Modbus"
+            ],
+            [
+              "S711E6MODAO",
+              "Đồng hồ LCD 96x96 Energy PLUS, CT 1/5A, Modbus + ngõ ra analog"
+            ],
+            [
+              "S711E6ETH",
+              "Đồng hồ LCD 96x96 Energy PLUS, CT 1/5A, Ethernet, 1DI 2DO"
+            ],
+            [
+              "S711EROGMOD30",
+              "Kit LCD 96x96 Energy PLUS, Modbus, 3 cuộn RC150 30cm"
+            ],
+            [
+              "S711EROGMOD45",
+              "Kit LCD 96x96 Energy PLUS, Modbus, 3 cuộn RC150 45cm"
+            ],
+            [
+              "S711EROGMOD70",
+              "Kit LCD 96x96 Energy PLUS, Modbus, 3 cuộn RC150 70cm"
+            ],
+            [
+              "S711EROGETH30",
+              "Kit LCD 96x96 Energy PLUS, Ethernet, 3 cuộn RC150 30cm"
+            ],
+            [
+              "S711EROGETH45",
+              "Kit LCD 96x96 Energy PLUS, Ethernet, 3 cuộn RC150 45cm"
+            ],
+            [
+              "S711EROGETH70",
+              "Kit LCD 96x96 Energy PLUS, Ethernet, 3 cuộn RC150 70cm"
+            ]
+          ]
+        },
+        {
+          "name": "Cuộn Rogowski RC150 / RC190",
+          "rows": [
+            [
+              "RC150-025-100-3M",
+              "Rogowski L=25cm, Øtrong 8cm, 100mV/1kA-50Hz, cáp 3m"
+            ],
+            [
+              "RC150-025-100-5M",
+              "Rogowski L=25cm, Øtrong 8cm, 100mV/1kA, cáp 5m"
+            ],
+            [
+              "RC150-025-100-10",
+              "Rogowski L=25cm, Øtrong 8cm, 100mV/1kA, cáp 10m"
+            ],
+            [
+              "RC150-035-100-3M",
+              "Rogowski L=35cm, Øtrong 11cm, 100mV/1kA, cáp 3m"
+            ],
+            [
+              "RC150-035-100-5M",
+              "Rogowski L=35cm, Øtrong 11cm, 100mV/1kA, cáp 5m"
+            ],
+            [
+              "RC150-035-100-10",
+              "Rogowski L=35cm, Øtrong 11cm, 100mV/1kA, cáp 10m"
+            ],
+            [
+              "RC150-040-100-3M",
+              "Rogowski L=40cm, Øtrong 12cm, 100mV/1kA, cáp 3m"
+            ],
+            [
+              "RC150-040-100-5M",
+              "Rogowski L=40cm, Øtrong 11cm, 100mV/1kA, cáp 5m"
+            ],
+            [
+              "RC150-040-100-10",
+              "Rogowski L=40cm, Øtrong 11cm, 100mV/1kA, cáp 10m"
+            ],
+            [
+              "RC150-060-100-3M",
+              "Rogowski L=60cm, Øtrong 19cm, 100mV/1kA, cáp 3m"
+            ],
+            [
+              "RC150-060-100-5M",
+              "Rogowski L=60cm, Øtrong 19cm, 100mV/1kA, cáp 5m"
+            ],
+            [
+              "RC150-060-100-10",
+              "Rogowski L=60cm, Øtrong 19cm, 100mV/1kA, cáp 10m"
+            ],
+            [
+              "RC150-090-100-3M",
+              "Rogowski L=90cm, Øtrong 28cm, 100mV/1kA, cáp 3m"
+            ],
+            [
+              "RC150-090-100-5M",
+              "Rogowski L=90cm, Øtrong 28cm, 100mV/1kA, cáp 5m"
+            ],
+            [
+              "RC150-090-100-10",
+              "Rogowski L=90cm, Øtrong 28cm, 100mV/1kA, cáp 10m"
+            ],
+            [
+              "RC150-120-100-3M",
+              "Rogowski L=120cm, Øtrong 38cm, 100mV/1kA, cáp 3m"
+            ],
+            [
+              "RC150-120-100-5M",
+              "Rogowski L=120cm, Øtrong 38cm, 100mV/1kA, cáp 5m"
+            ],
+            [
+              "RC150-130-100-5M",
+              "Rogowski L=130cm, Øtrong 38cm, 100mV/1kA, cáp 5m"
+            ],
+            [
+              "RC150-180-100-3M",
+              "Rogowski L=180cm, Øtrong 57cm, 100mV/1kA, cáp 3m"
+            ],
+            [
+              "RC150-280-100-5M",
+              "Rogowski L=280cm, Øtrong 57cm, 100mV/1kA, cáp 5m"
+            ],
+            [
+              "RC150-300-100-5M",
+              "Rogowski L=300cm, Øtrong 57cm, 100mV/1kA, cáp 5m"
+            ],
+            [
+              "RC190-030-333-3M",
+              "Rogowski L=30cm, Øtrong 9cm, 333mV/1kA-50Hz, cáp 3m"
+            ],
+            [
+              "RC190-030-333-5M",
+              "Rogowski L=30cm, Øtrong 9cm, 333mV/1kA, cáp 5m"
+            ],
+            [
+              "RC190-035-333-3M",
+              "Rogowski L=35cm, Øtrong 9cm, 333mV/1kA, cáp 3m"
+            ],
+            [
+              "RC190-060-333-3M",
+              "Rogowski L=60cm, Øtrong 9cm, 333mV/1kA, cáp 3m"
+            ],
+            [
+              "RC190-090-333-3M",
+              "Rogowski L=90cm, Øtrong 9cm, 333mV/1kA, cáp 3m"
+            ],
+            [
+              "RC190-160-333-3M",
+              "Rogowski L=160cm, Øtrong 9cm, 333mV/1kA, cáp 3m"
+            ]
+          ]
+        },
+        {
+          "name": "Bộ chuyển đổi dòng T201 Line",
+          "rows": [
+            [
+              "T201",
+              "Biến dòng AC 5-40A → 4..20 mA, cấp nguồn qua vòng dòng"
+            ],
+            [
+              "T201DC",
+              "Biến dòng DC 5-40A → 4..20 mA, loop powered"
+            ],
+            [
+              "T201DC100",
+              "Biến dòng DC 0-100A → 4..20 mA, loop powered"
+            ],
+            [
+              "T201DCH",
+              "Biến dòng AC/DC 0-50A → 0..10V, nguồn ngoài"
+            ],
+            [
+              "T201DCH100",
+              "Biến dòng AC/DC hiệu ứng Hall 0-100A → 0..10 Vdc"
+            ],
+            [
+              "T201DCH300",
+              "Biến dòng AC/DC hiệu ứng Hall 0-300A → 0..10 Vdc"
+            ],
+            [
+              "T201DCH50-LP",
+              "AC/DC 50A, hiệu ứng Hall, loop powered, 4-20 mA"
+            ],
+            [
+              "T201DCH100-LP",
+              "AC/DC 100A, hiệu ứng Hall, loop powered, 4-20 mA"
+            ],
+            [
+              "T201DCH300-LP",
+              "AC/DC 300A, hiệu ứng Hall, loop powered, 4-20 mA"
+            ],
+            [
+              "T201DCH50-M",
+              "AC/DC 50A, Hall, loop powered, 0-10V + Modbus"
+            ],
+            [
+              "T201DCH100-M",
+              "AC/DC 100A, Hall, loop powered, 0-10V + Modbus"
+            ],
+            [
+              "T201DCH300-M",
+              "AC/DC 300A, Hall, loop powered, 0-10V + Modbus"
+            ],
+            [
+              "T201DCH50-MU",
+              "AC/DC 50A, TRMS, 0..10V, báo động PNP, Modbus, USB"
+            ],
+            [
+              "T201DCH100-MU",
+              "AC/DC 100A, TRMS, 0..10V, báo động PNP, Modbus, USB"
+            ],
+            [
+              "T201DCH300-MU",
+              "AC/DC 300A, TRMS, 0..10V, báo động PNP, Modbus, USB"
+            ],
+            [
+              "T201DCH600-MU",
+              "AC/DC 600A, TRMS, 0..10V, báo động PNP, Modbus, USB"
+            ],
+            [
+              "T201DCH100-OPEN",
+              "Lõi hở, ngõ vào tới 100 Aac/dc, ngõ ra 0..10 V"
+            ],
+            [
+              "T201DCH300-OPEN",
+              "Lõi hở, ngõ vào tới 300 Aac/dc, ngõ ra 0..10 V"
+            ],
+            [
+              "T201DCH600-OPEN",
+              "Lõi hở, ngõ vào tới 600 Aac/dc, ngõ ra 0..10 V"
+            ],
+            [
+              "A-DIN-T201",
+              "Kẹp nhựa gắn ray DIN cho dòng T201"
+            ]
+          ]
+        },
+        {
+          "name": "Cảm biến & transmitter nhiệt độ",
+          "rows": [
+            [
+              "PT100-50",
+              "Đầu dò Pt100, chiều dài tiêu chuẩn 50 mm"
+            ],
+            [
+              "PT100-50-MA",
+              "Đầu dò Pt100 50 mm, tích hợp ngõ ra 4-20 mA"
+            ],
+            [
+              "PT100-100",
+              "Đầu dò Pt100, dài 100 mm"
+            ],
+            [
+              "PT100-100-MA",
+              "Đầu dò Pt100 100 mm, ngõ ra 4-20 mA"
+            ],
+            [
+              "PT100-150",
+              "Đầu dò Pt100, dài 150 mm"
+            ],
+            [
+              "PT100-150-MA",
+              "Đầu dò Pt100 150 mm, ngõ ra 4-20 mA"
+            ],
+            [
+              "PT100-200",
+              "Đầu dò Pt100, dài 200 mm"
+            ],
+            [
+              "PT100-200-MA",
+              "Đầu dò Pt100 200 mm, ngõ ra 4-20 mA"
+            ],
+            [
+              "PT100-250",
+              "Đầu dò Pt100, dài 250 mm"
+            ],
+            [
+              "PT100-250-MA",
+              "Đầu dò Pt100 250 mm, ngõ ra 4-20 mA"
+            ],
+            [
+              "PT100-300",
+              "Đầu dò Pt100, dài 300 mm"
+            ],
+            [
+              "PT100-300-MA",
+              "Đầu dò Pt100 300 mm, ngõ ra 4-20 mA"
+            ],
+            [
+              "PT100-A",
+              "Pt100 đo nhiệt độ môi trường (atmosphere)"
+            ],
+            [
+              "PT100-A-MA",
+              "Pt100 đo môi trường, ngõ ra 4-20 mA"
+            ],
+            [
+              "PT100-SOLAR",
+              "Pt100 3 dây, 1 phần tử, cho tấm pin mặt trời"
+            ],
+            [
+              "PT100-SOLAR-MA",
+              "Pt100 cho tấm pin mặt trời, ngõ ra 4-20 mA"
+            ],
+            [
+              "T120",
+              "Transmitter 2 dây loop powered cho Pt100 / Ni100, gắn đầu củ hành"
+            ],
+            [
+              "T120-C",
+              "T120 kèm chứng chỉ hiệu chuẩn"
+            ],
+            [
+              "T121",
+              "Transmitter nhiệt độ đa năng (RTD, TC, mV, Ω), ATEX Zone 2"
+            ],
+            [
+              "T121-C",
+              "T121 kèm chứng chỉ hiệu chuẩn"
+            ]
+          ]
+        },
+        {
+          "name": "Thiết bị hiệu chuẩn & cầm tay",
+          "rows": [
+            [
+              "MSC",
+              "Bộ hiệu chuẩn đa năng Bluetooth, sai số 0,05%"
+            ],
+            [
+              "MSC-POWER",
+              "Bộ nguồn cho MSC"
+            ],
+            [
+              "MSC-T",
+              "Chứng chỉ hiệu chuẩn cho MSC"
+            ],
+            [
+              "MSC TOOL",
+              "Phần mềm xuất dữ liệu & cập nhật firmware MSC"
+            ],
+            [
+              "MSC-D",
+              "Bộ hiệu chuẩn thông minh đa năng thế hệ mới (highlights 2025/26)"
+            ],
+            [
+              "TEST-4",
+              "Đồng hồ cầm tay V/I có mô phỏng ramp"
+            ],
+            [
+              "TEST-4-C",
+              "Vali vận chuyển & bảo vệ cho Test-4"
+            ],
+            [
+              "TEST-4-PWR",
+              "Bộ nguồn cho Test-4"
+            ],
+            [
+              "TEST-4-PK",
+              "Bộ kit độ chính xác cao cho Test-4"
+            ],
+            [
+              "TEST-4-R",
+              "Que đo chính xác cho Test-4"
+            ],
+            [
+              "TEST-4-T",
+              "Chứng chỉ hiệu chuẩn ISO 9001 cho Test-4"
+            ],
+            [
+              "USB-ISO",
+              "Bộ cách ly galvanic cổng USB"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "short": "Điều hòa tín hiệu",
+      "color": "#BE6B34",
+      "heading": "Điều hòa & dẫn tín hiệu",
+      "note": "Hiện trường → Điều khiển",
+      "groups": [
+        {
+          "name": "Z-LINE — chuyển đổi / cách ly đa chuẩn",
+          "rows": [
+            [
+              "Z102",
+              "Chuyển biến trở (potentiometer) → dòng/áp DC, có cách ly"
+            ],
+            [
+              "Z104",
+              "Chuyển áp/dòng DC → tần số, có cách ly"
+            ],
+            [
+              "Z109PT2-1",
+              "RTD → dòng/áp DC, cấu hình qua Micro USB / App"
+            ],
+            [
+              "Z109REG",
+              "Bộ chuyển đổi analog đa năng, cách ly galvanic"
+            ],
+            [
+              "Z109REG-BP",
+              "Bộ chuyển đổi đa năng, ngõ ra mA/V lưỡng cực"
+            ],
+            [
+              "Z109REG2-1",
+              "Bộ chuyển đổi đa năng hiệu năng cao, cấu hình Micro USB / App"
+            ],
+            [
+              "Z109REG2-H",
+              "Bộ chuyển đổi đa năng hiệu năng cao, nguồn 85-265 Vac/dc"
+            ],
+            [
+              "Z109S",
+              "Bộ cách ly dòng DC cho vòng 0/4..20 mA"
+            ],
+            [
+              "Z109S-DI",
+              "Bộ cách ly dòng DC dải rộng cho vòng 0/4..20 mA"
+            ],
+            [
+              "Z109TC2-1",
+              "Cặp nhiệt (TC) → DC, cách ly, cấu hình Micro USB / App"
+            ],
+            [
+              "Z109UI2-1",
+              "Chuyển đổi dòng/áp DC, cấu hình qua Micro USB / App"
+            ],
+            [
+              "Z110S",
+              "Bộ cách ly dòng DC tự cấp nguồn, 1 kênh"
+            ],
+            [
+              "Z110D",
+              "Bộ cách ly dòng DC tự cấp nguồn, 2 kênh"
+            ],
+            [
+              "Z111",
+              "Chuyển tần số → tín hiệu DC, có cách ly"
+            ],
+            [
+              "Z112A",
+              "Khuếch đại tín hiệu cảm biến ON/OFF, 1 kênh"
+            ],
+            [
+              "Z112D",
+              "Khuếch đại tín hiệu cảm biến ON/OFF, 2 kênh"
+            ],
+            [
+              "Z113-1",
+              "Bộ 2 ngưỡng cảnh báo, ngõ vào analog đa năng"
+            ],
+            [
+              "Z113S",
+              "Bộ 1 ngưỡng cảnh báo cho dòng/áp DC"
+            ],
+            [
+              "Z170REG-1",
+              "Bộ nhân đôi / cách ly tín hiệu DC, cấu hình Micro USB / App"
+            ],
+            [
+              "Z190",
+              "Bộ cộng/trừ tín hiệu dòng - áp DC"
+            ],
+            [
+              "Z-SG",
+              "Bộ chuyển đổi loadcell / strain gauge, ngõ ra analog + Modbus RTU"
+            ],
+            [
+              "Z-SG3",
+              "Bộ chuyển đổi strain gauge nâng cao, RS485 Modbus RTU"
+            ]
+          ]
+        },
+        {
+          "name": "K-LINE — chuyển đổi / cách ly compact 6,2 mm",
+          "rows": [
+            [
+              "K109LV",
+              "mV → dòng/áp DC, cách ly"
+            ],
+            [
+              "K109PT",
+              "Pt100 → dòng/áp DC, cách ly"
+            ],
+            [
+              "K109PT1000",
+              "Pt1000 → dòng/áp DC, cách ly"
+            ],
+            [
+              "K109PT-HPC",
+              "Pt100 → dòng/áp DC, độ chính xác cao"
+            ],
+            [
+              "K109S",
+              "Chuyển đổi dòng/áp DC → dòng/áp DC"
+            ],
+            [
+              "K109TC",
+              "Cặp nhiệt → dòng/áp DC, cách ly, có cảnh báo"
+            ],
+            [
+              "K109UI",
+              "Chuyển đổi & cách ly dòng/áp DC ↔ dòng/áp DC"
+            ],
+            [
+              "K111",
+              "Khuếch đại ngưỡng tần số, 2 ngõ ra cách ly"
+            ],
+            [
+              "K111-C",
+              "K111 bản cấu hình được qua phần mềm"
+            ],
+            [
+              "K111D",
+              "Bộ chia/lặp tần số 2 kênh, 2 ngõ ra cách ly"
+            ],
+            [
+              "K111D-C",
+              "K111D bản cấu hình được"
+            ],
+            [
+              "K112",
+              "Bộ ghép/cách ly tín hiệu số đa năng"
+            ],
+            [
+              "K120RTD",
+              "Pt100 / Ni100 loop powered"
+            ],
+            [
+              "K120RTD-C",
+              "K120RTD bản cấu hình được"
+            ],
+            [
+              "K121",
+              "Bộ chuyển đổi cách ly đa năng, loop powered"
+            ],
+            [
+              "K121-C",
+              "K121 bản cấu hình được"
+            ],
+            [
+              "K-BUS",
+              "Đầu nối cấp nguồn mở rộng cho dòng K"
+            ],
+            [
+              "K-SUPPLY",
+              "Module nguồn dự phòng cho các module K-Line"
+            ]
+          ]
+        },
+        {
+          "name": "Chuyển đổi đại lượng điện & chống sét",
+          "rows": [
+            [
+              "S201RC-LP",
+              "Bộ chuyển đổi dòng loop powered cho cuộn Rogowski"
+            ],
+            [
+              "Z201",
+              "Dòng AC → dòng/áp DC, nguồn 19..40 Vdc / 19..28 Vac"
+            ],
+            [
+              "Z201-H",
+              "Dòng AC → dòng/áp DC, cách ly, nguồn 85..265 Vac/dc"
+            ],
+            [
+              "Z202",
+              "Áp AC (tới 500V) → dòng/áp DC, nguồn 19..40 Vdc"
+            ],
+            [
+              "Z202-H",
+              "Áp AC → dòng/áp DC, cách ly, nguồn 85..265 Vac/dc"
+            ],
+            [
+              "Z202-LP",
+              "500 Vac / 540 Vdc → 4..20 mA, loop powered"
+            ],
+            [
+              "Z203-2",
+              "Bộ phân tích mạng 1 pha AC, cổng Micro USB"
+            ],
+            [
+              "Z204-1",
+              "Bộ chuyển đổi cao áp AC/DC, ngõ ra analog + Modbus RTU"
+            ],
+            [
+              "K400CL",
+              "Chống sét tín hiệu analog & digital, bản slim 6,2 mm"
+            ],
+            [
+              "K400CL-10",
+              "Bộ 10 chiếc K400CL"
+            ],
+            [
+              "S400CL-1",
+              "Chống sét tín hiệu analog & digital, có dao cách ly"
+            ],
+            [
+              "S400CL-1-15",
+              "Bộ 10 chiếc S400CL-1"
+            ],
+            [
+              "S400CL-1-P5",
+              "Nắp bịt đầu cuối cho S400CL-1 (5 chiếc)"
+            ],
+            [
+              "S400HV-2",
+              "Chống sét loại 2, 230 Vac, 3 cực (L, N, PE)"
+            ],
+            [
+              "S400HV-2-RIC-SL",
+              "Ruột thay thế S400HV-2, 1L-NPE, không tiếp điểm FM"
+            ],
+            [
+              "S400HV-2-RIC-SN",
+              "Ruột thay thế S400HV-2, cực N/PE"
+            ],
+            [
+              "S400LV-1",
+              "Chống sét loại 3, 24 Vac/dc, 3 cực, có tiếp điểm FM"
+            ],
+            [
+              "S400NET-1",
+              "Chống sét cho mạng Ethernet / serial / fieldbus, 5 dây"
+            ],
+            [
+              "S400NET-1-RIC",
+              "Ruột thay thế cho S400NET-1"
+            ]
+          ]
+        },
+        {
+          "name": "Chuyển đổi serial / USB",
+          "rows": [
+            [
+              "EASY-USB",
+              "Bộ chuyển USB ↔ UART TTL"
+            ],
+            [
+              "S107P",
+              "Chuyển RS232 ↔ RS485/422, bản cầm tay"
+            ],
+            [
+              "S107USB",
+              "Chuyển RS485 ↔ USB, bản cầm tay"
+            ],
+            [
+              "S117P1",
+              "Chuyển RS232/USB, TTL/USB, RS485/USB"
+            ],
+            [
+              "Z107",
+              "Chuyển RS232 ↔ RS485/422, gắn ray DIN"
+            ],
+            [
+              "K107A",
+              "Bộ khuếch đại / cách ly RS485 ↔ RS485"
+            ],
+            [
+              "K107B",
+              "Bộ chuyển đổi / cách ly RS232 ↔ RS485"
+            ],
+            [
+              "K107USB",
+              "Bộ chuyển đổi / cách ly USB ↔ RS485"
+            ],
+            [
+              "Z-MBUS",
+              "Bộ chuyển đổi M-BUS ↔ RS232-RS485"
+            ],
+            [
+              "Z-4AI-D",
+              "Bộ chuyển A/D 4 kênh analog dòng/áp DC"
+            ],
+            [
+              "Z-4TC-D",
+              "Bộ chuyển A/D 4 kênh cặp nhiệt"
+            ]
+          ]
+        },
+        {
+          "name": "Chuyển đổi cáp quang (S232 / S485 / SETH / SCAN)",
+          "rows": [
+            [
+              "S232-FO-MONO-SL",
+              "RS232 ↔ quang single-mode, vòng đơn"
+            ],
+            [
+              "S232-FO-MONO-DL",
+              "RS232 ↔ quang single-mode, vòng đôi"
+            ],
+            [
+              "S232-FO-MULTI-SL",
+              "RS232 ↔ quang multi-mode, vòng đơn"
+            ],
+            [
+              "S232-FO-MULTI-DL",
+              "RS232 ↔ quang multi-mode, vòng đôi"
+            ],
+            [
+              "S485-FO-MONO-SL",
+              "RS485 ↔ quang single-mode, vòng đơn"
+            ],
+            [
+              "S485-FO-MONO-DL",
+              "RS485 ↔ quang single-mode, vòng đôi"
+            ],
+            [
+              "S485-FO-MULTI-SL",
+              "RS485 ↔ quang multi-mode, vòng đơn (multidrop)"
+            ],
+            [
+              "S485-FO-MULTI-DL",
+              "RS485 ↔ quang multi-mode, vòng đôi (multidrop)"
+            ],
+            [
+              "SETH-FO-MONO-SL",
+              "Ethernet ↔ quang single-mode, vòng đơn"
+            ],
+            [
+              "SETH-FO-MONO-DL",
+              "Ethernet ↔ quang single-mode, vòng đôi"
+            ],
+            [
+              "SETH-FO-MULTI-SL",
+              "Ethernet ↔ quang multi-mode, vòng đơn"
+            ],
+            [
+              "SETH-FO-MULTI-DL",
+              "Ethernet ↔ quang multi-mode, vòng đôi"
+            ],
+            [
+              "SCAN-FO-MONO-SL",
+              "CAN ↔ quang single-mode, vòng đơn"
+            ],
+            [
+              "SCAN-FO-MONO-DL",
+              "CAN ↔ quang single-mode, vòng đôi"
+            ],
+            [
+              "SCAN-FO-MULTI-SL",
+              "CAN ↔ quang multi-mode, vòng đơn"
+            ],
+            [
+              "SCAN-FO-MULTI-DL",
+              "CAN ↔ quang multi-mode, vòng đôi"
+            ],
+            [
+              "FO TEST",
+              "Phần mềm kiểm tra tự động đường quang"
+            ]
+          ]
+        },
+        {
+          "name": "Module vô tuyến & cảm biến không dây",
+          "rows": [
+            [
+              "RM169-1",
+              "Radiomodem 169 MHz, 1DI/1DO/RS485, đầu BNC-F, chuẩn RED"
+            ],
+            [
+              "RM169-1-169DV12",
+              "RM169-1 kèm anten dipole đứng λ/2"
+            ],
+            [
+              "RM169-1-169DV14",
+              "RM169-1 kèm anten stilo đứng λ/4"
+            ],
+            [
+              "RM169-1-169YAGI",
+              "RM169-1 kèm anten Yagi 3 phần tử"
+            ],
+            [
+              "RTURADIO-169",
+              "Radiomodem 169 MHz có I/O: 4DI, 2DO, 2AO, 2AI, RS485"
+            ],
+            [
+              "RTURADIO-169DV12",
+              "RTURADIO-169 kèm anten dipole"
+            ],
+            [
+              "RTURADIO-169DV14",
+              "RTURADIO-169 kèm anten đứng λ/4"
+            ],
+            [
+              "RTURADIO-169YAGI",
+              "RTURADIO-169 kèm anten Yagi"
+            ],
+            [
+              "A-169DV12",
+              "Anten dipole đứng λ/2 169 MHz, BNC M, cáp 5m low-loss"
+            ],
+            [
+              "A-169DV14",
+              "Anten dipole đứng λ/4 169 MHz, BNC M, L=450 mm"
+            ],
+            [
+              "A-169DV16",
+              "Anten dipole đứng λ/4 169 MHz, BNC M"
+            ],
+            [
+              "A-169YAGI",
+              "Anten Yagi 3 phần tử 169 MHz, BNC M, cáp 10m low-loss"
+            ],
+            [
+              "Z-AIR-1",
+              "Radiomodem 868 MHz, anten đa hướng, chuẩn RED, cáp 5m"
+            ],
+            [
+              "Z-AIR-1-10",
+              "Radiomodem 868 MHz, anten đa hướng, cáp 10m"
+            ],
+            [
+              "Z-LINK2-LO",
+              "Gateway / repeater không dây LoRa 869 MHz"
+            ],
+            [
+              "RADIO SETUP",
+              "Phần mềm cấu hình cho Z-AIR-1, RM169-1, RTURADIO-169"
+            ],
+            [
+              "R-GWR",
+              "Gateway Modbus cho mạng cảm biến không dây LoRa (tới 32 node)"
+            ],
+            [
+              "R-GWR-IP-1",
+              "Cảm biến LoRa công nghiệp, ngõ vào analog/digital, 1 pin"
+            ],
+            [
+              "R-GWR-IP-2",
+              "Cảm biến LoRa công nghiệp, ngõ vào analog/digital, pin đôi"
+            ],
+            [
+              "R-GWR-S-1",
+              "Cảm biến LoRa dân dụng, ngõ vào analog/digital + chống tràn"
+            ],
+            [
+              "R-GWR-AF",
+              "Cảm biến chống tràn nước (anti-flooding)"
+            ],
+            [
+              "R-BT1",
+              "Pin đơn cho cảm biến R-GWR"
+            ],
+            [
+              "R-BT2",
+              "Pin đôi 3,6V cho cảm biến R-GWR"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "short": "Thu thập · điều khiển",
+      "color": "#128377",
+      "heading": "Thu thập · điều khiển · datalogger",
+      "note": "Điều khiển",
+      "groups": [
+        {
+          "name": "I/O Modbus RTU — Z-PC Line",
+          "rows": [
+            [
+              "Z-10-D-IN",
+              "10 kênh ngõ vào số, RS485 Modbus RTU"
+            ],
+            [
+              "Z-10-D-OUT",
+              "10 kênh ngõ ra số, RS485 Modbus RTU"
+            ],
+            [
+              "Z-3AO",
+              "3 kênh ngõ ra analog, RS485 Modbus RTU"
+            ],
+            [
+              "Z-4AI",
+              "4 kênh ngõ vào analog, RS485 Modbus RTU"
+            ],
+            [
+              "Z-8AI",
+              "8 kênh ngõ vào analog, RS485 Modbus RTU"
+            ],
+            [
+              "Z-4DI-2AI-2DO",
+              "2 AI + 2 DO + 4 DI, Modbus RTU"
+            ],
+            [
+              "Z-5DI-2DO",
+              "5 ngõ vào số + 2 ngõ ra số, RS485 Modbus RTU"
+            ],
+            [
+              "Z-D-IN",
+              "5 kênh ngõ vào số, RS485 Modbus RTU"
+            ],
+            [
+              "Z-D-IO",
+              "6 kênh DI + 2 kênh DO, RS485 Modbus RTU"
+            ],
+            [
+              "Z-D-OUT",
+              "5 kênh ngõ ra relay, RS485 Modbus RTU"
+            ],
+            [
+              "Z-4RTD2",
+              "4 kênh RTD, cách ly 6 đường, 14 bit, Modbus RTU"
+            ],
+            [
+              "Z-4RTD2-SI",
+              "4 kênh RTD, cách ly 3 đường, 24 bit, Modbus RTU"
+            ],
+            [
+              "Z-4TC",
+              "4 kênh cặp nhiệt, RS485 Modbus RTU"
+            ],
+            [
+              "Z-8TC-1",
+              "8 kênh cặp nhiệt @14 bit, Modbus"
+            ],
+            [
+              "Z-8TC-LAB",
+              "8 kênh cặp nhiệt @15 bit, Modbus, kẹp thay thế được"
+            ],
+            [
+              "Z-8TC-SI",
+              "8 kênh cặp nhiệt @24 bit, Modbus"
+            ],
+            [
+              "Z-8TC-SI-LAB",
+              "8 kênh cặp nhiệt @24 bit, Modbus, kẹp thay thế được"
+            ],
+            [
+              "Z-8NTC",
+              "8 kênh ngõ vào NTC, RS485 Modbus RTU"
+            ],
+            [
+              "Z-DAQ-PID",
+              "1 kênh AI kèm bộ điều khiển PID, RS485 Modbus RTU"
+            ]
+          ]
+        },
+        {
+          "name": "I/O Modbus TCP-IP — R-Line & Z-PC",
+          "rows": [
+            [
+              "R-16DI-8DO",
+              "16 DI + 8 ngõ ra relay, Modbus TCP-IP/RTU, 2 cổng ETH"
+            ],
+            [
+              "R-32DIDO",
+              "32 kênh DI/DO, Modbus TCP-IP/RTU, 2 cổng ETH"
+            ],
+            [
+              "R-32DIDO-2",
+              "32 kênh DI/DO, Modbus TCP-IP/RTU, 2 cổng ETH (bản 2)"
+            ],
+            [
+              "R-8AI-8DIDO-2",
+              "8 AI + 8 DI/DO, Modbus TCP-IP/RTU, 2 cổng ETH"
+            ],
+            [
+              "R-SG3",
+              "Bộ chuyển strain gauge, Modbus TCP-IP / RTU"
+            ],
+            [
+              "ZE-2AI",
+              "2 kênh ngõ vào analog, Modbus RTU / TCP-IP"
+            ],
+            [
+              "ZE-4DI-2AI-2DO",
+              "4 DI + 2 AI + 2 DO, Modbus RTU / TCP-IP"
+            ],
+            [
+              "ZE-SG3",
+              "Ngõ vào strain gauge, Modbus RTU / TCP-IP"
+            ]
+          ]
+        },
+        {
+          "name": "I/O CANopen — Z-PC Line",
+          "rows": [
+            [
+              "ZC-16DI-8DO",
+              "16 DI + 8 DO, CANopen + RS485 Modbus RTU"
+            ],
+            [
+              "ZC-24DI",
+              "24 kênh ngõ vào số, CANopen / Modbus"
+            ],
+            [
+              "ZC-24DO",
+              "24 kênh ngõ ra số, CANopen / Modbus"
+            ],
+            [
+              "ZC-3AO",
+              "3 kênh ngõ ra analog (mA, V), CANopen"
+            ],
+            [
+              "ZC-8AI",
+              "8 kênh ngõ vào analog (mA, V), CANopen"
+            ],
+            [
+              "ZC-4RTD",
+              "4 kênh ngõ vào RTD, CANopen"
+            ],
+            [
+              "ZC-8TC",
+              "8 kênh cặp nhiệt (J,K,E,N,S,R,B,T), CANopen"
+            ],
+            [
+              "ZC-SG",
+              "1 kênh strain gauge, CANopen"
+            ]
+          ]
+        },
+        {
+          "name": "I/O Profinet IO — R-Line & Z-PC",
+          "rows": [
+            [
+              "R-16DI-8DO-P",
+              "16 DI + 8 ngõ ra relay, Profinet IO, 2 cổng ETH"
+            ],
+            [
+              "R-32DIDO-P",
+              "32 kênh DI/DO, Profinet IO, 2 cổng ETH"
+            ],
+            [
+              "R-32DIDO-2-P",
+              "32 kênh DI/DO, Profinet IO, 2 cổng ETH (bản 2)"
+            ],
+            [
+              "R-8AI-8DIDO-2-P",
+              "8 AI + 8 DI/DO, Profinet IO, 2 cổng ETH"
+            ],
+            [
+              "R-SG3-P",
+              "Bộ chuyển strain gauge, Profinet IO"
+            ],
+            [
+              "ZE-2AI-P",
+              "2 kênh ngõ vào analog, Profinet IO"
+            ],
+            [
+              "ZE-4DI-2AI-2DO-P",
+              "4 DI + 2 AI + 2 DO, Profinet IO"
+            ],
+            [
+              "ZE-SG3-P",
+              "Ngõ vào strain gauge, Profinet IO"
+            ]
+          ]
+        },
+        {
+          "name": "Bộ điều khiển IEC 61131-3 & flow computer",
+          "rows": [
+            [
+              "Z-TWS11",
+              "Bộ điều khiển IEC 61131 cơ bản, I/O tích hợp, nền Straton"
+            ],
+            [
+              "Z-TWS4-RT-S",
+              "Edge controller IEC 61131, I/O tích hợp, workbench Straton"
+            ],
+            [
+              "Z-TWS4-RT-E",
+              "Edge controller IEC 61131, I/O tích hợp, giao thức năng lượng"
+            ],
+            [
+              "Z-PASS2-RT-4G-S",
+              "Edge controller IIoT, 4G, GPS, I/O tích hợp"
+            ],
+            [
+              "Z-PASS2-RT-4G-E",
+              "Edge controller IIoT, 4G, GPS, I/O, giao thức năng lượng"
+            ],
+            [
+              "R-PASS-0-4-S",
+              "Edge controller Straton, 4 cổng Ethernet"
+            ],
+            [
+              "R-PASS-W-4-S",
+              "Edge controller Straton, Wi-Fi + 4 cổng Ethernet"
+            ],
+            [
+              "R-PASS-0-4-E",
+              "Edge controller Straton, giao thức năng lượng, 4 cổng ETH"
+            ],
+            [
+              "R-PASS-W-4-E",
+              "Edge controller Straton, năng lượng, Wi-Fi + 4 cổng ETH"
+            ],
+            [
+              "S6001-PC-4GWW",
+              "Bộ điều khiển bơm nâng cao, 4G WW LTE, HMI 7\""
+            ],
+            [
+              "Z-FLOWCOMPUTER",
+              "Flow computer đa năng cho khí/hơi/nước, HMI 4,3\""
+            ],
+            [
+              "Z-FLOWCOMPUTER-B",
+              "Flow computer đa năng, bản không màn hình"
+            ]
+          ]
+        },
+        {
+          "name": "RTU & telecontrol",
+          "rows": [
+            [
+              "S6001-RTU-4GWW",
+              "RTU có I/O tích hợp + modem 4G WW LTE"
+            ],
+            [
+              "S6001-RTU-E",
+              "RTU có I/O tích hợp, modem 3G+, giao thức năng lượng"
+            ],
+            [
+              "S6001-RTU-E-4GWW",
+              "RTU có I/O, 4G WW LTE, giao thức năng lượng"
+            ],
+            [
+              "RTU-LP-ST",
+              "RTU siêu tiết kiệm điện GSM/GPRS, I/O tích hợp"
+            ],
+            [
+              "RTU-LP-ST1",
+              "RTU Low Power GSM/GPRS, I/O tích hợp, 1 pack pin"
+            ],
+            [
+              "RTU-LP-ST2",
+              "RTU Low Power bản FTP: 4DI, 2AI, 2DO, 2 pack pin"
+            ],
+            [
+              "R-COMM-0-4GWW",
+              "Module truyền thông kèm modem 4G WW"
+            ],
+            [
+              "R-COMM-B-4GWW",
+              "Module truyền thông kèm mini UPS + modem 4G WW"
+            ],
+            [
+              "MY2CEI-016-0-220",
+              "MY2-CEI 0-16, anten tích hợp, 220 Vac - 12 Vdc"
+            ],
+            [
+              "MY2CEI-016-0-24",
+              "MY2-CEI 0-16, anten tích hợp, 24 Vac - 12 Vdc"
+            ],
+            [
+              "MY2CEI-016-A-220",
+              "MY2-CEI 0-16, A-GSM, 220 Vac - 12 Vdc"
+            ],
+            [
+              "MY2CEI-016-A-24",
+              "MY2-CEI 0-16, A-GSM, 24 Vac - 12 Vdc"
+            ],
+            [
+              "S-DIN",
+              "Giá đỡ gắn ray DIN"
+            ]
+          ]
+        },
+        {
+          "name": "Datalogger thông minh",
+          "rows": [
+            [
+              "Z-LTE-WW",
+              "Datalogger 4G toàn cầu, I/O tích hợp, điều khiển từ xa + lệnh thoại"
+            ],
+            [
+              "Z-GPRS3",
+              "Datalogger GSM/GPRS nâng cao, I/O tích hợp, cảnh báo thoại"
+            ],
+            [
+              "Z-LOGGER3",
+              "Datalogger nâng cao, module cảnh báo, web server, I/O tích hợp"
+            ],
+            [
+              "MY-SEAL-0-0-0-B",
+              "Datalogger logic SEAL, vỏ xanh"
+            ],
+            [
+              "MY-SEAL-R-0-0-B",
+              "Datalogger SEAL + board relay, vỏ xanh"
+            ],
+            [
+              "MY-SEAL-0-W-0-B",
+              "Datalogger SEAL + module radio, vỏ xanh"
+            ],
+            [
+              "MY-SEAL-0-0-G-B",
+              "Datalogger SEAL + GPS, vỏ xanh"
+            ],
+            [
+              "MY-SEAL-R-W-0-B",
+              "Datalogger SEAL + relay + radio, vỏ xanh"
+            ],
+            [
+              "MY-SEAL-R-0-G-B",
+              "Datalogger SEAL + relay + GPS, vỏ xanh"
+            ],
+            [
+              "MY-SEAL-0-W-G-B",
+              "Datalogger SEAL + radio + GPS, vỏ xanh"
+            ],
+            [
+              "MY-SEAL-R-W-G-B",
+              "Datalogger SEAL + relay + radio + GPS, vỏ xanh"
+            ],
+            [
+              "MY-SEAL-0-0-0-G",
+              "Datalogger logic SEAL, vỏ xám"
+            ],
+            [
+              "MY-SEAL-R-0-0-G",
+              "Datalogger SEAL + board relay, vỏ xám"
+            ],
+            [
+              "MY-SEAL-0-W-0-G",
+              "Datalogger SEAL + module radio, vỏ xám"
+            ],
+            [
+              "MY-SEAL-0-0-G-G",
+              "Datalogger SEAL + GPS, vỏ xám"
+            ],
+            [
+              "MY-SEAL-R-W-0-G",
+              "Datalogger SEAL + relay + radio, vỏ xám"
+            ],
+            [
+              "MY-SEAL-R-0-G-G",
+              "Datalogger SEAL + relay + GPS, vỏ xám"
+            ],
+            [
+              "MY-SEAL-0-W-G-G",
+              "Datalogger SEAL + radio + GPS, vỏ xám"
+            ],
+            [
+              "MY-SEAL-R-W-G-G",
+              "Datalogger SEAL + relay + radio + GPS, vỏ xám"
+            ],
+            [
+              "LOG FACTORY",
+              "Phần mềm hiển thị & phân tích dữ liệu log"
+            ]
+          ]
+        },
+        {
+          "name": "Bộ cảnh báo từ xa (MyALARM)",
+          "rows": [
+            [
+              "B-ALARM",
+              "Bộ cảnh báo từ xa 1DI/1DO, chức năng cơ bản"
+            ],
+            [
+              "MY2B-0-0-M-G",
+              "MyALARM2 bản basic, không relay, kẹp, vỏ xám"
+            ],
+            [
+              "MY2B-R-0-M-G",
+              "MyALARM2 bản basic, có relay, kẹp, vỏ xám"
+            ],
+            [
+              "MY2G-0-0-M-G",
+              "MyALARM2 bản GPS, không relay, vỏ xám"
+            ],
+            [
+              "MY2G-R-0-M-G",
+              "MyALARM2 bản GPS, có relay, vỏ xám"
+            ],
+            [
+              "MY2GL-0-0-M-G",
+              "MyALARM2 GPS + 4G/LTE, không relay, vỏ xám"
+            ],
+            [
+              "MY2GL-R-0-M-G",
+              "MyALARM2 GPS + 4G/LTE, có relay, vỏ xám"
+            ],
+            [
+              "MY2S-0-0-M-G",
+              "MyALARM2 bản security, không relay, vỏ xám"
+            ],
+            [
+              "MY2S-R-0-M-G",
+              "MyALARM2 bản security, có relay, vỏ xám"
+            ],
+            [
+              "MY2SL-0-0-M-G",
+              "MyALARM2 security audio 4G/LTE, không relay, vỏ xám"
+            ],
+            [
+              "MY2SL-R-0-M-G",
+              "MyALARM2 security audio 4G/LTE, có relay, vỏ xám"
+            ],
+            [
+              "MY2-KITIP66",
+              "Vỏ ABS IP66 lắp ngoài trời cho MyALARM2"
+            ],
+            [
+              "MY3CLOUD-R-0-0-G",
+              "MyALARM3 Cloud, có relay, vỏ xám"
+            ],
+            [
+              "MY3CLOUD-R-0-G-G",
+              "MyALARM3 Cloud, có relay + GPS, vỏ xám"
+            ],
+            [
+              "MY3CL-R-0-0-G",
+              "MyALARM3 Cloud 4G/LTE, có relay, vỏ xám"
+            ],
+            [
+              "MY3CL-R-0-G-G",
+              "MyALARM3 Cloud 4G/LTE, có relay + GPS, vỏ xám"
+            ],
+            [
+              "MY3CLOUD-W-AIR",
+              "MyALARM3 Cloud bản Wi-Fi (highlights 2025/26 — hỏi mã chính xác)"
+            ]
+          ]
+        },
+        {
+          "name": "IIoT Edge gateway (xử lý biên)",
+          "rows": [
+            [
+              "Z-PASS1-RT",
+              "Edge gateway / serial device server, I/O tích hợp, VPN"
+            ],
+            [
+              "Z-PASS2-RT-4G",
+              "Edge gateway IIoT / router 4G, GPS, I/O tích hợp"
+            ],
+            [
+              "R-PASS-0-4-0",
+              "Edge gateway IIoT, 4 cổng Ethernet"
+            ],
+            [
+              "R-PASS-W-4-0",
+              "Edge gateway IIoT, Wi-Fi + 4 cổng Ethernet"
+            ]
+          ]
+        },
+        {
+          "name": "Phụ kiện ray DIN, nguồn & phần mềm điều khiển",
+          "rows": [
+            [
+              "Z-PC-DIN1-35",
+              "Đế bus ray DIN, 1 slot bước 35 mm"
+            ],
+            [
+              "Z-PC-DIN2-17.5",
+              "Đế bus ray DIN, 2 slot bước 17,5 mm"
+            ],
+            [
+              "Z-PC-DIN4-35",
+              "Đế bus ray DIN, 4 slot bước 35 mm"
+            ],
+            [
+              "Z-PC-DIN8-17.5",
+              "Đế bus ray DIN, 8 slot bước 17,5 mm"
+            ],
+            [
+              "Z-PC-DINAL1-35",
+              "Đế bus có đầu cấp nguồn + 1 slot 35 mm"
+            ],
+            [
+              "Z-PC-DINAL2-17.5",
+              "Đế bus có đầu cấp nguồn + 2 slot 17,5 mm"
+            ],
+            [
+              "Z-PC-DINAL2-52.5",
+              "Đế bus có đầu cấp nguồn + 1 slot 52,5 mm + 1 slot 17,5 mm"
+            ],
+            [
+              "Z-SUPPLY",
+              "Bộ nguồn switching 1 pha 24V @1,5A"
+            ],
+            [
+              "STRATON-D-USB",
+              "Khóa kích hoạt Straton cho bộ điều khiển IEC 61131"
+            ],
+            [
+              "STRATON-IDE256",
+              "Môi trường phát triển Straton 256 tag, khóa USB"
+            ],
+            [
+              "STRATON-IDE512",
+              "Môi trường phát triển Straton 512 tag, khóa USB"
+            ],
+            [
+              "STRATON-IDEUN",
+              "Môi trường phát triển Straton không giới hạn tag, khóa USB"
+            ],
+            [
+              "STRATON-870M",
+              "Bản quyền kích hoạt IEC 60870-5-101/104 Master"
+            ],
+            [
+              "STRATON-870S",
+              "Bản quyền kích hoạt IEC 60870-5-101/104 Slave"
+            ],
+            [
+              "STRATON-870-850",
+              "Bản quyền IEC 60870 Master/Slave + IEC 61850 Client/Server"
+            ],
+            [
+              "STRATON-870S-850",
+              "Bản quyền IEC 60870 Slave + IEC 61850 Client/Server"
+            ],
+            [
+              "STRATON-FULL01",
+              "Bản quyền IEC 60870 + IEC 61850 + SNMP đầy đủ"
+            ],
+            [
+              "STRATON-SNMP",
+              "Driver SNMP agent mở rộng cho Straton"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "short": "Giao thức lên tầng",
+      "color": "#544CD1",
+      "heading": "Giao thức lên tầng trên",
+      "note": "Điều khiển → Giám sát",
+      "groups": [
+        {
+          "name": "Gateway Modbus → Cloud (MQTT/HTTP) — dòng KEY-C",
+          "rows": [
+            [
+              "R-KEY-LT-C",
+              "Gateway Modbus→Cloud compact 1 serial, MQTT(s)/HTTP(s), TLS 1.2, X.509"
+            ],
+            [
+              "Z-KEY-C",
+              "Gateway Modbus→Cloud 2 cổng serial, có đệm dữ liệu"
+            ],
+            [
+              "Z-KEY-2ETH-C",
+              "Gateway Modbus→Cloud 2 cổng Ethernet, phân đoạn/dự phòng mạng"
+            ]
+          ]
+        },
+        {
+          "name": "Gateway Modbus RTU ↔ TCP-IP",
+          "rows": [
+            [
+              "R-KEY-LT",
+              "Gateway Modbus công nghiệp compact, 5 chế độ hoạt động"
+            ],
+            [
+              "Z-KEY-0",
+              "Gateway công nghiệp / serial device server, 10 chế độ"
+            ],
+            [
+              "Z-KEY-2ETH",
+              "Gateway / serial device server, 2 cổng Ethernet"
+            ]
+          ]
+        },
+        {
+          "name": "Gateway giao thức khác (Profinet / OPC UA / IEC 61850 / EtherNet-IP / M-Bus / Wi-Fi)",
+          "rows": [
+            [
+              "R-KEY-LT-P",
+              "Gateway compact Profinet IO ↔ Modbus RTU/TCP-IP"
+            ],
+            [
+              "Z-KEY-P",
+              "Gateway Modbus RTU/TCP-IP ↔ Profinet IO"
+            ],
+            [
+              "Z-KEY-2ETH-P",
+              "Gateway serial device server, 2 cổng Profinet IO"
+            ],
+            [
+              "Z-KEY-2ETH-E",
+              "Gateway Modbus ↔ EtherNet/IP, 2 cổng Ethernet"
+            ],
+            [
+              "R-KEY-LT-U",
+              "Gateway Modbus ↔ OPC UA, bản compact"
+            ],
+            [
+              "Z-KEY-U",
+              "Gateway Modbus ↔ OPC UA, 2 cổng serial"
+            ],
+            [
+              "Z-KEY-2ETH-U",
+              "Gateway Modbus ↔ OPC UA, 2 cổng Ethernet"
+            ],
+            [
+              "R-KEY-LT-I",
+              "Gateway Modbus ↔ IEC 61850, bản compact"
+            ],
+            [
+              "Z-KEY-2ETH-I",
+              "Gateway Modbus ↔ IEC 61850, 2 cổng Ethernet"
+            ],
+            [
+              "R-KEY-MBUS",
+              "Gateway M-BUS công nghiệp compact"
+            ],
+            [
+              "Z-KEY-MBUS",
+              "Gateway Modbus RTU/TCP-IP ↔ M-BUS"
+            ],
+            [
+              "Z-KEY-WIFI",
+              "Gateway Modbus RTU 2 cổng + truy cập Wi-Fi"
+            ]
+          ]
+        },
+        {
+          "name": "Công cụ cấu hình gateway",
+          "rows": [
+            [
+              "SDD",
+              "Seneca Discovery Device — dò IP cho Z-KEY, Z-PASS1/2"
+            ],
+            [
+              "SESC",
+              "Công cụ kết nối Ethernet ↔ serial cho Z-KEY, Z-PASS1/2"
+            ],
+            [
+              "TEMP-TAG-Z-KEY",
+              "Mẫu Excel khai báo tag cho Z-KEY (chế độ gateway)"
+            ],
+            [
+              "TEMP-WEB-Z-KEY",
+              "Mẫu trang web cho Z-KEY"
+            ],
+            [
+              "OPC-DA-SERVER",
+              "OPC DA Server cho I/O, không giới hạn tag"
+            ],
+            [
+              "OPC-UA-SERVER",
+              "OPC UA Server cho I/O, không giới hạn tag"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "short": "Server / Cloud",
+      "color": "#544CD1",
+      "heading": "Server / Cloud",
+      "note": "Giám sát",
+      "groups": [
+        {
+          "name": "Server VPN / Cloud (nền tảng LET'S)",
+          "rows": [
+            [
+              "VPN-BOX-2",
+              "Máy chủ VPN dạng PC Box — kết nối đồng thời, độ trễ thấp, P2P/Single LAN"
+            ],
+            [
+              "VPN-BOX-2-VM",
+              "VPN-BOX-2 bản máy ảo (virtual machine)"
+            ],
+            [
+              "VPN-CC-2",
+              "VPN Client Communicator — phần mềm truy cập từ xa cho VPN-BOX-2"
+            ],
+            [
+              "CLOUD BOX",
+              "Máy chủ Cloud-IoT dạng appliance (lưu + hiển thị) — kiểm tra tình trạng còn SX"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "short": "Dashboard / HMI",
+      "color": "#544CD1",
+      "heading": "Dashboard / HMI",
+      "note": "Giám sát",
+      "groups": [
+        {
+          "name": "HMI đa năng IIoT — SURPRISE Smart Display",
+          "rows": [
+            [
+              "SSD-0-0-0-0",
+              "HMI cảm ứng nâng cao, I/O tích hợp"
+            ],
+            [
+              "SSD-0-L-0-0",
+              "HMI cảm ứng + logic + I/O"
+            ],
+            [
+              "SSD-0-0-V-0",
+              "HMI cảm ứng + VPN + I/O"
+            ],
+            [
+              "SSD-0-0-0-I",
+              "HMI cảm ứng + IIoT/MQTT + I/O"
+            ],
+            [
+              "SSD-0-L-V-0",
+              "HMI cảm ứng + logic + VPN + I/O"
+            ],
+            [
+              "SSD-0-L-0-I",
+              "HMI cảm ứng + logic + IIoT + I/O"
+            ],
+            [
+              "SSD-0-0-V-I",
+              "HMI cảm ứng + VPN + IIoT + I/O"
+            ],
+            [
+              "SSD-0-L-V-I",
+              "HMI cảm ứng + logic + VPN + IIoT + I/O (full)"
+            ],
+            [
+              "SSD-S-0-0-I",
+              "SoftPLC + HMI nâng cao, IIoT và I/O tích hợp"
+            ],
+            [
+              "SSD-UPG-L",
+              "Nâng cấp chức năng logic cho SSD"
+            ],
+            [
+              "SSD-UPG-V",
+              "Nâng cấp chức năng VPN cho SSD"
+            ],
+            [
+              "SSD-UPG-I",
+              "Nâng cấp chức năng IIoT/MQTT/Cloud cho SSD"
+            ],
+            [
+              "SSD-UPG-L-V",
+              "Nâng cấp logic + VPN"
+            ],
+            [
+              "SSD-UPG-L-I",
+              "Nâng cấp logic + IIoT/MQTT/Cloud"
+            ],
+            [
+              "SSD-UPG-V-I",
+              "Nâng cấp VPN + IIoT/MQTT/Cloud"
+            ],
+            [
+              "SSD-UPG-L-V-I",
+              "Nâng cấp logic + VPN + IIoT/MQTT/Cloud"
+            ]
+          ]
+        },
+        {
+          "name": "Màn hình vận hành VISUAL",
+          "rows": [
+            [
+              "VISUAL1E",
+              "HMI widescreen 4,3\" màu, cổng Ethernet"
+            ],
+            [
+              "VISUAL2E",
+              "Màn cảm ứng 7\", Ethernet"
+            ],
+            [
+              "VISUAL3",
+              "Màn cảm ứng 4,3\" 480x272, ARM 600 MHz"
+            ],
+            [
+              "VISUAL3-FLOW",
+              "Màn cảm ứng 4,3\" — phụ tùng cho Flow Computer"
+            ],
+            [
+              "VISUAL4",
+              "Màn cảm ứng 7\" 800x480, ARM 600 MHz"
+            ],
+            [
+              "VISUAL4ET",
+              "HMI cảm ứng 7\" widescreen, Ethernet, vỏ nhôm"
+            ],
+            [
+              "VISUAL5-PC",
+              "HMI 7\" widescreen 64k màu, Ethernet — phụ tùng cho S6001-PC"
+            ],
+            [
+              "VISUAL5-WB",
+              "HMI 7\" widescreen 64k màu, Ethernet, bản HMI/Web Server"
+            ],
+            [
+              "VISUAL6E",
+              "HMI 7\" widescreen màu, 2 cổng Ethernet"
+            ],
+            [
+              "VISUAL7N",
+              "HMI cảm ứng 10,1\" widescreen màu, Ethernet"
+            ],
+            [
+              "VISUAL8E",
+              "HMI 10,1\" HD widescreen màu, Ethernet"
+            ],
+            [
+              "VISUAL9E",
+              "Màn cảm ứng 10,1\" wide 1024x600, Ethernet, Wi-Fi"
+            ],
+            [
+              "VISUAL11E",
+              "HMI 9,7\" widescreen màu, 2 cổng Ethernet"
+            ],
+            [
+              "VISUAL12E",
+              "HMI 15\" widescreen màu, 2 cổng Ethernet, vỏ nhôm"
+            ],
+            [
+              "VISUALWIFI",
+              "Module mở rộng Wi-Fi cho VISUAL9E"
+            ],
+            [
+              "VISUALTV",
+              "Giao diện hiển thị quá trình lên TV"
+            ]
+          ]
+        },
+        {
+          "name": "Chỉ thị số S-Line & OLED",
+          "rows": [
+            [
+              "S401-L",
+              "Chỉ thị Modbus RTU màn OLED 2,7\", hiển thị tới 30 giá trị"
+            ],
+            [
+              "S311A-4-H",
+              "Chỉ thị 4 số, ngõ vào analog đa năng, 80-265 Vac"
+            ],
+            [
+              "S311A-4-H-O",
+              "Chỉ thị 4 số, 80-265 Vac, có board tùy chọn"
+            ],
+            [
+              "S311A-4-L",
+              "Chỉ thị 4 số, AI đa năng, 10-40 Vdc / 19-28 Vac"
+            ],
+            [
+              "S311A-4-L-O",
+              "Chỉ thị 4 số, 10-40 Vdc/19-28 Vac, board tùy chọn"
+            ],
+            [
+              "S311A-6-H",
+              "Chỉ thị 6 số, AI đa năng, 80-265 Vac"
+            ],
+            [
+              "S311A-6-H-O",
+              "Chỉ thị 6 số, 80-265 Vac, board tùy chọn"
+            ],
+            [
+              "S311A-6-L",
+              "Chỉ thị 6 số, AI đa năng, 10-40 Vdc/19-28 Vac"
+            ],
+            [
+              "S311A-6-L-O",
+              "Chỉ thị 6 số, 10-40 Vdc/19-28 Vac, board tùy chọn"
+            ],
+            [
+              "S311A-8-H",
+              "Chỉ thị 8 số, AI đa năng, 80-265 Vac"
+            ],
+            [
+              "S311A-8-H-O",
+              "Chỉ thị 8 số, 80-265 Vac, board tùy chọn"
+            ],
+            [
+              "S311A-8-L",
+              "Chỉ thị 8 số, AI đa năng, 10-40 Vdc/19-28 Vac"
+            ],
+            [
+              "S311A-8-L-O",
+              "Chỉ thị 8 số, 10-40 Vdc/19-28 Vac, board tùy chọn"
+            ],
+            [
+              "S311A-11-H",
+              "Chỉ thị 11 số, AI đa năng, 80-265 Vac"
+            ],
+            [
+              "S311A-11-H-O",
+              "Chỉ thị 11 số, 80-265 Vac, board tùy chọn"
+            ],
+            [
+              "S311A-11-L",
+              "Chỉ thị 11 số, AI đa năng, 10-40 Vdc/19-28 Vac"
+            ],
+            [
+              "S311A-11-L-O",
+              "Chỉ thị 11 số, 10-40 Vdc/19-28 Vac, board tùy chọn"
+            ],
+            [
+              "S311D-8-L-O",
+              "Chỉ thị 8 số ngõ vào số, 10-40 Vdc/19-28 Vac, board tùy chọn"
+            ],
+            [
+              "S311G-4-L",
+              "Chỉ thị 4 số kiêm bộ phát tín hiệu, 10-40 Vdc/19-28 Vac"
+            ]
+          ]
+        },
+        {
+          "name": "Bộ định lượng (batch controller) S20N1 / S21N1",
+          "rows": [
+            [
+              "S20N1-1-ST",
+              "Batch controller cơ bản, 115/230 Vac"
+            ],
+            [
+              "S20N1-23-ST",
+              "Batch controller cơ bản, 24 Vac/dc"
+            ],
+            [
+              "S20N1EX-1-ST",
+              "Batch controller vỏ EExd, 115/230 Vac"
+            ],
+            [
+              "S20N1EX-23-ST",
+              "Batch controller vỏ EExd, 24 Vac/dc"
+            ],
+            [
+              "S20N1IP65-1-ST",
+              "Batch controller vỏ IP65, 115/230 Vac"
+            ],
+            [
+              "S20N1IP65-23-ST",
+              "Batch controller vỏ IP65, 24 Vac/dc"
+            ],
+            [
+              "S20N1-KIT-1-ST",
+              "Board rời cho S20N1/S21N1, 115/230 Vac"
+            ],
+            [
+              "S20N1-KIT-23-ST",
+              "Board rời cho S20N1/S21N1, 24 Vac/dc"
+            ],
+            [
+              "S21N1-1-ST",
+              "Batch controller chức năng nâng cao, 115/230 Vac"
+            ],
+            [
+              "S21N1-23-ST",
+              "Batch controller nâng cao, 24 Vac/dc"
+            ],
+            [
+              "S21N1EX-1-ST",
+              "Batch controller EExd nâng cao, 115/230 Vac"
+            ],
+            [
+              "S21N1EX-23-ST",
+              "Batch controller EExd nâng cao, 24 Vac/dc"
+            ],
+            [
+              "S21N1IP65-1-ST",
+              "Batch controller IP65 nâng cao, 115/230 Vac"
+            ],
+            [
+              "S21N1IP65-23-ST",
+              "Batch controller IP65 nâng cao, 24 Vac/dc"
+            ],
+            [
+              "S20ADP",
+              "Board adapter ngõ vào tự cấp nguồn cho S20N1/S21N1/S30"
+            ],
+            [
+              "S20ADP-CM",
+              "Board adapter ngõ vào tự cấp nguồn (bản CM)"
+            ],
+            [
+              "S20ADP-IP65",
+              "Board adapter ngõ vào tự cấp nguồn, vỏ IP65"
+            ],
+            [
+              "FH190-24",
+              "Máy in kim 9-40 Vdc cho S20N1/S21N1"
+            ]
+          ]
+        },
+        {
+          "name": "Phần mềm ghi & hiển thị dữ liệu (Data Recorder)",
+          "rows": [
+            [
+              "DR-04",
+              "Phần mềm DAQ 4 kênh"
+            ],
+            [
+              "DR-08",
+              "Phần mềm DAQ 8 kênh"
+            ],
+            [
+              "DR-16",
+              "Phần mềm DAQ 16 kênh"
+            ],
+            [
+              "DR-32",
+              "Phần mềm DAQ 32 kênh"
+            ],
+            [
+              "DR-64",
+              "Phần mềm DAQ 64 kênh"
+            ],
+            [
+              "DR-UN",
+              "Phần mềm DAQ không giới hạn kênh"
+            ],
+            [
+              "DR-04-PLUS",
+              "Data Recorder 4 kênh + multi-client"
+            ],
+            [
+              "DR-08-PLUS",
+              "Data Recorder 8 kênh + multi-client"
+            ],
+            [
+              "DR-16-PLUS",
+              "Data Recorder 16 kênh + multi-client"
+            ],
+            [
+              "DR-32-PLUS",
+              "Data Recorder 32 kênh + multi-client"
+            ],
+            [
+              "DR-64-PLUS",
+              "Data Recorder 64 kênh + multi-client"
+            ],
+            [
+              "DR-UN-PLUS",
+              "Data Recorder không giới hạn kênh + multi-client"
+            ],
+            [
+              "DR-UPGRADE",
+              "Dịch vụ nâng cấp bản quyền Data Recorder"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "bridge": {
+    "heading": "Giai đoạn 5 · Đường truyền",
+    "intro": "Dưới mọi tầng — bearer nằm sẵn trong thiết bị, không có mã đặt hàng riêng.",
+    "rows": [
+      [
+        "Ethernet có dây",
+        "Hầu hết gateway / RTU / datalogger / I/O R-Line đều có cổng ETH sẵn R-KEY-LT Z-KEY-2ETH Z-PASS1-RT R-PASS-0-4-0 R-32DIDO S504C-6-ETH-MID"
+      ],
+      [
+        "Cáp quang",
+        "Kéo dài Ethernet / RS232 / RS485 / CAN qua sợi quang SETH-FO-MONO-SL SETH-FO-MULTI-DL S485-FO-MONO-SL S232-FO-MONO-SL SCAN-FO-MULTI-SL"
+      ],
+      [
+        "Wi-Fi",
+        "Modbus qua mạng không dây trong xưởng Z-KEY-WIFI R-PASS-W-4-0 R-PASS-W-4-S VISUAL9E VISUALWIFI"
+      ],
+      [
+        "4G / LTE",
+        "Modem 4G tích hợp trong datalogger, RTU, edge controller Z-LTE-WW Z-PASS2-RT-4G S6001-RTU-4GWW R-COMM-0-4GWW MY3CL-R-0-0-G"
+      ],
+      [
+        "2G / GPRS",
+        "Nơi chỉ còn sóng cũ Z-GPRS3 RTU-LP-ST MY2B-R-0-M-G MY2S-R-0-M-G"
+      ],
+      [
+        "Vô tuyến 169 / 868 MHz",
+        "Điểm-điểm hoặc đa điểm, vài trăm mét tới vài km RM169-1 RTURADIO-169 Z-AIR-1 Z-LINK2-LO"
+      ],
+      [
+        "LoRa 863-865 MHz",
+        "Mạng cảm biến chạy pin, đọc về qua Modbus R-GWR R-GWR-IP-1 R-GWR-S-1"
+      ]
+    ]
+  }
 }
