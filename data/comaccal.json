@@ -1,0 +1,331 @@
+{
+  "brand": "comaccal",
+  "name": "COMAC CAL",
+  "country": "Czech",
+  "tagline": "Made in Czech · Flow & Heat Measurement",
+  "accent": "#0072BC",
+  "title": "COMAC CAL — Lưu lượng kế & đồng hồ nhiệt lượng",
+  "subtitle": "Lưu lượng kế điện từ, bánh guồng, công tắc dòng chảy, bộ định lượng và đồng hồ nhiệt lượng của COMAC CAL (Séc) do HOANTRANTDH phân phối.",
+  "intro": "16 dòng sản phẩm đo lưu lượng & nhiệt lượng của COMAC CAL, kèm datasheet · manual · Modbus/M-Bus tải trực tiếp (nguồn: comaccal.com).",
+  "groupType": "tech",
+  "sources": [
+    {
+      "label": "Trang chủ COMAC CAL",
+      "url": "https://www.comaccal.com"
+    },
+    {
+      "label": "Downloads",
+      "url": "https://www.comaccal.com/home/download"
+    }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "short": "Lưu lượng kế",
+      "color": "#0072BC",
+      "heading": "Lưu lượng kế điện từ & bánh guồng",
+      "groups": [
+        {
+          "rows": [
+            [
+              "FLOW 38",
+              "Lưu lượng kế điện từ có màn hình, đo chất lỏng dẫn điện.",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FL38/FLOW_38_EN_web.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL38/FLOW38_Instalation_manual_ver.8.2x.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL38/FLOW38DNV_Instalation_manual_ver8.2x.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL38/flow38-manual-modbus-rtu-en.pdf"
+                ],
+                [
+                  "M-Bus",
+                  "https://www.comaccal.com/storage/typ/FL38/FLOW38-M-Bus.pdf"
+                ]
+              ]
+            ],
+            [
+              "FLOW 38 MID",
+              "Lưu lượng kế điện từ, chứng nhận MID cho đo lường thương mại (hoá đơn).",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FL38MID/FLOW_38_MID_EN_web.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL38MID/FLOW38MID_Instalation_manual_ver.8.23x.pdf"
+                ]
+              ]
+            ],
+            [
+              "FLOW 45",
+              "Lưu lượng kế điện từ chạy pin lithium, cho nơi không có nguồn điện.",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FL45/FLOW_45_EN_web.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL45/FLOW45_Installation_manual_ver.3.0.pdf"
+                ]
+              ]
+            ],
+            [
+              "FLOW 55",
+              "Lưu lượng kế điện từ cho kênh hở & ống chảy không đầy.",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FL55/FLOW_55_EN_web.pdf"
+                ]
+              ]
+            ],
+            [
+              "FLOW 32",
+              "Lưu lượng kế điện từ, tin cậy & tiết kiệm cho sản xuất theo mẻ.",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FL32/FLOW_32_EN_web.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL32/FLOW32_Installation-manual_v4.1.pdf"
+                ]
+              ]
+            ],
+            [
+              "FLOW 33",
+              "Lưu lượng kế điện từ, xuất tín hiệu xung/dòng từ cảm biến lưu lượng.",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FL33/FLOW_33_EN_web.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL33/FLOW33_Instalation-manual-with-BT-setup.pdf"
+                ]
+              ]
+            ],
+            [
+              "FLOW 33 Ex",
+              "Lưu lượng kế điện từ bản phòng nổ (Ex) cho khu vực nguy hiểm cháy nổ.",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FL33EX/FLOW_33_EN_web.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL33EX/FLOW33Exia_Instalation-manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "FPW 05/10/20",
+              "Lưu lượng kế bánh guồng (paddle wheel) cho chất lỏng không dẫn điện.",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FPW/FPW_EN_web.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FPW/FPW_Instruction-manual-ver.1.2.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Công tắc dòng chảy",
+      "color": "#128377",
+      "heading": "Giám sát / công tắc dòng chảy nhiệt",
+      "groups": [
+        {
+          "rows": [
+            [
+              "FS 10/11/15/20",
+              "Công tắc / giám sát dòng chảy nhiệt, tự bù điểm chuyển theo môi trường.",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FS/FS_EN_web.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FS/FS_10_installation_manual_v1.9.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FS/FS_11_installation_manual_v.1.9.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FS/FS_20_installation_manual_v1.9.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FS/FS_10DNV_installation_manual_v2.0.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FS/FS_11DNV_installation_manual_v.2.0.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FS/FS_15DNV_installation_manual_v.2.0.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FS/FS_20DNV_installation_manual_v2.0.pdf"
+                ]
+              ]
+            ],
+            [
+              "FS 10/11/15/20 Ex",
+              "Công tắc / giám sát dòng chảy bản phòng nổ (Ex).",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FSEX/FS_EN_web.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FSEX/FS10;11;15;20_Installation_manual_Exia_EN_addition_2024-06-05.pdf"
+                ],
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FSEX/FS10;11;15;20_Installation_manual_Exia_DNV_EN.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Định lượng theo mẻ",
+      "color": "#EA580C",
+      "heading": "Lưu lượng kế định lượng & bộ điều khiển mẻ",
+      "groups": [
+        {
+          "rows": [
+            [
+              "FLOW 38 Batch",
+              "Lưu lượng kế định lượng mẻ (cảm biến điện từ + bộ định lượng).",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/FL38B/FLOW_38_Batch_EN.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL38B/FLOW38Batch_impulse_instalation_manual_v8.24.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.comaccal.com/storage/typ/FL38B/FLOW38Batch_Technical-and-instalation-manual_8.24.pdf"
+                ]
+              ]
+            ],
+            [
+              "FPW Batch",
+              "Lưu lượng kế định lượng mẻ dạng cơ (bánh guồng + bộ định lượng)."
+            ],
+            [
+              "CC200 Uni Batch",
+              "Bộ điều khiển định lượng chất lỏng, ghép với mọi loại lưu lượng kế."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "short": "Đo nhiệt lượng",
+      "color": "#C8102E",
+      "heading": "Đồng hồ đo nhiệt lượng nóng / lạnh",
+      "groups": [
+        {
+          "rows": [
+            [
+              "CALOR 38",
+              "Đồng hồ đo nhiệt lượng nóng/lạnh: cảm biến lưu lượng + cặp cảm biến nhiệt.",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/C38/CALOR38_EN_web.pdf"
+                ],
+                [
+                  "Modbus",
+                  "https://www.comaccal.com/storage/typ/C38/CALOR-38-MODBUS-RTU.pdf"
+                ],
+                [
+                  "M-Bus",
+                  "https://www.comaccal.com/storage/typ/C38/CALOR38_M-Bus.pdf"
+                ],
+                [
+                  "Modbus",
+                  "https://www.comaccal.com/storage/typ/C38/CALOR38_MODBUS_RTU_Epm.pdf"
+                ],
+                [
+                  "M-Bus",
+                  "https://www.comaccal.com/storage/typ/C38/CALOR38_M-Bus_Epm.pdf"
+                ]
+              ]
+            ],
+            [
+              "CALOR 38 MID",
+              "Đồng hồ đo nhiệt lượng, chứng nhận MID cho đo lường thương mại (hoá đơn nhiệt).",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/C38MID/CALOR_38_MID_EN_web.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "short": "Khác",
+      "color": "#556378",
+      "heading": "Thiết bị phân tích & chuyên dụng",
+      "groups": [
+        {
+          "rows": [
+            [
+              "CC 900",
+              "Máy phân tích chất lượng nước di động (giám sát khi xả/khử trùng đường ống).",
+              [
+                [
+                  "Datasheet / catalog",
+                  "https://www.comaccal.com/storage/typ/CC900/CC_900_EN_web.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

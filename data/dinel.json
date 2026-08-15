@@ -6,10 +6,596 @@
   "accent": "#EF7D00",
   "title": "DINEL — Cảm biến & công tắc đo mức",
   "subtitle": "Cảm biến mức điện dung, radar, siêu âm và công tắc của Dinel (Séc) do HOANTRANTDH phân phối.",
-  "intro": "Khung danh mục — mã sẽ được nhập dần từ catalog chính hãng dinel.cz. Không nhập mã không có nguồn.",
+  "intro": "37 mã cảm biến & công tắc đo mức/lưu lượng của Dinel (Séc), kèm datasheet · hướng dẫn · ATEX tải trực tiếp (nguồn: dinel.cz).",
   "groupType": "tech",
   "sources": [
-    { "label": "Trang chủ Dinel", "url": "https://www.dinel.cz" }
+    {
+      "label": "Trang chủ Dinel",
+      "url": "https://www.dinel.cz"
+    },
+    {
+      "label": "Download (datasheet · manual)",
+      "url": "https://www.dinel.cz/en/download/"
+    }
   ],
-  "sections": []
+  "sections": [
+    {
+      "id": "A",
+      "short": "Đo mức liên tục",
+      "color": "#EF7D00",
+      "heading": "Radar · siêu âm · điện dung đo mức liên tục",
+      "groups": [
+        {
+          "rows": [
+            [
+              "ARLM-54",
+              "Cảm biến mức radar anten (đo liên tục, không tiếp xúc)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2025/10/arlm-54-dat-en_04_2025.pdf"
+                ]
+              ]
+            ],
+            [
+              "ARLM-70",
+              "Cảm biến mức radar anten (đo liên tục, không tiếp xúc)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/arlm-70-dat-en_11_2025.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/arlm-70-nav-en_04_2025.pdf"
+                ]
+              ]
+            ],
+            [
+              "CLM-36",
+              "Cảm biến mức điện dung (đo liên tục)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/01/clm-36_dat_EN_12_2025.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/01/CLM-36_nav_EN_N4_12_2025.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/clm-36xit_ex-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "CLM-40",
+              "Cảm biến mức điện dung cho dầu diesel (đo liên tục)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2025/10/clm-40-dat-en_9_2024.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2025/10/clm-40n-40_nav-en_n1_08_2025.pdf"
+                ]
+              ]
+            ],
+            [
+              "CLM-70",
+              "Cảm biến mức điện dung (đo liên tục)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/01/CLM-70-dat-en_12_2023.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/01/clm-70-nav_EN_08_2021_WEB.pdf"
+                ]
+              ]
+            ],
+            [
+              "DLM-35",
+              "Cảm biến mức điện dung (đo liên tục)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/01/DLM-35-dat-en_11_2025.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/01/DLM-35_nav_EN_N5_01_2025.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/dlm-35xitmmt-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "GRLM-70",
+              "Cảm biến mức radar dẫn sóng (TDR, đo liên tục)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/01/grlm-70-dat-EN_01_2022.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/01/GRLM-70_nav_EN_09_2025_web.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/grlm-70xit_ex-en.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/grlm-70xtt_ex-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "ULM-53",
+              "Cảm biến mức siêu âm (đo liên tục, không tiếp xúc)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2025/10/ulm-53_dat_en_01_2025.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/ULX-53_nav_EN_12_2024-1.pdf"
+                ]
+              ]
+            ],
+            [
+              "ULM-54",
+              "Cảm biến mức siêu âm (đo liên tục, không tiếp xúc)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2025/10/ulm-54-dat-en_04_2025.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2025/10/ulm-54-nav-en_11_2024.pdf"
+                ]
+              ]
+            ],
+            [
+              "ULM-70",
+              "Cảm biến mức siêu âm (đo liên tục, không tiếp xúc)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2025/10/ulm-70-dat-en_n4_08_2021.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/01/ulm-70-nav-en_08_2025.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/ulm-70xi_ex-en.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Công tắc mức điểm",
+      "color": "#D65A00",
+      "heading": "Công tắc báo mức điện dung · RF · siêu âm",
+      "groups": [
+        {
+          "rows": [
+            [
+              "CLS-23",
+              "Công tắc mức điện dung (báo mức điểm)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/CLS-23-dat-en_07_2025.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/CLS-23_nav_EN_N4_06_2022.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/cls-23xi-ex-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "CLS-23S",
+              "Công tắc mức điện dung (báo mức điểm)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/CLS-23S-dat-en_12_2024.pdf"
+                ]
+              ]
+            ],
+            [
+              "DLS-27",
+              "Công tắc mức điện dung (báo mức điểm)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/DLS-27_dat_EN_N5_01_2019.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/DLS-27_nav_EN_N5_05_2022.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/dls-27xd_ex-en.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/dls-27xit_ex-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "DLS-35",
+              "Công tắc mức điện dung (báo mức điểm)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/DLS-35-dat-en_11_2025.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/DLS-35_nav_EN_N5_05_2022.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/dls-35xitmmt-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "GPLS-25",
+              "Công tắc mức xuyên thành (không tiếp xúc)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/GPLS-25-dat-en_04_2021.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/GPLS-25-nav-en_04_2021.pdf"
+                ]
+              ]
+            ],
+            [
+              "RFLS-24",
+              "Công tắc mức tần số cao RF / admittance",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/RFLS-24_dat_EN_12_2025.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/RFLS-24_nav_EN_03_2025.pdf"
+                ]
+              ]
+            ],
+            [
+              "RFLS-28",
+              "Công tắc mức tần số cao RF / admittance",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/RFLS-28_dat_EN_03_2025.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/RFLS-28_nav_EN_04_2025.pdf"
+                ]
+              ]
+            ],
+            [
+              "RFLS-35",
+              "Công tắc mức tần số cao RF / admittance",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/RFLS-35_dat_EN_N4_12_2020-1.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/RFLS-35_nav_EN_N4_7_2021.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/rfls-35xim_ex-en-1.pdf"
+                ]
+              ]
+            ],
+            [
+              "RFLS-53",
+              "Công tắc mức tần số cao RF / admittance",
+              [
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/RFLS-53_nav_en_08_2021.pdf"
+                ]
+              ]
+            ],
+            [
+              "ULS-53",
+              "Công tắc mức siêu âm (báo mức điểm)",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/ULS-53_dat_EN_12_2024.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/ULX-53_nav_EN_12_2024.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Đo lưu lượng",
+      "color": "#128377",
+      "heading": "Lưu lượng kế điện từ · cảm biến dòng chảy",
+      "groups": [
+        {
+          "rows": [
+            [
+              "EFM-115",
+              "Lưu lượng kế điện từ",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/efm-115-dat-en_N2.pdf"
+                ]
+              ]
+            ],
+            [
+              "FCU-400",
+              "Bộ điều khiển dòng chảy",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/fcu-400-dat_en_N1.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/FCU-400-nav-EN_04_2018.pdf"
+                ]
+              ]
+            ],
+            [
+              "TFS-35",
+              "Cảm biến dòng chảy nhiệt",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/TFS-35-dat-en_09_2024.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/TFS-35_nav_EN_N1_11_2024.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "short": "Đo áp suất",
+      "color": "#2563EB",
+      "heading": "Cảm biến áp suất",
+      "groups": [
+        {
+          "rows": [
+            [
+              "PPM-35",
+              "Cảm biến áp suất",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/PPM-35_dat_EN_02_2023.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "short": "Hiển thị & điều khiển",
+      "color": "#7C3AED",
+      "heading": "Bộ hiển thị, điều khiển quá trình",
+      "groups": [
+        {
+          "rows": [
+            [
+              "LDU-401",
+              "Bộ hiển thị quá trình tại chỗ",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/LDU-401-dat-EN_04_2022.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/LDU-401-nav-en_N1.pdf"
+                ]
+              ]
+            ],
+            [
+              "MGU-800",
+              "Bộ hiển thị đồ hoạ đa năng",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/mgu-800-dat-en_N2.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/mgu-800-nav-en_N1.pdf"
+                ]
+              ]
+            ],
+            [
+              "PCU-100",
+              "Bộ điều khiển lập trình được",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/PCU-100_dat_EN_05_2024.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/02/PCU-100_nav_EN_5_2021.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "short": "Nguồn & cách ly",
+      "color": "#0891B2",
+      "heading": "Nguồn, cách ly, rơ-le điều khiển",
+      "groups": [
+        {
+          "rows": [
+            [
+              "CDSU-522",
+              "Rơ-le điều khiển mức",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/cdsu-dat-en_12_2023.pdf"
+                ]
+              ]
+            ],
+            [
+              "IRU-420",
+              "Bộ lặp cách ly tín hiệu",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/IRU-420_dat_EN_07_2021.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/IRU-420_nav_EN_07_2021.pdf"
+                ],
+                [
+                  "ATEX",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/iru-420-ex-en.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "short": "Phụ kiện",
+      "color": "#556378",
+      "heading": "Phụ kiện lắp đặt đầu dò",
+      "groups": [
+        {
+          "rows": [
+            [
+              "KD-60",
+              "Giá treo cáp đầu dò"
+            ],
+            [
+              "TN-28",
+              "Ống nối dài đầu dò",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/TN-28_EN_03_2025.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "short": "Sản phẩm khác",
+      "color": "#B45309",
+      "heading": "Chuyển đổi, hub, cảm biến chuyên dụng",
+      "groups": [
+        {
+          "rows": [
+            [
+              "CTS-41",
+              "Cảm biến chạm điện dung",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/CTS-41_dat_EN_01_2024.pdf"
+                ]
+              ]
+            ],
+            [
+              "HB-485",
+              "Bộ tập trung (hub) truyền thông"
+            ],
+            [
+              "QOS-35",
+              "Cảm biến chất lượng dầu",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2026/03/QOS-35_dat_EN_05_2025.pdf"
+                ]
+              ]
+            ],
+            [
+              "UCC-01",
+              "Bộ chuyển đổi tín hiệu"
+            ],
+            [
+              "UHC-01",
+              "Bộ chuyển đổi USB ↔ HART",
+              [
+                [
+                  "Datasheet",
+                  "https://www.dinel.cz/wp-content/uploads/2025/10/uhc-01_dat_en_07_2020.pdf"
+                ]
+              ]
+            ],
+            [
+              "URC-485",
+              "Bộ chuyển đổi tín hiệu"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
 }
