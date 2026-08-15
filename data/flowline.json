@@ -6,7 +6,7 @@
   "accent": "#C8102E",
   "title": "FLOWLINE — Toàn bộ dải sản phẩm đo & kiểm soát mức",
   "subtitle": "Cảm biến, transmitter, công tắc và bộ điều khiển mức của Flowline (Hoa Kỳ) do HOANTRANTDH phân phối.",
-  "intro": "Chọn công nghệ đo phù hợp môi chất: radar không tiếp xúc, radar dẫn sóng, siêu âm, siêu âm phản xạ; kèm công tắc mức điểm và bộ hiển thị / điều khiển. Bấm vào mã để chép, hoặc dùng “Chép mã đang lọc” để xuất danh sách hỏi giá.",
+  "intro": "112 mã đặt hàng theo 14 nhóm công nghệ đo mức, kèm datasheet · manual · quick-start tải trực tiếp (nguồn: flowline.com).",
   "groupType": "tech",
   "sources": [
     {
@@ -25,13 +25,11 @@
   "sections": [
     {
       "id": "A",
-      "short": "Radar",
-      "color": "#128377",
-      "heading": "Radar không tiếp xúc — EchoPulse® & EchoPro®",
-      "note": "Radar xung 26 GHz, đo mức không tiếp xúc, ít ảnh hưởng bởi hơi, bọt, bám dính.",
+      "short": "Radar xung — chất lỏng",
+      "color": "#C8102E",
+      "heading": "Radar xung không tiếp xúc — EchoPulse® & EchoPro®",
       "groups": [
         {
-          "name": "A.1 EchoPulse® — radar xung 2 dây (4-20 mA)",
           "rows": [
             [
               "LR10",
@@ -48,6 +46,24 @@
                 [
                   "Manual (HDSD)",
                   "https://www.flowline.com/wp-content/uploads/EchoPulse_LR10_LR15_LR20_LR25_LR30_MN.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR11",
+              "Radar xung EchoPro® đo mức chất lỏng (4-20 mA + HART).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro-LR11-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR11_LR16_LR21_LR26_LR31_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR11_LR16_LR21_LR26_LR31_MN.pdf"
                 ]
               ]
             ],
@@ -70,6 +86,24 @@
               ]
             ],
             [
+              "LR16",
+              "Radar xung EchoPro® đo mức chất lỏng (4-20 mA + HART).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro-LR16-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR11_LR16_LR21_LR26_LR31_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR11_LR16_LR21_LR26_LR31_MN.pdf"
+                ]
+              ]
+            ],
+            [
               "LR20",
               "Radar xung 26 GHz cho chất lỏng, đo tới 20 m, 2 dây 4-20 mA.",
               [
@@ -84,6 +118,24 @@
                 [
                   "Manual (HDSD)",
                   "https://www.flowline.com/wp-content/uploads/EchoPulse_LR10_LR15_LR20_LR25_LR30_MN.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR21",
+              "Radar xung 26 GHz cho chất lỏng, đo tới 20 m, 4-20 mA + HART.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro-LR21-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR11_LR16_LR21_LR26_LR31_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR11_LR16_LR21_LR26_LR31_MN.pdf"
                 ]
               ]
             ],
@@ -122,19 +174,14 @@
                   "https://www.flowline.com/wp-content/uploads/EchoPulse_LR10_LR15_LR20_LR25_LR30_MN.pdf"
                 ]
               ]
-            ]
-          ]
-        },
-        {
-          "name": "A.2 EchoPro® — radar xung có HART",
-          "rows": [
+            ],
             [
-              "LR21",
-              "Radar xung 26 GHz cho chất lỏng, đo tới 20 m, 4-20 mA + HART.",
+              "LR31",
+              "Radar xung EchoPro® đo mức chất lỏng (4-20 mA + HART).",
               [
                 [
                   "Datasheet",
-                  "https://www.flowline.com/wp-content/uploads/EchoPro-LR21-Data-Sheet.pdf"
+                  "https://www.flowline.com/wp-content/uploads/EchoPro-LR31-Data-Sheet.pdf"
                 ],
                 [
                   "Quick start",
@@ -145,7 +192,19 @@
                   "https://www.flowline.com/wp-content/uploads/EchoPro_LR11_LR16_LR21_LR26_LR31_MN.pdf"
                 ]
               ]
-            ],
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Radar xung — chất rắn",
+      "color": "#E4572E",
+      "heading": "Radar xung cho chất rắn / bột — EchoPro®",
+      "groups": [
+        {
+          "rows": [
             [
               "LR36",
               "Radar xung 26 GHz cho chất rắn / bột, đo tới 15 m, 4-20 mA + HART.",
@@ -163,20 +222,138 @@
                   "https://www.flowline.com/wp-content/uploads/EchoPro_LR36_LR41_LR46_m.pdf"
                 ]
               ]
+            ],
+            [
+              "LR41",
+              "Radar xung EchoPro® đo mức chất rắn/bột (4-20 mA + HART).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro-LR41-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR36_LR41_LR46_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR36_LR41_LR46_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR46",
+              "Radar xung EchoPro® đo mức chất rắn/bột (4-20 mA + HART).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro-LR46-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR36_LR41_LR46_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPro_LR36_LR41_LR46_m.pdf"
+                ]
+              ]
             ]
           ]
         }
       ]
     },
     {
-      "id": "B",
-      "short": "Dẫn sóng",
-      "color": "#2563EB",
-      "heading": "Radar dẫn sóng TDR — EchoWave®",
-      "note": "Đo tiếp xúc bằng que/dây dẫn sóng, ổn định với chất lỏng có bọt hoặc hằng số điện môi thấp.",
+      "id": "C",
+      "short": "Radar 80 GHz",
+      "color": "#B0139B",
+      "heading": "Radar 80 GHz độ chụm cao — EchoBeam®",
       "groups": [
         {
-          "name": "B.1 EchoWave® — guided wave radar (TDR)",
+          "rows": [
+            [
+              "LR80",
+              "Radar 80 GHz EchoBeam® đo mức chất lỏng & chất rắn, độ chụm cao.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam-LR80-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam_LR80_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam-LR80_LR81_LR83_LR85-Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR81",
+              "Radar 80 GHz EchoBeam® đo mức chất lỏng & chất rắn, độ chụm cao.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam-LR81-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam_LR81_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam-LR80_LR81_LR83_LR85-Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR83",
+              "Radar 80 GHz EchoBeam® đo mức chất lỏng & chất rắn, độ chụm cao.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam-LR83-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam_LR83_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam-LR80_LR81_LR83_LR85-Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LR85",
+              "Radar 80 GHz EchoBeam® đo mức chất lỏng & chất rắn, độ chụm cao.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam-LR85-Data-Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam_LR85_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoBeam-LR80_LR81_LR83_LR85-Manual.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "short": "Radar dẫn sóng",
+      "color": "#7B2FBE",
+      "heading": "Radar dẫn sóng TDR — EchoWave®",
+      "groups": [
+        {
           "rows": [
             [
               "LG10",
@@ -219,14 +396,12 @@
       ]
     },
     {
-      "id": "C",
-      "short": "Siêu âm",
-      "color": "#7C3AED",
-      "heading": "Siêu âm liên tục — EchoPod® · EchoSonic® II · EchoTouch®",
-      "note": "Đo mức liên tục không tiếp xúc bằng siêu âm cho bồn, hố ga, bể chứa.",
+      "id": "E",
+      "short": "Siêu âm liên tục",
+      "color": "#128377",
+      "heading": "Siêu âm liên tục — EchoPod® · EchoSonic® · EchoSpan®",
       "groups": [
         {
-          "name": "C.1 EchoPod® — siêu âm compact đa năng",
           "rows": [
             [
               "DL10",
@@ -299,39 +474,22 @@
                   "https://www.flowline.com/wp-content/uploads/DL10_DL14_DL24_DL34_DS14_DX10_m.pdf"
                 ]
               ]
-            ]
-          ]
-        },
-        {
-          "name": "C.2 EchoSonic® II — transmitter siêu âm đầu rời",
-          "rows": [
+            ],
             [
-              "LU27",
-              "Siêu âm liên tục, dải 10 cm – 3 m, 4-20 mA.",
+              "DX10",
+              "Cảm biến mức siêu âm EchoPod®.",
               [
                 [
                   "Datasheet",
-                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Data_Sheet.pdf"
+                  "https://www.flowline.com/wp-content/uploads/DX10C_ds.pdf"
                 ],
                 [
                   "Quick start",
-                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU27_Quick_Start.pdf"
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPod_DL10_DL14_DL24_Quick_Start.pdf"
                 ],
                 [
                   "Manual (HDSD)",
-                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Manual.pdf"
-                ],
-                [
-                  "Datasheet",
-                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU27_conduit_ds.pdf"
-                ],
-                [
-                  "Quick start",
-                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU27_conduit_qs.pdf"
-                ],
-                [
-                  "Manual (HDSD)",
-                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU27_conduit_m.pdf"
+                  "https://www.flowline.com/wp-content/uploads/DL10_DL14_DL24_DL34_DS14_DX10_m.pdf"
                 ]
               ]
             ],
@@ -362,6 +520,36 @@
                 [
                   "Manual (HDSD)",
                   "https://www.flowline.com/_data_sheet_and_manuals/older/LU23_conduit_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LU27",
+              "Siêu âm liên tục, dải 10 cm – 3 m, 4-20 mA.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU27_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSonic_LU23_LU27_LU28_LU29_Manual.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU27_conduit_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU27_conduit_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LU27_conduit_m.pdf"
                 ]
               ]
             ],
@@ -424,12 +612,7 @@
                   "https://www.flowline.com/_data_sheet_and_manuals/older/LU29_conduit_m.pdf"
                 ]
               ]
-            ]
-          ]
-        },
-        {
-          "name": "C.3 EchoTouch® — siêu âm an toàn cháy nổ (IS)",
-          "rows": [
+            ],
             [
               "LU30",
               "Transmitter siêu âm 3 dây, đo tới 7.4 m, 4-20 mA, bản an toàn cháy nổ.",
@@ -443,20 +626,90 @@
                   "https://www.flowline.com/_data_sheet_and_manuals/older/LU30_m.pdf"
                 ]
               ]
+            ],
+            [
+              "LU80",
+              "Siêu âm EchoSpan® đo mức chất lỏng, dải rộng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU80_LU81_LU83_LU84_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU80_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU80_LU81_LU83_LU84_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LU81",
+              "Siêu âm EchoSpan® đo mức chất lỏng, dải rộng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU80_LU81_LU83_LU84_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU81_LU83_LU84_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU80_LU81_LU83_LU84_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LU83",
+              "Siêu âm EchoSpan® đo mức chất lỏng, dải rộng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU80_LU81_LU83_LU84_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU81_LU83_LU84_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU80_LU81_LU83_LU84_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LU84",
+              "Siêu âm EchoSpan® đo mức chất lỏng, dải rộng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU80_LU81_LU83_LU84_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU81_LU83_LU84_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoSpan_LU80_LU81_LU83_LU84_Manual.pdf"
+                ]
+              ]
             ]
           ]
         }
       ]
     },
     {
-      "id": "D",
-      "short": "Phản xạ",
-      "color": "#DB2777",
+      "id": "F",
+      "short": "Siêu âm phản xạ",
+      "color": "#0E9E8A",
       "heading": "Siêu âm phản xạ — EchoPod® UG & EchoTouch® US",
-      "note": "Công nghệ phản xạ (Reflective) cho đo tin cậy trong môi trường ngưng tụ, hơi ẩm.",
       "groups": [
         {
-          "name": "D.1 EchoPod® reflective — đa năng",
           "rows": [
             [
               "UG01",
@@ -493,12 +746,43 @@
                   "https://www.flowline.com/wp-content/uploads/EchoPod_UG01_UG03_M.pdf"
                 ]
               ]
-            ]
-          ]
-        },
-        {
-          "name": "D.2 EchoTouch® reflective — transmitter",
-          "rows": [
+            ],
+            [
+              "UG06",
+              "Siêu âm phản xạ EchoPod® đo mức chất lỏng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG06_UG12_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG06_UG12_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG06_UG12_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "UG12",
+              "Siêu âm phản xạ EchoPod® đo mức chất lỏng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG06_UG12_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG06_UG12_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoPod_UG06_UG12_Manual.pdf"
+                ]
+              ]
+            ],
             [
               "US01",
               "Transmitter siêu âm phản xạ, 4-20 mA, 1 điểm chuyển đổi.",
@@ -534,21 +818,73 @@
                   "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_US06_US12_Manual.pdf"
                 ]
               ]
+            ],
+            [
+              "US06",
+              "Siêu âm phản xạ EchoTouch® đo mức chất lỏng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US06_US12_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_US06_US12_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_US06_US12_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "US12",
+              "Siêu âm phản xạ EchoTouch® đo mức chất lỏng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US06_US12_Data_Sheet.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_US06_US12_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Echotouch_US01_US03_US06_US12_Manual.pdf"
+                ]
+              ]
             ]
           ]
         }
       ]
     },
     {
-      "id": "E",
-      "short": "Công tắc",
-      "color": "#EA580C",
-      "heading": "Công tắc mức điểm — Switch-Tek™",
-      "note": "Phát hiện mức cao/thấp bằng siêu âm, phao hoặc quang học.",
+      "id": "G",
+      "short": "Công tắc siêu âm",
+      "color": "#2A9D8F",
+      "heading": "Công tắc mức siêu âm — EchoSwitch® · Switch-Tek™",
       "groups": [
         {
-          "name": "E.1 Switch-Tek™ — công tắc mức điểm",
           "rows": [
+            [
+              "DS14",
+              "Công tắc + điều khiển mức siêu âm EchoPod®.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DS14_DS.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/EchoPod_DL10_DL14_DL24_Quick_Start.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DL10_DL14_DL24_DL34_DS14_DX10_m.pdf"
+                ]
+              ]
+            ],
             [
               "LU10",
               "Công tắc mức điểm siêu âm, phát hiện cao/thấp, ngõ ra relay.",
@@ -564,6 +900,304 @@
               ]
             ],
             [
+              "LU74",
+              "Công tắc mức siêu âm EchoSwitch® (kèm điều khiển).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DS300282B_LORES.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoSwitch_LU74-78_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoSwitch_LU74-78_M.pdf"
+                ]
+              ]
+            ],
+            [
+              "LU77",
+              "Công tắc mức siêu âm EchoSwitch® (kèm điều khiển).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DS300282B_LORES.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoSwitch_LU77_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoSwitch_LU74-78_M.pdf"
+                ]
+              ]
+            ],
+            [
+              "LU78",
+              "Công tắc mức siêu âm EchoSwitch® (kèm điều khiển).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DS300282B_LORES.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/wp-content/uploads/EchoSwitch_LU74-78_QS.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/EchoSwitch_LU74-78_M.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "short": "Áp suất thủy tĩnh",
+      "color": "#1D6FB8",
+      "heading": "Cảm biến áp suất thủy tĩnh — DeltaSpan™",
+      "groups": [
+        {
+          "rows": [
+            [
+              "LD30",
+              "Cảm biến áp suất thủy tĩnh DeltaSpan™ (lắp ngoài) đo mức chất lỏng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan-LD30-Data-Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan_LD30_LD37-Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LD31",
+              "Cảm biến áp suất thủy tĩnh DeltaSpan™ (dạng chìm) đo mức chất lỏng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan-LD31-Data-Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan_LD31_LD32_LR33_LD36-Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LD32",
+              "Cảm biến áp suất thủy tĩnh DeltaSpan™ (chìm) cho trạm bơm.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan-LD32-Data-Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan_LD31_LD32_LR33_LD36-Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LD33",
+              "Cảm biến áp suất thủy tĩnh DeltaSpan™ (chìm), chống ăn mòn.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan-LD33-Data-Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan_LD31_LD32_LR33_LD36-Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LD36",
+              "Cảm biến áp suất thủy tĩnh DeltaSpan™ (chìm), kèm đo nhiệt độ.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan-LD36-Data-Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan_LD31_LD32_LR33_LD36-Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LD37",
+              "Cảm biến áp suất thủy tĩnh DeltaSpan™ (lắp ngoài), chống ăn mòn.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan-LD37-Data-Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/DeltaSpan_LD30_LD37-Manual.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "short": "Công tắc phao",
+      "color": "#2563EB",
+      "heading": "Công tắc & transmitter phao — Switch-Tek™ · FloaTek™",
+      "groups": [
+        {
+          "rows": [
+            [
+              "AV16",
+              "Công tắc phao Float-Point™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV16_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV16_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV16_m.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV16-Pak_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV16-Pak_m.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV16_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV16_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AV26",
+              "Công tắc phao Float-Point™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV26_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV26_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV26_m.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV26_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV26_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AV36",
+              "Công tắc phao Float-Point™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV36_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV36_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV36_m.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV36_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV36_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AV56",
+              "Công tắc phao Float-Point™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV56_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV56_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV56_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LH25",
+              "Công tắc phao mini Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LH25_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LH25_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LH35",
+              "Công tắc phao chịu nhiệt cao Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LH35_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LH35_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LH35_m.pdf"
+                ]
+              ]
+            ],
+            [
               "LV10",
               "Công tắc phao đứng (vertical buoyancy), ngõ ra reed switch 15 VA.",
               [
@@ -574,6 +1208,460 @@
                 [
                   "Manual (HDSD)",
                   "https://www.flowline.com/_data_sheet_and_manuals/current/Switch-Tek_LV10_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LV20",
+              "Công tắc phao mini Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV20_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV20_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LV35",
+              "Công tắc phao chịu nhiệt cao Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV35_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV35_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV35_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LV36",
+              "Công tắc phao chịu nhiệt cao Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV36_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV36_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV36_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LV41",
+              "Công tắc phao hố bơm cỡ nhỏ Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV41_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV41_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Switch-Tek_LV41_LV42_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LV42",
+              "Công tắc phao hố bơm cỡ lớn Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV42_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV42_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Switch-Tek_LV41_LV42_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LV55",
+              "Transmitter phao FloaTek™ đo mức liên tục.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV55_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LV55_m.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "J",
+      "short": "Công tắc điện dung",
+      "color": "#5A4FCF",
+      "heading": "Công tắc điện dung / rung — Switch-Tek™ · Switch-Pro™ · Smart Trak™",
+      "groups": [
+        {
+          "rows": [
+            [
+              "AU13",
+              "Công tắc mức điện dung Switch-Pro™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AZ13_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/MN301450A_LORES.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU13_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU13_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AU18",
+              "Công tắc mức điện dung Switch-Pro™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AU18_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AU18_m.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU18-Pak_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU18-Pak_m.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU18_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU18_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AU23",
+              "Công tắc mức điện dung Smart Trak™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU23_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU23_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AU28",
+              "Công tắc mức điện dung Smart Trak™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU28_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU28_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AU38",
+              "Công tắc mức điện dung Smart Trak™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU38_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU38_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AU48",
+              "Công tắc mức điện dung Smart Trak™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU48_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU48_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AV13",
+              "Công tắc mức điện dung Switch-Pak™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV13_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV13_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AV23",
+              "Công tắc mức điện dung Smart Trak™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU23_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV23_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AV46",
+              "Công tắc mức điện dung Smart Trak™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV46_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AV46_m.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV46_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV46_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AV46_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AZ13",
+              "Công tắc mức điện dung Switch-Pro™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AZ13_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/MN301450A_LORES.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ13_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ13_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AZ18",
+              "Công tắc mức điện dung Switch-Pak™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ18-Pak_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ18-Pak_m.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AZ18_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AZ18_m.pdf"
+                ],
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ18_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ18_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AZ23",
+              "Công tắc mức điện dung Smart Trak™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AU23_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ23_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AZ28",
+              "Công tắc mức điện dung Smart Trak™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ28_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ28_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AZ38",
+              "Công tắc mức điện dung Smart Trak™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ38_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ38_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AZ48",
+              "Công tắc mức điện dung Smart Trak™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ48_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/AZ48_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LP15",
+              "Công tắc mức điện dung Switch-Tek™ (dạng Guard).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LP15_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Switch-Tek_LU10-LZ12-LO10-LP15_M.pdf"
+                ]
+              ]
+            ],
+            [
+              "LP50",
+              "Công tắc mức điện dung không xâm nhập Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LP50_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LP50_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LZ12",
+              "Công tắc mức dạng rung (âm thoa) Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/Switch-Tek_LZ12_Data_Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Switch-Tek_LU10-LZ12-LO10-LP15_M.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K",
+      "short": "Công tắc quang & rò rỉ",
+      "color": "#0891B2",
+      "heading": "Phát hiện rò rỉ / công tắc quang — Switch-Tek™",
+      "groups": [
+        {
+          "rows": [
+            [
+              "LH29",
+              "Công tắc phát hiện rò rỉ khe (interstitial) Switch-Tek™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LH29_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LH29_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LH29_m.pdf"
                 ]
               ]
             ],
@@ -596,15 +1684,125 @@
       ]
     },
     {
-      "id": "F",
-      "short": "Dòng chảy",
+      "id": "L",
+      "short": "Dòng chảy nhiệt",
       "color": "#CA8A04",
       "heading": "Công tắc dòng chảy nhiệt — Thermo-Flo™",
-      "note": "Phát hiện có/không dòng chảy trong đường ống bằng nguyên lý phân tán nhiệt.",
       "groups": [
         {
-          "name": "F.1 Thermo-Flo™ — thermal dispersion flow switch",
           "rows": [
+            [
+              "AG12",
+              "Cảm biến dòng chảy nhiệt Thermo-Flo™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AX1X_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AX1X_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AG14",
+              "Cảm biến dòng chảy nhiệt Thermo-Flo™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AX1X_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AX1X_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AG17",
+              "Cảm biến dòng chảy nhiệt Thermo-Flo™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AG17_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AG17_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AG18",
+              "Cảm biến dòng chảy nhiệt Thermo-Flo™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AG17_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AG17_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AT12",
+              "Cảm biến dòng chảy nhiệt Thermo-Flo™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AX1X_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AX1X_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AT14",
+              "Cảm biến dòng chảy nhiệt Thermo-Flo™ (kèm bộ điều khiển compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AX1X_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AX1X_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AT17",
+              "Cảm biến dòng chảy nhiệt Thermo-Flo™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AT17_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AT17_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "AT18",
+              "Cảm biến dòng chảy nhiệt Thermo-Flo™ (hộp nối compact).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AT18_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/AT18_m.pdf"
+                ]
+              ]
+            ],
             [
               "FT10",
               "Công tắc dòng chảy nhiệt cho chất lỏng, phát hiện low/no-flow trong ống.",
@@ -618,21 +1816,183 @@
                   "https://www.flowline.com/_data_sheet_and_manuals/older/FT10_m.pdf"
                 ]
               ]
+            ],
+            [
+              "GT10",
+              "Công tắc dòng chảy nhiệt Thermo-Flo™ cho lỏng & khí.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/GT10_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/GT10_m.pdf"
+                ]
+              ]
             ]
           ]
         }
       ]
     },
     {
-      "id": "G",
-      "short": "Hiển thị",
-      "color": "#0891B2",
-      "heading": "Bộ hiển thị & điều khiển — DataLoop™ · DataView™",
-      "note": "Hiển thị mức theo đơn vị kỹ thuật, relay cảnh báo và repeater 4-20 mA.",
+      "id": "M",
+      "short": "Điều khiển & hiển thị",
+      "color": "#B45309",
+      "heading": "Bộ điều khiển, hiển thị & giám sát — DataLoop™ · DataView™ · LevelHub™",
       "groups": [
         {
-          "name": "G.1 DataLoop™ — bộ hiển thị mức loop-powered",
           "rows": [
+            [
+              "300500",
+              "Bộ hiển thị mức chống nổ DataKeep™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/300500_ds.pdf"
+                ]
+              ]
+            ],
+            [
+              "HB01",
+              "Bộ giám sát mức bồn/silo không dây, chạy pin LevelHub™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/wp-content/uploads/LevelHub-Data-Sheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/LevelHub_LH01-Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LC09",
+              "Còi & đèn báo động Strobe Alert™ Plus.",
+              [
+                [
+                  "Bản vẽ",
+                  "https://www.flowline.com/wp-content/uploads/Strobe_Alert_Plus_Control_Drawing.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/wp-content/uploads/Strobe_Alert_Plus_LC09_Manual.pdf"
+                ]
+              ]
+            ],
+            [
+              "LC10",
+              "Bộ điều khiển mức compact Switch-Pro™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC1X_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC10_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LC11",
+              "Bộ điều khiển mức compact Switch-Pro™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC1X_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC10_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LC30",
+              "Bộ điều khiển dòng chảy compact Thermo-Flo™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC30_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC30_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LC40",
+              "Bộ điều khiển mức từ xa Switch-Pro™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LCXX_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC40_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LC41",
+              "Bộ điều khiển mức từ xa Switch-Pro™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LCXX_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC40_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LC42",
+              "Bộ điều khiển mức từ xa Switch-Pro™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LCXX_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC40_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LC52",
+              "Bộ điều khiển mức DataPoint™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC52_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC52_m.pdf"
+                ]
+              ]
+            ],
+            [
+              "LC82",
+              "Bộ điều khiển dòng chảy từ xa Thermo-Flo™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC8X_ds.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/older/LC8X_m.pdf"
+                ]
+              ]
+            ],
             [
               "LI23",
               "Bộ hiển thị mức loop-powered, 2 relay tuỳ chọn + repeater 4-20 mA cách ly.",
@@ -690,12 +2050,25 @@
                   "https://www.flowline.com/wp-content/uploads/LM91-1001_2001-LM92-1002_2002-DIM.pdf"
                 ]
               ]
-            ]
-          ]
-        },
-        {
-          "name": "G.2 DataView™ — bộ điều khiển mức",
-          "rows": [
+            ],
+            [
+              "LI40",
+              "Bộ hiển thị mức PodView™.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI40_ds.pdf"
+                ],
+                [
+                  "Quick start",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI40_qs.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.flowline.com/_data_sheet_and_manuals/current/LI40_m.pdf"
+                ]
+              ]
+            ],
             [
               "LI55",
               "Bộ điều khiển mức, 2–4 relay lập trình + repeater 4-20 mA cách ly.",
@@ -711,6 +2084,38 @@
                 [
                   "Manual (HDSD)",
                   "https://www.flowline.com/_data_sheet_and_manuals/current/LI55_m.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "short": "Phụ kiện — vỏ hộp",
+      "color": "#556378",
+      "heading": "Vỏ hộp & phụ kiện lắp đặt",
+      "groups": [
+        {
+          "rows": [
+            [
+              "LM91",
+              "Vỏ hộp NEMA 1/8 DIN (không cửa sổ).",
+              [
+                [
+                  "Bản vẽ",
+                  "https://www.flowline.com/wp-content/uploads/LM91-1001_2001-DIM.pdf"
+                ]
+              ]
+            ],
+            [
+              "LM92",
+              "Vỏ hộp NEMA 1/8 DIN & ray 35 mm (có cửa sổ).",
+              [
+                [
+                  "Bản vẽ",
+                  "https://www.flowline.com/wp-content/uploads/LM92-1002_2002_1202_2202-DIM.pdf"
                 ]
               ]
             ]
