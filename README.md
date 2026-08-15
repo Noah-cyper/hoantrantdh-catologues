@@ -81,10 +81,10 @@ Không có dependency runtime — `npm run build` chỉ cần Node ≥ 18.
 |---|---|---|---|
 | **Flowline** | USA | tech (A–N) | ✅ 112 mã · 315 tài liệu · 14 nhóm (toàn bộ catalog flowline.com, datasheet/manual/quick-start) |
 | **Seneca** | Italy | stage (1–7) | ✅ 478 mã · 33 nhóm + Ghép nối (từ Short Form Catalog SFC_2401EN qua `scripts/migrate-seneca.js`) |
-| **Georgin** | France | tech | ⏳ khung |
+| **Georgin** | France | tech (A–C) | ✅ 46 mã · 190 tài liệu · 3 nhóm (fiche technique/CE/ATEX từ georgin.com) |
 | **Dinel** | Czech | tech (A–H) | ✅ 37 mã · 67 tài liệu · 8 nhóm (datasheet/manual/ATEX từ dinel.cz) |
 | **Comac Cal** | Czech | tech (A–E) | ✅ 16 mã · 39 tài liệu · 5 nhóm (datasheet/manual/Modbus/M-Bus từ comaccal.com) |
-| **Termotech** | Italy | tech | ⏳ khung |
+| **Termotech** | Italy | tech (A–C) | ✅ 12 mã · dòng duyệt DNV hàng hải (RTD/thermocouple/thermowell từ CATALOGO_SPECIALI) |
 | **Anhui Tiankang** | China | tech | ⏳ khung |
 | **HOANTRANTDH ISOLATION** | OEM | tech | ⏳ khung |
 

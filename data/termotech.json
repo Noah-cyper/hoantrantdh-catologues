@@ -2,14 +2,61 @@
   "brand": "termotech",
   "name": "TERMOTECH",
   "country": "Italy",
-  "tagline": "Made in Italy · Temperature Sensing",
-  "accent": "#DC2626",
-  "title": "TERMOTECH — Cảm biến & transmitter nhiệt độ",
-  "subtitle": "Cảm biến nhiệt độ, can nhiệt, RTD và transmitter của Termotech (Ý) do HOANTRANTDH phân phối.",
-  "intro": "Khung danh mục — mã sẽ được nhập dần từ catalog chính hãng. Không nhập mã không có nguồn.",
+  "tagline": "Made in Italy · Temperature Transducers · DNV Marine",
+  "accent": "#E63946",
+  "title": "TERMOTECH — Cảm biến nhiệt độ (dòng duyệt hàng hải DNV)",
+  "subtitle": "Nhiệt điện trở (RTD), cặp nhiệt điện (thermocouple) và ống bảo vệ của TERMOTECH (Ý) — dòng được duyệt cho ứng dụng hàng hải (DNV Type Approval), do HOANTRANTDH phân phối.",
+  "intro": "12 mã cảm biến nhiệt độ dòng duyệt hàng hải DNV (nguồn: Catalogo prodotti omologati per uso marittimo — CATALOGO_SPECIALI). Dải sản phẩm tiêu chuẩn xem thêm ở catalog tổng của hãng.",
   "groupType": "tech",
   "sources": [
-    { "label": "Trang chủ Termotech", "url": "https://www.termotech.it" }
+    { "label": "Trang chủ Termotech", "url": "https://www.termotech.com" },
+    { "label": "Catalog hàng hải (SPECIALI)", "url": "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf" },
+    { "label": "Catalog tổng 2018", "url": "https://www.termotech.com/wp-content/uploads/2025/08/TERMOTECH_catalogo2018_WEB.pdf" }
   ],
-  "sections": []
+  "sections": [
+    {
+      "id": "A",
+      "short": "Khí xả",
+      "color": "#E63946",
+      "heading": "Cảm biến nhiệt độ khí xả động cơ",
+      "note": "Dòng duyệt DNV cho đo nhiệt độ khí xả (exhaust gas).",
+      "groups": [
+        { "rows": [
+          ["MRC", "Nhiệt điện trở (RTD) đo nhiệt độ khí xả, lắp trực tiếp bằng khớp nén ERM, vỏ AISI 316; -40…+500°C (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]],
+          ["MTC", "Cặp nhiệt điện (thermocouple) đo nhiệt độ khí xả, khớp nén ERM, vỏ 316SS (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]],
+          ["MRG", "Nhiệt điện trở (RTD) đo nhiệt độ khí xả, vỏ AISI 316 kèm đầu nối (head-mounted); -40…+500°C (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]],
+          ["MTG", "Cặp nhiệt điện đo nhiệt độ khí xả, vỏ AISI 316 kèm đầu nối; -40…+600°C (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]]
+        ] }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Chất lỏng",
+      "color": "#F4801A",
+      "heading": "Cảm biến nhiệt độ chất lỏng",
+      "note": "Dòng duyệt DNV cho đo nhiệt độ chất lỏng (dầu, nước làm mát…).",
+      "groups": [
+        { "rows": [
+          ["MRV", "Nhiệt điện trở (RTD) đo nhiệt độ chất lỏng, ruột lò xo lắp trong đầu nối (dùng với ống bảo vệ); -40…+250°C (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]],
+          ["MTV", "Cặp nhiệt điện đo nhiệt độ chất lỏng, lắp trong đầu nối có ống lồng cáp chỉnh được (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]],
+          ["MRS", "Nhiệt điện trở (RTD) đo nhiệt độ chất lỏng, lắp bằng khớp nén ERM; -40…+250°C (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]],
+          ["MTS", "Cặp nhiệt điện đo nhiệt độ chất lỏng, lắp bằng khớp nén ERM (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]],
+          ["MRF", "Nhiệt điện trở (RTD) đo nhiệt độ chất lỏng, vỏ nhiệt kế lò xo (spring-loaded); -40…+250°C (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]]
+        ] }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Môi trường & phụ kiện",
+      "color": "#2A9D8F",
+      "heading": "Cảm biến môi trường & ống bảo vệ",
+      "note": "Cảm biến nhiệt độ phòng/môi trường và ống bảo vệ (thermowell) — duyệt DNV.",
+      "groups": [
+        { "rows": [
+          ["MRA", "Nhiệt điện trở (RTD) đo nhiệt độ môi trường/phòng, vỏ cảm biến inox AISI 316; -40…+120°C (DNV).", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]],
+          ["TT2 / TB2", "Ống bảo vệ (thermowell): TT2 chế tạo từ ống, TB2 gia công từ phôi đặc (bar-stock) — duyệt DNV.", [["Catalog DNV hàng hải", "https://www.termotech.com/wp-content/uploads/2025/08/CATALOGO_SPECIALI-24d.pdf"]]]
+        ] }
+      ]
+    }
+  ]
 }

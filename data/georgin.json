@@ -2,14 +2,1086 @@
   "brand": "georgin",
   "name": "GEORGIN",
   "country": "France",
-  "tagline": "Made in France · Pressure · Temperature · Safety",
-  "accent": "#003DA5",
-  "title": "GEORGIN — Van, transmitter áp suất, nhiệt độ & thiết bị an toàn",
-  "subtitle": "Transmitter và công tắc áp suất/nhiệt độ, van an toàn, thiết bị đo của Georgin (Pháp) do HOANTRANTDH phân phối.",
-  "intro": "Khung danh mục — mã sẽ được nhập dần từ catalog chính hãng georgin.com. Không nhập mã không có nguồn.",
+  "tagline": "Made in France · Pressure · Temperature · Intrinsic Safety",
+  "accent": "#00539F",
+  "title": "GEORGIN — Áp suất · Nhiệt độ · An toàn nội tại",
+  "subtitle": "Công tắc, đồng hồ, bộ truyền áp suất/nhiệt độ và thiết bị an toàn nội tại của GEORGIN (Pháp, từ 1939) do HOANTRANTDH phân phối.",
+  "intro": "46 dòng sản phẩm đo áp suất · nhiệt độ · xử lý tín hiệu an toàn nội tại của GEORGIN, kèm fiche technique · chứng nhận CE tải trực tiếp (nguồn: georgin.com).",
   "groupType": "tech",
   "sources": [
-    { "label": "Trang chủ Georgin", "url": "https://www.georgin.com" }
+    {
+      "label": "Trang chủ Georgin",
+      "url": "https://www.georgin.com"
+    },
+    {
+      "label": "Tất cả sản phẩm",
+      "url": "https://georgin.com/tous-produits/"
+    }
   ],
-  "sections": []
+  "sections": [
+    {
+      "id": "A",
+      "short": "Áp suất",
+      "color": "#C8102E",
+      "heading": "Công tắc · đồng hồ · bộ truyền áp suất",
+      "groups": [
+        {
+          "rows": [
+            [
+              "F",
+              "Công tắc áp suất công nghiệp nhỏ gọn Série F",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fi-ps-fren-1.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fu-f-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-f-en.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/dcsil-ps-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-acs-conformite-sanitaire-fr.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/IECEx_INE_18.0031X_0.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/iecex_ine_16.0053x_0.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-16ATEX0044X-fren-Ex-de.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6161X-01_6057x-fren-Ex-de.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6008X-01_6057x-fren-Ex-ia.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6071X-01_6057x-fren-Ex-d.pdf"
+                ]
+              ]
+            ],
+            [
+              "F40R",
+              "Công tắc áp suất Série F40R (không phân loại)",
+              [
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "GR/GA",
+              "Bộ truyền áp suất Série GR/GA (bản kinh tế)",
+              [
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/01/fc-gr-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-gr-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/01/dc-ue-gr-fren.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2024/06/dcsil-trgr-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/LCIE-02ATEX6137X-GR-GA.pdf"
+                ]
+              ]
+            ],
+            [
+              "H21/H22",
+              "Công tắc áp suất Série H21/H22",
+              [
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "J",
+              "Công tắc áp suất Série J (chuyên ngành đường sắt)",
+              [
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-j-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "M5000",
+              "Đồng hồ áp suất công nghiệp toàn inox Série M5000",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-pi-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-m5000-m7000-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-m5000-deen.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ueatex-m5001-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ue-pi-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/INERIS-EQEN-032634-20.pdf"
+                ]
+              ]
+            ],
+            [
+              "M5010",
+              "Đồng hồ áp suất dạng ống, vỏ inox Série M5010",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-pi-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-m5000-m7000-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-m5010-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ueatex-m5001-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ue-pi-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/INERIS-EQEN-032634-20.pdf"
+                ]
+              ]
+            ],
+            [
+              "M5050",
+              "Đồng hồ áp suất kiểu turret Série M5050",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-pi-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-m5000-m7000-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-m5050-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ueatex-m5001-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ue-pi-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/INERIS-EQEN-032634-20.pdf"
+                ]
+              ]
+            ],
+            [
+              "M5100",
+              "Đồng hồ áp suất công nghiệp kiểu hộp áp Série M5100",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-pi-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-m5000-m7000-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-m5100-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ueatex-m5001-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ue-pi-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/INERIS-EQEN-032634-20.pdf"
+                ]
+              ]
+            ],
+            [
+              "M5200",
+              "Đồng hồ áp suất công nghiệp kiểu màng Série M5200",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-pi-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-m5000-m7000-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-m5200-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ueatex-m5001-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ue-pi-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/INERIS-EQEN-032634-20.pdf"
+                ]
+              ]
+            ],
+            [
+              "M7000",
+              "Đồng hồ áp suất chênh áp Série M7000",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-pi-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-m5000-m7000-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-m7000-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ueatex-m5001-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ue-pi-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/INERIS-EQEN-032634-20.pdf"
+                ]
+              ]
+            ],
+            [
+              "P",
+              "Công tắc áp suất công nghiệp Série P",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fu-p-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-p-en.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fi-ps-fren-1.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/dcsil-ps-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-acs-conformite-sanitaire-fr.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6161X-01_6057x-fren-Ex-de.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6008X-01_6057x-fren-Ex-ia.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6071X-01_6057x-fren-Ex-d.pdf"
+                ]
+              ]
+            ],
+            [
+              "P·nuc",
+              "Công tắc áp suất Série P đạt chuẩn hạt nhân",
+              [
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "ProcessX",
+              "Bộ truyền áp suất họ ProcessX",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fi-processX-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fu-processX_v6-en.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/pl-processX-en.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/IECEx-DEK-23.0062X-Iss0-Signed.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/IECEx-DEK-23.0061X-Iss0-Signed.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/228086600-23ATEX0086X-Iss0.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/228086600-23ATEX0085X-Iss0.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ueatex-processx-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "U",
+              "Công tắc áp suất tiết kiệm Série U",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fu-u-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-u-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "YSP",
+              "Công tắc áp suất điện tử Série YSP",
+              [
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/06/pl-yellowstat-en.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/06/fi-ysp-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/06/fu-ysp-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/06/fc-ysp-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/06/dc-ue-ysp-yst-fren.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Nhiệt độ",
+      "color": "#EA580C",
+      "heading": "Công tắc · nhiệt kế · cảm biến nhiệt độ",
+      "groups": [
+        {
+          "rows": [
+            [
+              "F",
+              "Công tắc nhiệt độ công nghiệp nhỏ gọn Série F",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fi-ps-fren-1.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fu-f-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-f-en.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/dcsil-ts-fren.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/IECEx_INE_18.0031X_0.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/iecex_ine_16.0053x_0.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-16ATEX0044X-fren-Ex-de.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6161X-01_6057x-fren-Ex-de.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6008X-01_6057x-fren-Ex-ia.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6071X-01_6057x-fren-Ex-d.pdf"
+                ]
+              ]
+            ],
+            [
+              "F/M",
+              "Công tắc nhiệt độ Série F/M",
+              [
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-fm-fr.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "F40R",
+              "Công tắc nhiệt độ Série F40R (không phân loại, hạt nhân)",
+              [
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "G",
+              "Công tắc nhiệt độ Série G",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fi-ps-fren-1.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6008X-01_6057x-fren-Ex-ia.pdf"
+                ]
+              ]
+            ],
+            [
+              "G·mini",
+              "Công tắc nhiệt độ nhỏ gọn Série G",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fi-ps-fren-1.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6008X-01_6057x-fren-Ex-ia.pdf"
+                ]
+              ]
+            ],
+            [
+              "H21/H22",
+              "Công tắc nhiệt độ Série H21/H22",
+              [
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "P",
+              "Công tắc nhiệt độ công nghiệp Série P",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fu-p-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-p-en.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fi-ps-fren-1.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/02/dcsil-ts-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6161X-01_6057x-fren-Ex-de.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6008X-01_6057x-fren-Ex-ia.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/at-6071X-01_6057x-fren-Ex-d.pdf"
+                ]
+              ]
+            ],
+            [
+              "S",
+              "Cảm biến (sonde) nhiệt độ Série S",
+              [
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-s1lf-fren.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-s5vf-fren.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-s4vf-fren.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-s1vf-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ueatex-S3-S4-S5-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2026/02/ac-0178-fren-ex-d.pdf"
+                ]
+              ]
+            ],
+            [
+              "T7000",
+              "Nhiệt kế lưỡng kim công nghiệp Série T7000",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-ti-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-t7000-enro.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-t7000-fren.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-t7000-deen.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ue-ti-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/INERIS-EQEN-032633-20.pdf"
+                ]
+              ]
+            ],
+            [
+              "T7100",
+              "Nhiệt kế công nghiệp giãn nở khí Série T7100",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-ti-fren.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-t7100-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2024/06/dc-ue-ti-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/INERIS-EQEN-032633-20.pdf"
+                ]
+              ]
+            ],
+            [
+              "U",
+              "Công tắc nhiệt độ tiết kiệm Série U",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/02/fu-u-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/02/fc-u-fren.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/02/dc-ue-psts-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "YST",
+              "Công tắc nhiệt độ điện tử Série YST",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/06/fi-yst-fren.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2026/06/fu-yst-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2026/06/fc-yst-fren.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2026/06/pl-yellowstat-en.pdf"
+                ],
+                [
+                  "Chứng nhận CE",
+                  "https://georgin.com/wp-content/uploads/2026/06/dc-ue-ysp-yst-fren.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Điện tử & an toàn nội tại",
+      "color": "#2563EB",
+      "heading": "Chuyển đổi · cách ly · hiển thị · nguồn I.S.",
+      "groups": [
+        {
+          "rows": [
+            [
+              "BPX",
+              "Bộ chuyển đổi tín hiệu lập trình Série BPX"
+            ],
+            [
+              "BPX-SI",
+              "Bộ chuyển đổi lập trình an toàn nội tại BPX-SI"
+            ],
+            [
+              "BPX·ProgressX",
+              "Bộ chuyển đổi lập trình vạn năng + rơ-le ngưỡng, Série BPX (họ ProgressX)",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-ui-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-ui-fren.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2024/06/dcsil-UI-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "BVLT",
+              "Bộ chuyển đổi tín hiệu cách ly galvanic Série BVLT"
+            ],
+            [
+              "BVNT(I)/BVLT(I)/BVMT(I)",
+              "Bộ nguồn cho transmitter 4-20 mA Série BVNT(I)/BVLT(I)/BVMT(I)",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-bvlmnt-frende.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-bvlmnt-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "BXNA(I)",
+              "Bộ chuyển đổi tín hiệu cho cơ cấu chấp hành Série BXNA(I)",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-bxna-frende.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-bxna-ruen.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2024/06/dcsil-bxna-fren.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-guide-interfaces-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "BXNE·DO",
+              "Bộ nguồn an toàn nội tại (I.S.) Série BXNE (ngõ ra DO)",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-bxnelin-frende.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-bxnelin-deen.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-bxne-frende.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-bxne-ruen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-guide-interfaces-en.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2024/06/dcsil-bxne_bee-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/ac-ceatex-rdn_bxn_be_ce-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "BXNE·DO2",
+              "Bộ nguồn an toàn nội tại (I.S.) Série BXNE (ngõ ra DO)"
+            ],
+            [
+              "BXNI*A/T",
+              "Bộ cách ly vòng dòng 4-20 mA Série BXNI*A / BXNI*T",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-bxni-frende.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-bxni-deen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-guide-interfaces-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "BXNR/BXNC/BXNP",
+              "Bộ chuyển đổi tín hiệu cách ly galvanic Série BXNR/BXNC/BXNP",
+              [
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-bxnrcp-deen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-guide-interfaces-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "BXNT",
+              "Bộ chuyển đổi tín hiệu cách ly galvanic Série BXNT",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-bxnt-frende.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-bxnt-deen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-guide-interfaces-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "BXNT(I)/BXLT(I)/BXMT(I)",
+              "Bộ nguồn cho transmitter 4-20 mA Série BXNT(I)/BXLT(I)/BXMT(I)",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-bxlmnt-frende.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-bxnrcp-frende.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-bxnt-frende.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-bxnt-deen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-bxlmnt-ruen.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2024/06/dcsil-bxlmnt-fren.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-guide-interfaces-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "GeXi03/23",
+              "Bộ hiển thị số an toàn nội tại (I.S.), lắp tại chỗ — GeXi03/23",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-gexi03-23-en.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/EU-Type-Examination-Certificate-ITS12ATEX27615X-Issue-1.GEXI-04-24-03-23.pdf"
+                ]
+              ]
+            ],
+            [
+              "GeXi07/27/08/28",
+              "Bộ hiển thị số an toàn nội tại (I.S.), lắp âm — GeXi07/27/08/28",
+              [
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2024/06/gexi07_gexi08_gexi27_gexi28_fu_17-07-2023.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-gexi28-deen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-gexi27-deen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-gexi08-deen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-gexi07-deen.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/EU-Type-Examination-Certificate-ITS12ATEX27616X-Issue-1.GEXI-07-27-08-28-58.pdf"
+                ]
+              ]
+            ],
+            [
+              "GSI-40",
+              "Bộ hiển thị vạn năng Série GSI-40, đầu vào đa năng, lắp âm",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-gsi40-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-gsi40-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "GSI-48",
+              "Bộ hiển thị vạn năng Série GSI-48, đầu vào đa năng, lắp âm",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fi-gsi48-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-gsi48-fren.pdf"
+                ]
+              ]
+            ],
+            [
+              "RDN",
+              "Rơ-le an toàn nội tại (I.S.) Série RDN",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-rdnvw-frende.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-rdnbist-frende.pdf"
+                ],
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-rdn-frende.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-rdnvw-deen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-rdnbist-deen.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-rdn-ruen.pdf"
+                ],
+                [
+                  "Tài liệu",
+                  "https://georgin.com/wp-content/uploads/2024/06/dcsil-rdn_bed-fren.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-guide-interfaces-en.pdf"
+                ]
+              ]
+            ],
+            [
+              "VSI05",
+              "Đèn báo an toàn nội tại (I.S.) Série VSI05, lắp âm Ø22.5mm",
+              [
+                [
+                  "Hướng dẫn",
+                  "https://georgin.com/wp-content/uploads/2024/06/fu-vsi-en.pdf"
+                ],
+                [
+                  "Fiche technique",
+                  "https://georgin.com/wp-content/uploads/2024/06/fc-vsi-fren.pdf"
+                ],
+                [
+                  "Chứng nhận ATEX/Ex",
+                  "https://georgin.com/wp-content/uploads/2024/06/ac-ceatex-vsi-en.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ]
 }
