@@ -22,10 +22,13 @@ data/*.json  ──►  build.js  ──►  dist/<brand>.html + dist/index.html
 ## Chạy
 
 ```bash
-npm run build      # sinh dist/  (đọc mọi data/*.json)
-npm run dev        # build + watch data/ & src/ + serve http://localhost:3000
-npm run serve      # build + serve tĩnh
+npm run build         # sinh dist/  (đọc mọi data/*.json)
+npm run build:single  # + gộp toàn bộ hub vào 1 file: dist/catalog-hub.html
+npm run dev           # build + watch data/ & src/ + serve http://localhost:3000
+npm run serve         # build + serve tĩnh
 ```
+
+**File đơn (offline):** `npm run build:single` sinh `dist/catalog-hub.html` — **một file HTML tự chứa** (inline CSS + JS, không cần mạng) gồm trang chủ + tất cả hãng, điều hướng bằng router `#/<brand>`; mỗi hãng có search/lọc/chép/tải tài liệu riêng. Gửi file này cho ai cũng mở được bằng trình duyệt, không cần server.
 
 Không có dependency runtime — `npm run build` chỉ cần Node ≥ 18.
 

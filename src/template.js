@@ -454,4 +454,7 @@ function renderBrandPage(data) {
 </html>`;
 }
 
-module.exports = { renderBrandPage, escapeHtml, hexToRgba, countCodes };
+module.exports = {
+  renderBrandPage, escapeHtml, hexToRgba, countCodes,
+  renderSection, renderBridge, renderSources,
+};

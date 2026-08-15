@@ -6,6 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "node build.js",
+    "build:single": "node build.js && node scripts/build-single.js",
     "dev": "node build.js --watch --serve",
     "serve": "node build.js --serve"
   },
