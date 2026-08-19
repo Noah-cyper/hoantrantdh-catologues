@@ -4,18 +4,18 @@
   "country": "USA",
   "unit": "giải pháp",
   "order": 100000,
-  "tagline": "ConnectedAI · Industrial IoT Platform",
+  "tagline": "ConnectedAI · Cyber-Physical System Protection · IIoT",
   "accent": "#0072CE",
-  "title": "ei3 — Nền tảng IIoT, gateway bảo mật & ứng dụng phân tích máy",
-  "subtitle": "Giải pháp giám sát máy từ xa, phân tích dữ liệu và an ninh mạng công nghiệp của ei3 (Hoa Kỳ) do HOANTRANTDH phân phối.",
-  "intro": "ei3 là nền tảng ConnectedAI / IIoT: kết nối máy an toàn, thu thập dữ liệu, remote service và các ứng dụng giám sát – tối ưu – bảo vệ tài sản công nghiệp. Đây là danh mục GIẢI PHÁP / MODULE / GATEWAY (không phải mã đặt hàng rời) — cấu hình & báo giá theo dự án.",
+  "title": "ei3 — Nền tảng IIoT bảo mật, gateway edge & ứng dụng phân tích máy",
+  "subtitle": "Kết nối máy an toàn, remote service, phân tích dữ liệu và bảo vệ hệ thống cyber-physical của ei3 (Hoa Kỳ) do HOANTRANTDH phân phối.",
+  "intro": "ei3 là nền tảng ConnectedAI / CPS Protection cho nhà chế tạo máy (OEM) và nhà máy: 25 năm kinh nghiệm, hơn 190.000 tài sản công nghiệp tại 6.500+ nhà máy trên toàn cầu (HQ New York · Montreal · Zurich). Đây là danh mục GIẢI PHÁP / HỆ THỐNG / GATEWAY (không phải mã đặt hàng rời) — mỗi mục kèm link tài liệu; cấu hình & báo giá theo dự án (giá theo từng máy).",
   "groupType": "tech",
   "sources": [
     { "label": "Trang chủ ei3", "url": "https://ei3.com" },
-    { "label": "Platform", "url": "https://ei3.com/platform" },
-    { "label": "Solutions", "url": "https://ei3.com/solutions" },
-    { "label": "Amphion — hardware gateway", "url": "https://ei3.com/products/amphion/" },
-    { "label": "So sánh gateway", "url": "https://ei3.com/gateway/compare" }
+    { "label": "Platform (nền tảng)", "url": "https://ei3.com/platform" },
+    { "label": "Bảo mật (Security)", "url": "https://ei3.com/security" },
+    { "label": "So sánh gateway", "url": "https://ei3.com/gateway/compare" },
+    { "label": "Kiến trúc bảo mật (tài liệu)", "url": "https://ei3.com/resources/ei3-security-architecture-for-industrial-operations" }
   ],
   "sections": [
     {
@@ -23,54 +23,56 @@
       "short": "Gateway",
       "color": "#0EA5E9",
       "heading": "Gateway kết nối bảo mật — phần cứng · ảo · nâng cấp",
-      "note": "Bộ ba gateway kết nối máy (mới & cũ) theo mô hình outbound-only, không cần mở cổng firewall vào mạng nhà máy.",
+      "note": "Bộ ba gateway edge kết nối máy mới & cũ theo mô hình outbound-only (không mở cổng firewall vào mạng nhà máy). Ra mắt tại Pack Expo Las Vegas 2025; dùng chung một kiến trúc zero-trust.",
       "groups": [
         {
           "name": "A.1 Secure Connectivity Gateways",
           "rows": [
-            ["Amphion", "Gateway phần cứng edge công nghiệp — kết nối máy mới & legacy, xử lý dữ liệu tại biên, outbound-only, mở rộng từ 1 máy tới đội máy toàn cầu."],
-            ["Zethus", "Gateway ảo (container, chỉ phần mềm) — biến bộ điều khiển / edge compute sẵn có thành gateway bảo mật, không cần thêm phần cứng."],
-            ["Portara", "Gateway nâng cấp cho hệ cũ — bọc & nâng VPN / thiết bị / công cụ remote access cũ lên zero-trust, định tuyến tập trung, audit trail đầy đủ."]
+            ["Amphion", "Gateway PHẦN CỨNG edge: kết nối máy mới & legacy qua 30+ giao thức/họ điều khiển, outbound-only; đệm/cache dữ liệu tốc độ cao + phân tích tại biên cho bảo trì dự đoán; lắp DIN-rail, made in USA; quản lý fleet tập trung, ghi phiên, tích hợp SSO/directory & SIEM.", [["Trang sản phẩm Amphion", "https://ei3.com/products/amphion/"], ["So sánh gateway", "https://ei3.com/gateway/compare"]]],
+            ["Zethus", "Gateway ẢO (container, chỉ phần mềm): cài thẳng lên bộ điều khiển/edge compute sẵn có, không cần thêm phần cứng; chạy qua đường internet hiện có; cùng kiến trúc zero-trust như Amphion.", [["Trang sản phẩm Zethus", "https://ei3.com/gateway/virtual-zethus"], ["So sánh gateway", "https://ei3.com/gateway/compare"]]],
+            ["Portara", "Gateway NÂNG CẤP hệ cũ: bọc hạ tầng remote access cũ trong zero-trust, gom về một mạng quản lý thống nhất; định tuyến tập trung qua ứng dụng SERVICE, subnet riêng từng máy, giám sát/audit thống nhất — không cần thay mới toàn bộ.", [["Trang Portara", "https://ei3.com/platform/iiot-gateways/legacy-upgrade-portara"]]]
           ]
         }
       ]
     },
     {
       "id": "B",
-      "short": "Ứng dụng",
-      "color": "#2563EB",
-      "heading": "Ứng dụng IIoT — dùng ngay, không cần lập trình",
-      "note": "Các app cấu hình sẵn: giám sát, remote service, OEE, phân tích dừng máy, bảo trì dự đoán, chất lượng, công thức, bền vững.",
+      "short": "Nền tảng",
+      "color": "#7C3AED",
+      "heading": "Nền tảng CPS & kiến trúc hệ thống edge → cloud",
+      "note": "Nền tảng bảo vệ hệ thống cyber-physical (CPS) với bảo mật ở mọi tầng: thiết bị edge → mạng quản lý → private cloud → ứng dụng IIoT.",
       "groups": [
         {
-          "name": "B.1 IIoT Applications",
+          "name": "B.1 Platform & Data Connectivity",
           "rows": [
-            ["Service", "Remote service — truy cập từ xa an toàn để chẩn đoán & xử lý sự cố máy tức thì, chuyển từ phản ứng sang chủ động."],
-            ["Monitor", "Giám sát dữ liệu máy thời gian thực & lịch sử để phát hiện sớm vấn đề, tối ưu hiệu suất."],
-            ["Production", "Theo dõi OEE (khả dụng · hiệu suất · chất lượng) với thu thập dữ liệu tự động và dashboard thời gian thực."],
-            ["Downtime", "Ghi sự kiện máy, ghi chú vận hành, mẫu cảnh báo, dữ liệu theo chu kỳ để phân tích nguyên nhân dừng máy & lãng phí."],
-            ["Lifecycle", "Bảo trì dự đoán bằng AI — biến dữ liệu mài mòn thành chương trình thay phụ tùng tự động, giảm dừng máy."],
-            ["Quality", "Quản lý chất lượng — biến dữ liệu quá trình thành đảm bảo chất lượng tự động, giảm phế phẩm, đảm bảo tuân thủ."],
-            ["Recipe", "Theo dõi & quản lý công thức (recipe) cho quá trình sản xuất."],
-            ["Sustain", "Giảm chi phí năng lượng & đạt mục tiêu bền vững qua quản lý tài nguyên thông minh."]
+            ["CPS Protection Platform", "Nền tảng nhúng bảo mật ở mọi lớp, tách riêng truy cập cấp nhà máy và cấp máy để giảm phơi nhiễm; chuyên cho tài sản mission-critical dùng giao thức công nghiệp thời gian thực.", [["Nền tảng ei3", "https://ei3.com/platform"]]],
+            ["Multi-tiered Edge / SASE", "Kiến trúc edge đa tầng: một điểm kết nối internet duy nhất, các hệ thống công nghiệp phía sau được vi phân đoạn (microsegmentation) và cấu hình qua Secure Access Service Edge (SASE).", [["Bảo mật nền tảng", "https://ei3.com/platform/security"]]],
+            ["Data Collection", "Kết nối 35+ họ PLC / bộ điều khiển; gom & chuẩn hoá giao thức tại biên để hệ nội bộ dùng dữ liệu ngay cả khi không có internet, vẫn giữ tuỳ chọn phân tích trên cloud.", [["Nền tảng ei3", "https://ei3.com/platform"]]],
+            ["ConnectedAI", "Phân tích dữ liệu máy bằng AI/khoa học dữ liệu để tìm quy luật trên cả đội máy, chỉ ra nguyên nhân gốc và tạo insight vận hành/bảo trì.", [["Giải pháp ei3", "https://ei3.com/solutions"]]],
+            ["No-code Apps", "Tự cấu hình ứng dụng, dashboard, cảnh báo, báo cáo và workflow biến tín hiệu thô thành thông tin — không cần viết code.", [["Nền tảng ei3", "https://ei3.com/platform"]]],
+            ["Global Managed Network", "Hạ tầng mạng quản lý + private cloud toàn cầu: 25 năm vận hành, 190.000+ tài sản tại 6.500+ nhà máy; HQ New York · Montreal · Zurich.", [["Về ei3", "https://ei3.com/"]]]
           ]
         }
       ]
     },
     {
       "id": "C",
-      "short": "Nền tảng",
-      "color": "#7C3AED",
-      "heading": "Nền tảng & kết nối dữ liệu",
-      "note": "Kết nối máy, chuẩn hoá & đưa dữ liệu lên cloud, phân tích AI và tự dựng app không cần code.",
+      "short": "Ứng dụng",
+      "color": "#2563EB",
+      "heading": "Ứng dụng IIoT — dùng ngay, không cần lập trình",
+      "note": "Bộ ứng dụng cấu hình sẵn chạy trên nền tảng: remote service, giám sát, OEE, phân tích dừng máy, bảo trì dự đoán, chất lượng, công thức, bền vững.",
       "groups": [
         {
-          "name": "C.1 Platform & Data Connectivity",
+          "name": "C.1 IIoT Applications",
           "rows": [
-            ["Data Collection", "Kết nối tới hàng nghìn loại bộ điều khiển / PLC công nghiệp, chuẩn hoá dữ liệu máy và đưa lên cloud."],
-            ["ConnectedAI", "Phân tích dữ liệu máy bằng AI để tạo insight vận hành và bảo trì."],
-            ["No-code Apps", "Tự cấu hình ứng dụng, dashboard, cảnh báo, báo cáo, workflow mà không cần viết code."],
-            ["Global Network", "Hạ tầng cloud toàn cầu (từ 1999, 100.000+ máy/tài sản kết nối); HQ New York · Montreal · Zurich."]
+            ["Service", "Remote service: truy cập từ xa an toàn để chẩn đoán & xử lý sự cố máy tức thì, chuyển từ phản ứng sang chủ động, vẫn kiểm soát hoàn toàn thiết bị.", [["Ứng dụng Service", "https://ei3.com/platform/iiot-application/service"]]],
+            ["Monitor", "Giám sát dữ liệu máy thời gian thực & lịch sử trên toàn bộ máy kết nối để phát hiện sớm vấn đề và tối ưu thông số vận hành.", [["Ứng dụng Monitor", "https://ei3.com/platform/iiot-application/monitor"]]],
+            ["Production", "Theo dõi OEE (khả dụng · hiệu suất · chất lượng) với thu thập dữ liệu tự động và dashboard thời gian thực.", [["Tăng Uptime & OEE", "https://ei3.com/solutions/by-challenge/uptime-oee"]]],
+            ["Downtime", "Phân tích nguyên nhân gốc dừng máy: ghi sự kiện máy, ghi chú vận hành, mẫu cảnh báo, dữ liệu theo chu kỳ; Pareto tự động (Digital Six Sigma) — thực tế giảm 5–15% downtime.", [["Ứng dụng Downtime", "https://ei3.com/products/downtime"], ["Hướng dẫn đo downtime", "https://ei3.com/resources/downtime-analysis-equipment-efficiency"]]],
+            ["Lifecycle", "Bảo trì dự đoán bằng AI: biến dữ liệu mài mòn thời gian thực thành chương trình thay phụ tùng tự động, giảm dừng máy và mở thêm nguồn doanh thu dịch vụ.", [["Ứng dụng Lifecycle", "https://ei3.com/application/lifecycle"], ["Khung triển khai dự đoán", "https://ei3.com/resources/implementation-framework"]]],
+            ["Quality", "Quản lý chất lượng: biến dữ liệu quá trình thành đảm bảo chất lượng tự động, giảm phế phẩm và đảm bảo tuân thủ.", [["Ứng dụng Quality", "https://ei3.com/platform/iiot-application/quality"]]],
+            ["Recipe", "Theo dõi & quản lý công thức (recipe) cho quá trình sản xuất.", [["Nền tảng ei3", "https://ei3.com/platform"]]],
+            ["Sustain", "Giảm chi phí năng lượng & đạt mục tiêu bền vững qua quản lý tài nguyên thông minh.", [["Giải pháp ei3", "https://ei3.com/solutions"]]]
           ]
         }
       ]
@@ -79,20 +81,22 @@
       "id": "D",
       "short": "Bảo mật",
       "color": "#DC2626",
-      "heading": "An ninh mạng & truy cập từ xa — zero-trust",
-      "note": "Mô hình truy cập từ xa an toàn: chủ động kết nối ra ngoài, phân đoạn theo máy, kiểm soát tập trung, ghi nhật ký.",
+      "heading": "An ninh mạng & truy cập từ xa — Zero Trust (ZTRA)",
+      "note": "Zero Trust Remote Access nhúng sẵn trong kết nối công nghiệp; tuân thủ ISO 27001 · SOC 2 Type II · IEC 62443 · NIST SP 800-82.",
       "groups": [
         {
           "name": "D.1 Cybersecurity & Remote Access",
           "rows": [
-            ["Outbound-only", "Máy & gateway chủ động kết nối ra ngoài — không cần mở cổng firewall vào mạng nhà máy."],
-            ["Machine-level Segmentation", "Phân đoạn truy cập tới từng máy, cô lập rủi ro."],
-            ["Centralized Access Control", "Quản lý truy cập tập trung, phê duyệt phiên (session approval)."],
-            ["Audit Logging", "Nhật ký audit đầy đủ cho mọi phiên truy cập từ xa."]
+            ["Zero Trust Remote Access (ZTRA)", "Khung ZTRA: mọi người dùng, thiết bị và kết nối đều được xác thực và kiểm tra liên tục, không tin tưởng ngầm theo vị trí mạng.", [["Vì sao Zero Trust quan trọng", "https://ei3.com/iiot-insights/why-zero-trust-actually-matters-in-industrial-remote-service"]]],
+            ["Outbound-only Encrypted", "Máy & gateway chủ động kết nối ra ngoài bằng kênh mã hoá — không cần mở cổng firewall vào mạng nhà máy.", [["Bảo mật ei3", "https://ei3.com/security"]]],
+            ["Microsegmentation", "Vùng bảo mật riêng cho từng máy (SASE), tách truy cập cấp nhà máy và cấp máy để giới hạn phơi nhiễm.", [["Kiến trúc bảo mật (tài liệu)", "https://ei3.com/resources/ei3-security-architecture-for-industrial-operations"]]],
+            ["Continuous Auth & Monitoring", "Xác thực và giám sát liên tục mọi phiên; ghi phiên và audit thống nhất.", [["Bảo mật ei3", "https://ei3.com/security"]]],
+            ["Automated Threat Detection", "Phát hiện mối đe doạ tự động, tích hợp SIEM/SSO của doanh nghiệp.", [["Bảo mật ei3", "https://ei3.com/security"]]],
+            ["Standards Compliance", "Tuân thủ ISO 27001, SOC 2 Type II, IEC 62443 và hướng dẫn NIST SP 800-82 cho ICS.", [["Chọn nền tảng CPS (PDF)", "https://ei3.com/hubfs/Find%20the%20right%20Cyber-Physical%20Systems%20Protection%20Platform.pdf"], ["Kiến trúc bảo mật", "https://ei3.com/resources/ei3-security-architecture-for-industrial-operations"]]]
           ]
         }
       ]
     }
   ],
-  "note_end": "Danh mục biên soạn từ tài liệu công khai của ei3 (ei3.com). Đây là giải pháp/nền tảng/gateway — KHÔNG phải mã đặt hàng rời; Amphion/Zethus/Portara là dòng gateway cấu hình theo nhu cầu. Thông số & báo giá xác nhận theo dự án."
+  "note_end": "Danh mục biên soạn từ tài liệu công khai của ei3 (ei3.com). Đây là giải pháp/hệ thống/gateway — KHÔNG phải mã đặt hàng rời; Amphion/Zethus/Portara là dòng gateway cấu hình theo nhu cầu. Số liệu quy mô (190.000+ tài sản, 6.500+ nhà máy, 25 năm) và tuân thủ tiêu chuẩn theo công bố của hãng; thông số & báo giá xác nhận theo dự án."
 }
