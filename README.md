@@ -89,6 +89,7 @@ Không có dependency runtime — `npm run build` chỉ cần Node ≥ 18.
 | **Comac Cal** | Czech | tech (A–E) | ✅ 16 mã · 39 tài liệu · 5 nhóm (datasheet/manual/Modbus/M-Bus từ comaccal.com) |
 | **Termotech** | Italy | tech (A–C) | ✅ 12 mã · dòng duyệt DNV hàng hải (RTD/thermocouple/thermowell từ CATALOGO_SPECIALI) |
 | **Broadsens** | USA | tech (A–F) | ✅ 24 mã · 26 tài liệu · 6 nhóm (cảm biến rung/nhiệt độ không dây + gateway, từ broadsens.com) |
+| **ei3** | USA | tech (A–D) | ✅ 23 mã · 4 nhóm (ConnectedAI · gateway edge · phân tích · bảo mật — nhập từ nhánh mặc định) |
 | **Anhui Tiankang** | China | tech | ⏳ khung |
 | **HOANTRANTDH ISOLATION** | OEM | tech | ⏳ khung |
 
