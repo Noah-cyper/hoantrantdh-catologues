@@ -1,0 +1,351 @@
+{
+  "brand": "broadsens",
+  "name": "BROADSENS",
+  "country": "USA",
+  "tagline": "Wireless Vibration & Temperature Sensors · Predictive Maintenance",
+  "accent": "#1B9AAA",
+  "title": "BROADSENS — Cảm biến rung & nhiệt độ không dây",
+  "subtitle": "Cảm biến rung (accelerometer) & nhiệt độ không dây và gateway cho giám sát tình trạng / bảo trì tiên đoán của BROADSENS do HOANTRANTDH phân phối.",
+  "intro": "24 mã cảm biến rung/nhiệt độ không dây & gateway của BROADSENS, kèm datasheet · manual tải trực tiếp (nguồn: broadsens.com).",
+  "groupType": "tech",
+  "sources": [
+    {
+      "label": "Trang chủ Broadsens",
+      "url": "https://www.broadsens.com"
+    },
+    {
+      "label": "Datasheets",
+      "url": "https://www.broadsens.com/docs/wireless-vibration-sensors/data-sheets/"
+    },
+    {
+      "label": "Brochure hệ thống",
+      "url": "https://www.broadsens.com/products/brochure/Wireless%20vibration%20sensor%20system.pdf"
+    },
+    {
+      "label": "Tài liệu kỹ thuật",
+      "url": "https://www.broadsens.com/docs/wireless-vibration-sensors/"
+    }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "short": "Rung — dòng A (pin)",
+      "color": "#1B9AAA",
+      "heading": "Cảm biến rung không dây dòng A — đo định kỳ, dùng pin",
+      "groups": [
+        {
+          "rows": [
+            [
+              "SVT100-A",
+              "Cảm biến rung không dây dòng A bản low-power tiết kiệm pin nhất, đo định kỳ.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT100-A%20data%20sheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT200-A",
+              "Cảm biến rung + nhiệt độ không dây (accelerometer), ±2/4/8g, lấy mẫu tới 25.6 kHz.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-A%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT300-A",
+              "Cảm biến rung + nhiệt độ không dây, dải mở rộng ±2/4/8/16g.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-A%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT400-A",
+              "Cảm biến rung + nhiệt độ không dây high-g ±8/16/32/64g (máy tốc độ cao, va đập mạnh).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-A%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Rung — dòng V (real-time)",
+      "color": "#0E9E8A",
+      "heading": "Cảm biến rung real-time 24/7, cảnh báo tức thời",
+      "groups": [
+        {
+          "rows": [
+            [
+              "SVT200-V",
+              "Cảm biến rung + nhiệt độ real-time 24/7, cảnh báo <0.5s; dải tiêu chuẩn.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-V%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT300-V",
+              "Cảm biến rung + nhiệt độ real-time 24/7, dải mở rộng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-V%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT400-V",
+              "Cảm biến rung + nhiệt độ real-time 24/7, high-g.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-V%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Rung — dòng C (compact)",
+      "color": "#2563EB",
+      "heading": "Cảm biến rung nhỏ gọn, nguồn ngoài 9–36VDC",
+      "groups": [
+        {
+          "rows": [
+            [
+              "SVT200-CA",
+              "Cảm biến rung compact (nhỏ nhất ngành), nguồn ngoài 9–36VDC, ngõ accelerometer; dải tiêu chuẩn.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT300-CA",
+              "Cảm biến rung compact, nguồn ngoài 9–36VDC, accelerometer; dải mở rộng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT400-CA",
+              "Cảm biến rung compact, nguồn ngoài 9–36VDC, accelerometer; high-g.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT200-CV",
+              "Cảm biến rung compact real-time, nguồn ngoài 9–36VDC; dải tiêu chuẩn.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT300-CV",
+              "Cảm biến rung compact real-time, nguồn ngoài 9–36VDC; dải mở rộng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT400-CV",
+              "Cảm biến rung compact real-time, nguồn ngoài 9–36VDC; high-g.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "short": "Rung — dòng L (tầm xa)",
+      "color": "#7C3AED",
+      "heading": "Cảm biến rung tầm xa cho khu vực sóng yếu",
+      "groups": [
+        {
+          "rows": [
+            [
+              "SVT200-LA",
+              "Cảm biến rung tầm xa (long-range, gấp ~3 tầm), ngõ accelerometer; dải tiêu chuẩn.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT300-LA",
+              "Cảm biến rung tầm xa, accelerometer; dải mở rộng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT400-LA",
+              "Cảm biến rung tầm xa, accelerometer; high-g.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT200-LV",
+              "Cảm biến rung tầm xa real-time; dải tiêu chuẩn.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT300-LV",
+              "Cảm biến rung tầm xa real-time; dải mở rộng.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT400-LV",
+              "Cảm biến rung tầm xa real-time; high-g.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "short": "Nhiệt độ không dây",
+      "color": "#EA580C",
+      "heading": "Cảm biến nhiệt độ không dây",
+      "groups": [
+        {
+          "rows": [
+            [
+              "SVT100-T",
+              "Cảm biến nhiệt độ không dây bản low-power (tiết kiệm pin).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT100-T%20data%20sheet.pdf"
+                ]
+              ]
+            ],
+            [
+              "SVT200-T",
+              "Cảm biến nhiệt độ không dây bản tiêu chuẩn (có biến thể đầu dò rời -F).",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/SVT200-T%20data%20sheet.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "short": "Gateway & phụ kiện",
+      "color": "#556378",
+      "heading": "Gateway thu thập dữ liệu & phụ kiện lắp đặt",
+      "groups": [
+        {
+          "rows": [
+            [
+              "GU300",
+              "Gateway không dây thu thập dữ liệu cảm biến, xem dữ liệu trực tiếp; RS485/Modbus.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/wireless%20gateway%20datasheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.broadsens.com/docs/gateway/manual/"
+                ]
+              ]
+            ],
+            [
+              "GU300S",
+              "Gateway không dây bản S: tính toán biên (edge) phân tích rung, giám sát nhóm nhiều máy.",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/wireless%20gateway%20datasheet.pdf"
+                ],
+                [
+                  "Manual (HDSD)",
+                  "https://www.broadsens.com/docs/gateway/manual/"
+                ]
+              ]
+            ],
+            [
+              "Phụ kiện",
+              "Phụ kiện lắp đặt cảm biến rung: đế nam châm, bu-lông cấy, keo dán, adapter…",
+              [
+                [
+                  "Datasheet",
+                  "https://www.broadsens.com/products/datasheet/Broadsens%20wireless%20vibration%20sensor%20accessories.pdf"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
