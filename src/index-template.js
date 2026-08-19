@@ -11,10 +11,11 @@ const { escapeHtml, hexToRgba } = require('./template');
 function renderCard(entry) {
   const d = entry.data;
   const accent = d.accent || '#888888';
+  const unit = d.unit || 'mã';
   const isEmpty = entry.total === 0;
   const countHtml = isEmpty
     ? `<span class="soon">Sắp cập nhật</span>`
-    : `<span class="bc-count"><span class="n">${entry.total}</span> mã</span>`;
+    : `<span class="bc-count"><span class="n">${entry.total}</span> ${escapeHtml(unit)}</span>`;
   return (
     `<a class="brand-card${isEmpty ? ' empty-brand' : ''}" href="./${escapeHtml(d.brand)}.html" ` +
       `style="--card-accent:${escapeHtml(accent)}">` +
@@ -32,11 +33,14 @@ function renderCard(entry) {
 }
 
 function renderIndexPage(entries) {
-  // Populated brands first (by count desc), empty/skeleton brands after.
-  const sorted = entries.slice().sort((a, b) => {
-    if ((a.total === 0) !== (b.total === 0)) return a.total === 0 ? 1 : -1;
-    return b.total - a.total;
-  });
+  // Order: an explicit numeric `order` on a brand wins (small = earlier).
+  // Otherwise populated brands come first by code count desc, then empty
+  // skeletons. This lets a brand be pinned to a fixed slot (e.g. ei3 last).
+  const rank = (e) => {
+    if (typeof e.data.order === 'number') return e.data.order;
+    return e.total === 0 ? 500000 : -e.total;
+  };
+  const sorted = entries.slice().sort((a, b) => rank(a) - rank(b));
 
   const grandTotal = entries.reduce((n, e) => n + e.total, 0);
   const liveBrands = entries.filter((e) => e.total > 0).length;
@@ -70,7 +74,7 @@ function renderIndexPage(entries) {
     <p class="lead">Tra cứu nhanh mã đặt hàng của mọi hãng do HOANTRANTDH phân phối. Lọc realtime theo mã hoặc mô tả, bấm để chép mã, xuất danh sách đang lọc ra Excel để gửi hỏi giá.</p>
     <div class="pills" style="margin-top:18px">
       <span class="pill"><b>${liveBrands}</b> hãng đang có dữ liệu</span>
-      <span class="pill"><b>${grandTotal}</b> mã tra cứu được</span>
+      <span class="pill"><b>${grandTotal}</b> mục tra cứu được</span>
       <span class="pill"><b>${entries.length}</b> hãng trong hệ thống</span>
     </div>
   </section>

@@ -156,7 +156,7 @@ function renderBridge(bridge) {
 
 // ---- filter buttons -----------------------------------------------------
 
-function renderFilters(data) {
+function renderFilters(data, unit) {
   const buttons = [
     `<button class="filter-btn active" data-filter="all" type="button">TẤT CẢ</button>`,
   ];
@@ -171,8 +171,8 @@ function renderFilters(data) {
     buttons.push(`<button class="filter-btn" data-filter="bridge" type="button">Ghép nối</button>`);
   }
   buttons.push(
-    `<button class="filter-btn copy-btn" id="copyFiltered" type="button" title="Chép toàn bộ mã đang hiển thị (TSV)">` +
-      `⧉ Chép mã đang lọc</button>`
+    `<button class="filter-btn copy-btn" id="copyFiltered" type="button" title="Chép toàn bộ ${escapeHtml(unit || 'mã')} đang hiển thị (TSV)">` +
+      `⧉ Chép ${escapeHtml(unit || 'mã')} đang lọc</button>`
   );
   return buttons.join('');
 }
@@ -210,6 +210,7 @@ function clientScript() {
   var totalCodes = codeRows.length;
   var activeFilter = 'all';
   var toastTimer = null;
+  var UNIT = (typeof window !== 'undefined' && window.CATALOG_UNIT) ? window.CATALOG_UNIT : 'mã';
 
   function normalize(s) { return (s || '').toLowerCase(); }
 
@@ -276,7 +277,7 @@ function clientScript() {
     if (activeFilter === 'bridge') {
       counter.innerHTML = 'Ghép nối: <b>' + visibleBridge + '</b> tuyến';
     } else {
-      counter.innerHTML = 'Đang hiện <b>' + visibleCodes + '</b> / ' + totalCodes + ' mã';
+      counter.innerHTML = 'Đang hiện <b>' + visibleCodes + '</b> / ' + totalCodes + ' ' + UNIT;
     }
 
     // Empty state.
@@ -366,6 +367,7 @@ function clientScript() {
 
 function renderBrandPage(data) {
   const total = countCodes(data);
+  const unit = data.unit || 'mã';
   const accent = data.accent || '#C8102E';
   const accentSoft = hexToRgba(accent, 0.1);
   const title = data.title || `${data.name} — Danh mục mã đặt hàng`;
@@ -373,14 +375,14 @@ function renderBrandPage(data) {
   const bridgeHtml = renderBridge(data.bridge);
 
   const stats = [
-    `<span class="pill"><b>${total}</b> mã đặt hàng</span>`,
+    `<span class="pill"><b>${total}</b> ${escapeHtml(unit === 'mã' ? 'mã đặt hàng' : unit)}</span>`,
     `<span class="pill"><b>${(data.sections || []).length}</b> ${data.groupType === 'stage' ? 'giai đoạn' : 'nhóm'}</span>`,
   ];
   if (data.tagline) stats.push(`<span class="pill">${escapeHtml(data.tagline)}</span>`);
 
   const h1 = data.subtitle
-    ? `${escapeHtml(data.name)} — <span class="count-hl">${total}</span> mã`
-    : `${escapeHtml(data.name)} <span class="count-hl">${total}</span> mã`;
+    ? `${escapeHtml(data.name)} — <span class="count-hl">${total}</span> ${escapeHtml(unit)}`
+    : `${escapeHtml(data.name)} <span class="count-hl">${total}</span> ${escapeHtml(unit)}`;
 
   return `<!doctype html>
 <html lang="vi">
@@ -422,11 +424,11 @@ function renderBrandPage(data) {
       <div class="search-box">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
         <input id="search" type="search" autocomplete="off" spellcheck="false"
-          placeholder="Tìm theo mã hoặc mô tả…" aria-label="Tìm kiếm mã đặt hàng" />
+          placeholder="Tìm theo ${escapeHtml(unit)} hoặc mô tả…" aria-label="Tìm kiếm ${escapeHtml(unit)}" />
       </div>
       <div class="counter" id="counter" aria-live="polite"></div>
     </div>
-    <div class="filters">${renderFilters(data)}</div>
+    <div class="filters">${renderFilters(data, unit)}</div>
   </div>
 </div>
 
@@ -449,6 +451,7 @@ function renderBrandPage(data) {
 
 <div class="toast" id="toast"><span id="toastMsg"></span></div>
 
+<script>window.CATALOG_UNIT=${JSON.stringify(unit)};</script>
 <script>(${clientScript.toString()})();</script>
 </body>
 </html>`;

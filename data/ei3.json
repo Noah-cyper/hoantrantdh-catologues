@@ -1,0 +1,98 @@
+{
+  "brand": "ei3",
+  "name": "ei3",
+  "country": "USA",
+  "unit": "giải pháp",
+  "order": 100000,
+  "tagline": "ConnectedAI · Industrial IoT Platform",
+  "accent": "#0072CE",
+  "title": "ei3 — Nền tảng IIoT, gateway bảo mật & ứng dụng phân tích máy",
+  "subtitle": "Giải pháp giám sát máy từ xa, phân tích dữ liệu và an ninh mạng công nghiệp của ei3 (Hoa Kỳ) do HOANTRANTDH phân phối.",
+  "intro": "ei3 là nền tảng ConnectedAI / IIoT: kết nối máy an toàn, thu thập dữ liệu, remote service và các ứng dụng giám sát – tối ưu – bảo vệ tài sản công nghiệp. Đây là danh mục GIẢI PHÁP / MODULE / GATEWAY (không phải mã đặt hàng rời) — cấu hình & báo giá theo dự án.",
+  "groupType": "tech",
+  "sources": [
+    { "label": "Trang chủ ei3", "url": "https://ei3.com" },
+    { "label": "Platform", "url": "https://ei3.com/platform" },
+    { "label": "Solutions", "url": "https://ei3.com/solutions" },
+    { "label": "Amphion — hardware gateway", "url": "https://ei3.com/products/amphion/" },
+    { "label": "So sánh gateway", "url": "https://ei3.com/gateway/compare" }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "short": "Gateway",
+      "color": "#0EA5E9",
+      "heading": "Gateway kết nối bảo mật — phần cứng · ảo · nâng cấp",
+      "note": "Bộ ba gateway kết nối máy (mới & cũ) theo mô hình outbound-only, không cần mở cổng firewall vào mạng nhà máy.",
+      "groups": [
+        {
+          "name": "A.1 Secure Connectivity Gateways",
+          "rows": [
+            ["Amphion", "Gateway phần cứng edge công nghiệp — kết nối máy mới & legacy, xử lý dữ liệu tại biên, outbound-only, mở rộng từ 1 máy tới đội máy toàn cầu."],
+            ["Zethus", "Gateway ảo (container, chỉ phần mềm) — biến bộ điều khiển / edge compute sẵn có thành gateway bảo mật, không cần thêm phần cứng."],
+            ["Portara", "Gateway nâng cấp cho hệ cũ — bọc & nâng VPN / thiết bị / công cụ remote access cũ lên zero-trust, định tuyến tập trung, audit trail đầy đủ."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Ứng dụng",
+      "color": "#2563EB",
+      "heading": "Ứng dụng IIoT — dùng ngay, không cần lập trình",
+      "note": "Các app cấu hình sẵn: giám sát, remote service, OEE, phân tích dừng máy, bảo trì dự đoán, chất lượng, công thức, bền vững.",
+      "groups": [
+        {
+          "name": "B.1 IIoT Applications",
+          "rows": [
+            ["Service", "Remote service — truy cập từ xa an toàn để chẩn đoán & xử lý sự cố máy tức thì, chuyển từ phản ứng sang chủ động."],
+            ["Monitor", "Giám sát dữ liệu máy thời gian thực & lịch sử để phát hiện sớm vấn đề, tối ưu hiệu suất."],
+            ["Production", "Theo dõi OEE (khả dụng · hiệu suất · chất lượng) với thu thập dữ liệu tự động và dashboard thời gian thực."],
+            ["Downtime", "Ghi sự kiện máy, ghi chú vận hành, mẫu cảnh báo, dữ liệu theo chu kỳ để phân tích nguyên nhân dừng máy & lãng phí."],
+            ["Lifecycle", "Bảo trì dự đoán bằng AI — biến dữ liệu mài mòn thành chương trình thay phụ tùng tự động, giảm dừng máy."],
+            ["Quality", "Quản lý chất lượng — biến dữ liệu quá trình thành đảm bảo chất lượng tự động, giảm phế phẩm, đảm bảo tuân thủ."],
+            ["Recipe", "Theo dõi & quản lý công thức (recipe) cho quá trình sản xuất."],
+            ["Sustain", "Giảm chi phí năng lượng & đạt mục tiêu bền vững qua quản lý tài nguyên thông minh."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Nền tảng",
+      "color": "#7C3AED",
+      "heading": "Nền tảng & kết nối dữ liệu",
+      "note": "Kết nối máy, chuẩn hoá & đưa dữ liệu lên cloud, phân tích AI và tự dựng app không cần code.",
+      "groups": [
+        {
+          "name": "C.1 Platform & Data Connectivity",
+          "rows": [
+            ["Data Collection", "Kết nối tới hàng nghìn loại bộ điều khiển / PLC công nghiệp, chuẩn hoá dữ liệu máy và đưa lên cloud."],
+            ["ConnectedAI", "Phân tích dữ liệu máy bằng AI để tạo insight vận hành và bảo trì."],
+            ["No-code Apps", "Tự cấu hình ứng dụng, dashboard, cảnh báo, báo cáo, workflow mà không cần viết code."],
+            ["Global Network", "Hạ tầng cloud toàn cầu (từ 1999, 100.000+ máy/tài sản kết nối); HQ New York · Montreal · Zurich."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "short": "Bảo mật",
+      "color": "#DC2626",
+      "heading": "An ninh mạng & truy cập từ xa — zero-trust",
+      "note": "Mô hình truy cập từ xa an toàn: chủ động kết nối ra ngoài, phân đoạn theo máy, kiểm soát tập trung, ghi nhật ký.",
+      "groups": [
+        {
+          "name": "D.1 Cybersecurity & Remote Access",
+          "rows": [
+            ["Outbound-only", "Máy & gateway chủ động kết nối ra ngoài — không cần mở cổng firewall vào mạng nhà máy."],
+            ["Machine-level Segmentation", "Phân đoạn truy cập tới từng máy, cô lập rủi ro."],
+            ["Centralized Access Control", "Quản lý truy cập tập trung, phê duyệt phiên (session approval)."],
+            ["Audit Logging", "Nhật ký audit đầy đủ cho mọi phiên truy cập từ xa."]
+          ]
+        }
+      ]
+    }
+  ],
+  "note_end": "Danh mục biên soạn từ tài liệu công khai của ei3 (ei3.com). Đây là giải pháp/nền tảng/gateway — KHÔNG phải mã đặt hàng rời; Amphion/Zethus/Portara là dòng gateway cấu hình theo nhu cầu. Thông số & báo giá xác nhận theo dự án."
+}
