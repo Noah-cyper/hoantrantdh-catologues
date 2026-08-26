@@ -6,7 +6,7 @@
   "accent": "#1B9AAA",
   "title": "BROADSENS — Cảm biến rung & nhiệt độ không dây",
   "subtitle": "Cảm biến rung (accelerometer) & nhiệt độ không dây và gateway cho giám sát tình trạng / bảo trì tiên đoán của BROADSENS do HOANTRANTDH phân phối.",
-  "intro": "24 mã cảm biến rung/nhiệt độ không dây & gateway của BROADSENS, kèm datasheet · manual tải trực tiếp (nguồn: broadsens.com).",
+  "intro": "33 mã của BROADSENS: cảm biến rung/nhiệt độ không dây, gateway thu thập dữ liệu, phụ kiện lắp đặt, pin và thiết bị siêu âm (NDT) — kèm datasheet và GIÁ tham khảo USD (nguồn: broadsens.com + DigiKey Marketplace). Badge xanh = giá công khai; “Liên hệ” = mã chưa có giá công khai.",
   "groupType": "tech",
   "sources": [
     {
@@ -58,8 +58,7 @@
                 ]
               ],
               {
-                "usd": 229,
-                "ref": true
+                "usd": 229
               }
             ],
             [
@@ -85,8 +84,7 @@
                 ]
               ],
               {
-                "usd": 299,
-                "ref": true
+                "usd": 299
               }
             ]
           ]
@@ -111,7 +109,7 @@
                 ]
               ],
               {
-                "tbd": true
+                "usd": 229
               }
             ],
             [
@@ -124,8 +122,7 @@
                 ]
               ],
               {
-                "usd": 259,
-                "ref": true
+                "usd": 259
               }
             ],
             [
@@ -356,8 +353,7 @@
                 ]
               ],
               {
-                "usd": 159,
-                "ref": true
+                "tbd": true
               }
             ]
           ]
@@ -368,13 +364,13 @@
       "id": "F",
       "short": "Gateway & phụ kiện",
       "color": "#556378",
-      "heading": "Gateway thu thập dữ liệu & phụ kiện lắp đặt",
+      "heading": "Gateway, phụ kiện lắp đặt & pin",
       "groups": [
         {
           "rows": [
             [
               "GU300",
-              "Gateway không dây thu thập dữ liệu cảm biến, xem dữ liệu trực tiếp; RS485/Modbus. Giá theo cấu hình (số kênh–dung lượng): 2-64G ≈$549 · 8-64G $669 · 8-128G ≈$689.",
+              "Gateway không dây thu thập dữ liệu cảm biến, xem dữ liệu trực tiếp; RS485/Modbus. Giá theo cấu hình (số kênh–dung lượng): 2-64G $549 · 8-64G $669 · 8-128G $689.",
               [
                 [
                   "Datasheet",
@@ -386,8 +382,7 @@
                 ]
               ],
               {
-                "text": "$549–669",
-                "ref": true
+                "text": "$549–689"
               }
             ],
             [
@@ -406,18 +401,156 @@
               {
                 "tbd": true
               }
-            ],
+            ]
+          ],
+          "name": "F.1 Gateway thu thập dữ liệu"
+        },
+        {
+          "name": "F.2 Phụ kiện lắp đặt & pin",
+          "rows": [
             [
-              "Phụ kiện",
-              "Phụ kiện lắp đặt cảm biến rung: đế nam châm, bu-lông cấy, keo dán, adapter…",
+              "ACE-V-STUD-01",
+              "Đế cấy ren (stud mount) M6/M8 cho cảm biến rung.",
               [
                 [
-                  "Datasheet",
-                  "https://www.broadsens.com/products/datasheet/Broadsens%20wireless%20vibration%20sensor%20accessories.pdf"
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
                 ]
               ],
               {
-                "tbd": true
+                "usd": 9
+              }
+            ],
+            [
+              "ACE-V-PAD-01",
+              "Đế/pad tích hợp lắp cảm biến rung.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 15
+              }
+            ],
+            [
+              "ACE-V-PAD-02",
+              "Đế dán (mounting pad) cho cảm biến rung — dùng với SVT200-A/300-A/400-A.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 12
+              }
+            ],
+            [
+              "ACE-MAG-04",
+              "Đế nam châm mặt phẳng (flat-base), đường kính 26 mm.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 58
+              }
+            ],
+            [
+              "ACE-V-MAG-02",
+              "Đế nam châm lắp cảm biến rung.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 76
+              }
+            ],
+            [
+              "ER14250",
+              "Pin Lithium 3.6V 1/2AA (Li-SOCl₂), 1.2Ah, dây + đầu nối — nguồn cho cảm biến không dây.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 13
+              }
+            ],
+            [
+              "ER18505",
+              "Pin Lithium ER18505 3.6V có đầu nối — nguồn cho cảm biến không dây.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 19
+              }
+            ]
+          ]
+        }
+      ],
+      "note": "Gateway thu thập dữ liệu, phụ kiện lắp đặt cảm biến rung và pin nguồn."
+    },
+    {
+      "id": "G",
+      "short": "Siêu âm",
+      "color": "#8B5CF6",
+      "heading": "Thiết bị đo & quét siêu âm",
+      "note": "Máy quét/đo độ dày siêu âm (ultrasonic NDT) của Broadsens.",
+      "groups": [
+        {
+          "name": "G.1 Ultrasonic",
+          "rows": [
+            [
+              "UT200S",
+              "Máy quét/đo siêu âm (ultrasonic scanner) — kiểm tra không phá huỷ.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 3399
+              }
+            ],
+            [
+              "UT200S KIT",
+              "Bộ đo độ dày siêu âm (thickness tester/gauge) UT200S — trọn bộ.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 3750
+              }
+            ],
+            [
+              "BROADSCAN D200",
+              "Máy quét siêu âm cao cấp BroadScan D200.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 8995
               }
             ]
           ]
@@ -425,5 +558,5 @@
       ]
     }
   ],
-  "note_end": "GIÁ: $ = USD tham khảo từ trang bán công khai DigiKey Marketplace (mức khách VN tra thấy — trần để chào giá). Badge xanh = đã xác nhận; badge cam ≈ = tham khảo, cần xác nhận đúng cấu hình/SKU; “Liên hệ” = chưa có giá công khai, KHÔNG suy đoán. Xác nhận giá cuối theo báo giá chính hãng/nhà phân phối."
+  "note_end": "GIÁ: $ = USD theo trang bán công khai DigiKey Marketplace (mức khách VN tra thấy — trần để chào giá), xác nhận từ bảng giá DigiKey. Badge xanh = có giá công khai; “Liên hệ” = mã KHÔNG có trên DigiKey (chưa có giá công khai, không suy đoán). GU300 hiển thị dải giá theo 3 cấu hình. Giá cuối theo báo giá chính hãng/nhà phân phối."
 }

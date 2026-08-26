@@ -91,20 +91,21 @@ function renderDocs(docs) {
 // along in the "copy filtered" TSV export.
 function renderPrice(p) {
   if (p == null) return { badge: '', attr: '' };
+  const usd = (n) => '$' + Number(n).toLocaleString('en-US');
   let cls, text, title, copy;
   if (typeof p === 'object' && p.tbd) {
     cls = 'price-tbd';
     text = 'Liên hệ';
     title = 'Chưa có giá công khai — liên hệ để báo giá';
   } else if (typeof p === 'object') {
-    const raw = p.text != null ? String(p.text) : ('$' + p.usd);
+    const raw = p.text != null ? String(p.text) : usd(p.usd);
     text = (p.ref && p.text == null) ? ('≈' + raw) : raw;
     cls = p.ref ? 'price-ref' : 'price-ok';
     title = p.ref
       ? 'Giá tham khảo (USD, DigiKey) — cần xác nhận theo cấu hình/SKU trước khi chào giá'
-      : 'Giá công khai (USD, DigiKey)';
+      : 'Giá công khai (USD, DigiKey Marketplace)';
   } else {
-    text = '$' + p;
+    text = usd(p);
     cls = 'price-ok';
     title = 'Giá công khai (USD)';
   }
