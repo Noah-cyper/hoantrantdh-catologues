@@ -43,7 +43,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT100-A%20data%20sheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT200-A",
@@ -53,7 +56,11 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-A%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "usd": 229,
+                "ref": true
+              }
             ],
             [
               "SVT300-A",
@@ -63,7 +70,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-A%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "usd": 259
+              }
             ],
             [
               "SVT400-A",
@@ -73,7 +83,11 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-A%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "usd": 299,
+                "ref": true
+              }
             ]
           ]
         }
@@ -95,7 +109,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-V%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT300-V",
@@ -105,7 +122,11 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-V%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "usd": 259,
+                "ref": true
+              }
             ],
             [
               "SVT400-V",
@@ -115,7 +136,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-V%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ]
           ]
         }
@@ -137,7 +161,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT300-CA",
@@ -147,7 +174,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT400-CA",
@@ -157,7 +187,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT200-CV",
@@ -167,7 +200,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT300-CV",
@@ -177,7 +213,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT400-CV",
@@ -187,7 +226,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-C%20series%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ]
           ]
         }
@@ -209,7 +251,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT300-LA",
@@ -219,7 +264,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT400-LA",
@@ -229,7 +277,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT200-LV",
@@ -239,7 +290,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT300-LV",
@@ -249,7 +303,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT400-LV",
@@ -259,7 +316,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT-L%20long-range%20wireless%20vibration%20sensor%20datasheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ]
           ]
         }
@@ -281,7 +341,10 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT100-T%20data%20sheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "SVT200-T",
@@ -291,7 +354,11 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/SVT200-T%20data%20sheet.pdf"
                 ]
-              ]
+              ],
+              {
+                "usd": 159,
+                "ref": true
+              }
             ]
           ]
         }
@@ -307,7 +374,7 @@
           "rows": [
             [
               "GU300",
-              "Gateway không dây thu thập dữ liệu cảm biến, xem dữ liệu trực tiếp; RS485/Modbus.",
+              "Gateway không dây thu thập dữ liệu cảm biến, xem dữ liệu trực tiếp; RS485/Modbus. Giá theo cấu hình (số kênh–dung lượng): 2-64G ≈$549 · 8-64G $669 · 8-128G ≈$689.",
               [
                 [
                   "Datasheet",
@@ -317,7 +384,11 @@
                   "Manual (HDSD)",
                   "https://www.broadsens.com/docs/gateway/manual/"
                 ]
-              ]
+              ],
+              {
+                "text": "$549–669",
+                "ref": true
+              }
             ],
             [
               "GU300S",
@@ -331,7 +402,10 @@
                   "Manual (HDSD)",
                   "https://www.broadsens.com/docs/gateway/manual/"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ],
             [
               "Phụ kiện",
@@ -341,11 +415,15 @@
                   "Datasheet",
                   "https://www.broadsens.com/products/datasheet/Broadsens%20wireless%20vibration%20sensor%20accessories.pdf"
                 ]
-              ]
+              ],
+              {
+                "tbd": true
+              }
             ]
           ]
         }
       ]
     }
-  ]
+  ],
+  "note_end": "GIÁ: $ = USD tham khảo từ trang bán công khai DigiKey Marketplace (mức khách VN tra thấy — trần để chào giá). Badge xanh = đã xác nhận; badge cam ≈ = tham khảo, cần xác nhận đúng cấu hình/SKU; “Liên hệ” = chưa có giá công khai, KHÔNG suy đoán. Xác nhận giá cuối theo báo giá chính hãng/nhà phân phối."
 }

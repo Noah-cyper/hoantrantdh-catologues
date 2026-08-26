@@ -82,13 +82,47 @@ function renderDocs(docs) {
   );
 }
 
+// Optional per-code price (row[3]). Accepts:
+//   { usd: 259 }            -> confirmed public price (green badge)
+//   { usd: 549, ref: true } -> reference price, verify per SKU (amber "≈")
+//   { text: "từ $549", ref: true } -> custom reference label
+//   { tbd: true }           -> no public price yet ("Liên hệ", grey)
+// Returns { badge, attr(copy) } so price shows next to the code and rides
+// along in the "copy filtered" TSV export.
+function renderPrice(p) {
+  if (p == null) return { badge: '', attr: '' };
+  let cls, text, title, copy;
+  if (typeof p === 'object' && p.tbd) {
+    cls = 'price-tbd';
+    text = 'Liên hệ';
+    title = 'Chưa có giá công khai — liên hệ để báo giá';
+  } else if (typeof p === 'object') {
+    const raw = p.text != null ? String(p.text) : ('$' + p.usd);
+    text = (p.ref && p.text == null) ? ('≈' + raw) : raw;
+    cls = p.ref ? 'price-ref' : 'price-ok';
+    title = p.ref
+      ? 'Giá tham khảo (USD, DigiKey) — cần xác nhận theo cấu hình/SKU trước khi chào giá'
+      : 'Giá công khai (USD, DigiKey)';
+  } else {
+    text = '$' + p;
+    cls = 'price-ok';
+    title = 'Giá công khai (USD)';
+  }
+  copy = text;
+  return {
+    badge: `<span class="price ${cls}" title="${escapeHtml(title)}">${escapeHtml(text)}</span>`,
+    attr: ` data-price="${escapeHtml(copy)}"`,
+  };
+}
+
 function renderRow(row) {
   const code = row[0];
   const desc = row[1] == null ? '' : row[1];
   const docs = row[2];
+  const price = renderPrice(row[3]);
   return (
-    `<tr class="code-row" data-kind="code" data-section="__SEC__" data-search="${searchKey(code, desc)}">` +
-      `<td class="code" data-code="${escapeHtml(code)}" title="Bấm để chép mã">${escapeHtml(code)}</td>` +
+    `<tr class="code-row" data-kind="code" data-section="__SEC__" data-search="${searchKey(code, desc)}"${price.attr}>` +
+      `<td class="code" data-code="${escapeHtml(code)}" title="Bấm để chép mã">${escapeHtml(code)}${price.badge}</td>` +
       `<td class="desc">` +
         `<span class="desc-text">${escapeHtml(desc)}</span>` +
         renderDocs(docs) +
@@ -346,11 +380,15 @@ function clientScript() {
         }
       });
     } else {
+      // Include a price column only when this brand carries prices.
+      var withPrice = codeRows.some(function (r) { return r.getAttribute('data-price'); });
       codeRows.forEach(function (row) {
         if (!row.hidden) {
           var c = row.querySelector('.code');
           var d = row.querySelector('.desc-text') || row.querySelector('.desc');
-          lines.push((c ? c.getAttribute('data-code') : '') + '\t' + (d ? d.textContent : ''));
+          var cols = [(c ? c.getAttribute('data-code') : ''), (d ? d.textContent : '')];
+          if (withPrice) cols.push(row.getAttribute('data-price') || '');
+          lines.push(cols.join('\t'));
         }
       });
     }
