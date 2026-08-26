@@ -6,7 +6,7 @@
   "accent": "#1B9AAA",
   "title": "BROADSENS — Cảm biến rung & nhiệt độ không dây",
   "subtitle": "Cảm biến rung (accelerometer) & nhiệt độ không dây và gateway cho giám sát tình trạng / bảo trì tiên đoán của BROADSENS do HOANTRANTDH phân phối.",
-  "intro": "33 mã của BROADSENS: cảm biến rung/nhiệt độ không dây, gateway thu thập dữ liệu, phụ kiện lắp đặt, pin và thiết bị siêu âm (NDT) — kèm datasheet và GIÁ tham khảo USD (nguồn: broadsens.com + DigiKey Marketplace). Badge xanh = giá công khai; “Liên hệ” = mã chưa có giá công khai.",
+  "intro": "35 mã của BROADSENS: cảm biến rung/nhiệt độ không dây, gateway thu thập dữ liệu, phụ kiện lắp đặt, pin và thiết bị siêu âm (NDT) — kèm datasheet và GIÁ tham khảo USD (nguồn: broadsens.com + DigiKey Marketplace). Badge xanh = giá công khai; “Liên hệ” = mã chưa có giá công khai.",
   "groupType": "tech",
   "sources": [
     {
@@ -353,7 +353,7 @@
                 ]
               ],
               {
-                "tbd": true
+                "usd": 159
               }
             ]
           ]
@@ -551,6 +551,46 @@
               ],
               {
                 "usd": 8995
+              }
+            ],
+            [
+              "BHU100",
+              "Đầu dò siêu âm compact 300 kHz (transmitter/receiver), 140 Vp-p, góc chùm 360°, -40…+65°C.",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 199
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "short": "IMU 9 trục",
+      "color": "#0EA5A5",
+      "heading": "Cảm biến IMU không dây 9 trục",
+      "note": "Cảm biến chuyển động 9 trục (gia tốc + con quay + từ kế) không dây.",
+      "groups": [
+        {
+          "name": "H.1 IMU",
+          "rows": [
+            [
+              "SAG200",
+              "Cảm biến IMU không dây 9 trục: gia tốc kế + con quay hồi chuyển + từ kế, ngõ ra 9-axis; -40…+85°C (DigiKey PN 3461-SAG200-ND).",
+              [
+                [
+                  "Trang chủ Broadsens",
+                  "https://www.broadsens.com/"
+                ]
+              ],
+              {
+                "usd": 399
               }
             ]
           ]
