@@ -1,0 +1,522 @@
+{
+  "brand": "renepoly",
+  "name": "RENEPOLY",
+  "country": "China",
+  "tagline": "Microgrid · BESS · Energy Storage",
+  "accent": "#21A366",
+  "title": "RENEPOLY — Hệ lưu trữ năng lượng pin (BESS), PCS & quản lý năng lượng (EMS)",
+  "subtitle": "Container/tủ lưu trữ pin làm mát lỏng, bộ chuyển đổi công suất (PCS), bộ điều khiển EMS và thiết bị điện cho microgrid của RENEPOLY (Trung Quốc) do HOANTRANTDH phân phối.",
+  "intro": "Danh mục hệ thống lưu trữ năng lượng & microgrid của RENEPOLY: container/tủ BESS (làm mát lỏng), cụm pin, PCS, bộ điều khiển EMS và tủ điện/phân phối/bảo vệ. Mã sản phẩm mã hoá thông số công suất (kW) / dung lượng (kWh). Đây là hệ thống báo giá theo dự án — mỗi mã kèm link trang sản phẩm chính hãng.",
+  "groupType": "tech",
+  "sources": [
+    {
+      "label": "Trang chủ Renepoly",
+      "url": "https://renepoly.com/"
+    },
+    {
+      "label": "Hồ sơ công ty",
+      "url": "https://renepoly.com/renepoly"
+    },
+    {
+      "label": "Presentation (EN, PDF)",
+      "url": "https://renepoly.com/static/projects/assets/download/Renepoly_Presentation_English.pdf"
+    }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "short": "EMS",
+      "color": "#21A366",
+      "heading": "Quản lý năng lượng — EMS (Energy Management System)",
+      "note": "Bộ điều khiển & tủ quản lý năng lượng cho microgrid.",
+      "groups": [
+        {
+          "name": "A.1 EMS & phân phối nguồn",
+          "rows": [
+            [
+              "RMC-DR-01",
+              "Bộ điều khiển EMS nâng cao (Advanced EMS Controller Set) — tùy biến logic vận hành microgrid, tích hợp nền tảng ReneCloud.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/ems/controller"
+                ]
+              ]
+            ],
+            [
+              "RMC-DR-00",
+              "Bộ điều khiển EMS (Energy Management System Controller) dòng RMC-DR-00.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/ems/controller-dr00"
+                ]
+              ]
+            ],
+            [
+              "EMS Cabinet",
+              "Tủ EMS — tích hợp bộ điều khiển & thiết bị quản lý năng lượng.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/ems/cabinet"
+                ]
+              ]
+            ],
+            [
+              "PCDB",
+              "Tủ phân phối nguồn & điều khiển (Power & Control Distribution Board).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/ems/pcdb"
+                ]
+              ]
+            ],
+            [
+              "PDB",
+              "Hộp phân phối nguồn (Power Distribution Box).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/ems/pdb"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Container",
+      "color": "#0E7C4A",
+      "heading": "BESS Container — container lưu trữ pin (làm mát lỏng)",
+      "note": "Container hệ lưu trữ năng lượng pin, làm mát lỏng; đặt tên theo dung lượng kWh.",
+      "groups": [
+        {
+          "name": "B.1 Liquid-cooling BESS Container",
+          "rows": [
+            [
+              "ES1075",
+              "Container BESS làm mát lỏng — 500kW / 1075kWh.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es1075"
+                ]
+              ]
+            ],
+            [
+              "ES2090",
+              "Container BESS làm mát lỏng — 2090kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es2090"
+                ]
+              ]
+            ],
+            [
+              "ES2170",
+              "Container BESS làm mát lỏng — 2170kWh.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es2170"
+                ]
+              ]
+            ],
+            [
+              "ES2411",
+              "Container BESS làm mát lỏng — 1250kW / 2411kWh.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es2411"
+                ]
+              ]
+            ],
+            [
+              "ES2508-1",
+              "Container BESS làm mát lỏng — 1250kW / 2508kWh (thị trường US).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es2508-1"
+                ]
+              ]
+            ],
+            [
+              "ES2508-2",
+              "Container BESS làm mát lỏng — 2508kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es2508-2"
+                ]
+              ]
+            ],
+            [
+              "ES2926",
+              "Container BESS làm mát lỏng — 2926kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es2926"
+                ]
+              ]
+            ],
+            [
+              "ES3344",
+              "Container BESS làm mát lỏng — 3344kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es3344"
+                ]
+              ]
+            ],
+            [
+              "ES3344-2",
+              "Container BESS làm mát lỏng — 1000kW / 3344kWh.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es3344-2"
+                ]
+              ]
+            ],
+            [
+              "ES3762",
+              "Container BESS làm mát lỏng — 3762kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es3762"
+                ]
+              ]
+            ],
+            [
+              "ES4180",
+              "Container BESS làm mát lỏng — 4180kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es4180"
+                ]
+              ]
+            ],
+            [
+              "ES4598",
+              "Container BESS làm mát lỏng — 4598kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es4598"
+                ]
+              ]
+            ],
+            [
+              "ES5016",
+              "Container BESS làm mát lỏng — 5016kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es5016"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Tủ BESS",
+      "color": "#2563EB",
+      "heading": "BESS Cabinet — tủ lưu trữ pin",
+      "note": "Tủ hệ lưu trữ năng lượng pin, cho quy mô nhỏ/vừa.",
+      "groups": [
+        {
+          "name": "C.1 BESS Cabinet",
+          "rows": [
+            [
+              "EGS120",
+              "Tủ BESS làm mát lỏng — 50kW / 120kWh.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/egs120"
+                ]
+              ]
+            ],
+            [
+              "EGS257",
+              "Tủ BESS làm mát lỏng — 125kW / 257.23kWh.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/egs257"
+                ]
+              ]
+            ],
+            [
+              "ES237",
+              "Tủ BESS — 237kWh (1C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es237"
+                ]
+              ]
+            ],
+            [
+              "ES379",
+              "Tủ BESS — 379kWh (1C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/es379"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "short": "Cụm pin",
+      "color": "#CA8A04",
+      "heading": "Battery Pack & Rack — cụm pin & rack",
+      "note": "Cụm pin làm mát lỏng, lắp ghép theo rack.",
+      "groups": [
+        {
+          "name": "D.1 Battery Pack",
+          "rows": [
+            [
+              "PACK14",
+              "Cụm pin (battery pack) làm mát lỏng — 14kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pack14"
+                ]
+              ]
+            ],
+            [
+              "PACK18",
+              "Cụm pin làm mát lỏng — 18kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pack18"
+                ]
+              ]
+            ],
+            [
+              "PACK43",
+              "Cụm pin làm mát lỏng — 43.008kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pack43"
+                ]
+              ]
+            ],
+            [
+              "PACK47",
+              "Cụm pin làm mát lỏng — 47kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pack47"
+                ]
+              ]
+            ],
+            [
+              "PACK54",
+              "Cụm pin làm mát lỏng — 54kWh (0.5C).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pack54"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "short": "PCS",
+      "color": "#EA580C",
+      "heading": "PCS — bộ chuyển đổi công suất (Power Conversion System)",
+      "note": "Tủ chuyển đổi công suất DC↔AC, làm mát khí; đặt tên theo công suất kW.",
+      "groups": [
+        {
+          "name": "E.1 PCS Cabinet",
+          "rows": [
+            [
+              "PCS210",
+              "Tủ chuyển đổi công suất (PCS) làm mát khí — 210kW.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pcs210"
+                ]
+              ]
+            ],
+            [
+              "PCS315",
+              "Tủ chuyển đổi công suất (PCS) làm mát khí — 315kW.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pcs315"
+                ]
+              ]
+            ],
+            [
+              "PCS420",
+              "Tủ chuyển đổi công suất (PCS) làm mát khí — 420kW.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pcs420"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "short": "Điện & bảo vệ",
+      "color": "#DC2626",
+      "heading": "Tủ điện, phân phối & bảo vệ lưới",
+      "note": "Tủ phân phối busbar AC (ECC), thiết bị phát hiện mất điện/lưới.",
+      "groups": [
+        {
+          "name": "F.1 Phân phối & bảo vệ",
+          "rows": [
+            [
+              "PFDD",
+              "Thiết bị phát hiện mất điện (Power Failure Detection Device).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pfdd"
+                ]
+              ]
+            ],
+            [
+              "PGDC",
+              "Tủ phát hiện lưới điện (Power Grid Detection Cabinet).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/pgdc"
+                ]
+              ]
+            ],
+            [
+              "ECC2P",
+              "Tủ phân phối busbar AC (AC Busbar Distribution Cabinet) — cấu hình 2P.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/ecc2p"
+                ]
+              ]
+            ],
+            [
+              "ECC3P",
+              "Tủ phân phối busbar AC (AC Busbar Distribution Cabinet) — cấu hình 3P.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/ecc3p"
+                ]
+              ]
+            ],
+            [
+              "ECC4P",
+              "Tủ phân phối busbar AC (AC Busbar Distribution Cabinet) — cấu hình 4P.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/ecc4p"
+                ]
+              ]
+            ],
+            [
+              "ECC5P",
+              "Tủ phân phối busbar AC (AC Busbar Distribution Cabinet) — cấu hình 5P.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/ecc5p"
+                ]
+              ]
+            ],
+            [
+              "ECC6P",
+              "Tủ phân phối busbar AC (AC Busbar Distribution Cabinet) — cấu hình 6P.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/ecc6p"
+                ]
+              ]
+            ],
+            [
+              "ECC7P",
+              "Tủ phân phối busbar AC (AC Busbar Distribution Cabinet) — cấu hình 7P.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/ecc7p"
+                ]
+              ]
+            ],
+            [
+              "ECC8P",
+              "Tủ phân phối busbar AC (AC Busbar Distribution Cabinet) — cấu hình 8P.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/ecc8p"
+                ]
+              ]
+            ],
+            [
+              "ECC9P",
+              "Tủ phân phối busbar AC (AC Busbar Distribution Cabinet) — cấu hình 9P.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/ecc9p"
+                ]
+              ]
+            ],
+            [
+              "ECC10P",
+              "Tủ phân phối busbar AC (AC Busbar Distribution Cabinet) — cấu hình 10P.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://renepoly.com/bess/ecc10p"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "note_end": "Danh mục tổng hợp từ website chính hãng renepoly.com. Hệ BESS/microgrid báo giá & cấu hình theo dự án (dung lượng, C-rate, điện áp, chứng nhận) — xác nhận theo phương án kỹ thuật. Mã sản phẩm giữ theo cách đặt của hãng (ES=kWh, PCS=kW, PACK=kWh)."
+}
