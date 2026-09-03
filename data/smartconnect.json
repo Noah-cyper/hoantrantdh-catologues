@@ -1,0 +1,35 @@
+{
+  "brand": "smartconnect",
+  "name": "SMARTCONNECT IoT",
+  "country": "France",
+  "tagline": "End-to-End IoT Data Capture & Streaming Platform",
+  "accent": "#16A6C9",
+  "title": "SMARTCONNECT IoT — Nền tảng thu thập & truyền dữ liệu IoT",
+  "subtitle": "Nền tảng IoT plug-and-play của SmartConnect: thu thập dữ liệu tại biên, lưu trữ đám mây, phân tích và AI/ML — trung lập nhà cung cấp cảm biến, do HOANTRANTDH phân phối/triển khai.",
+  "intro": "4 module nền tảng IoT end-to-end (edge → cloud → analytics → AI/ML) của SmartConnect. Đây là hãng giải pháp phần mềm/nền tảng — 'mã' là tên module, tài liệu trỏ trang sản phẩm chính hãng (nguồn: smartconnectiot.com).",
+  "groupType": "tech",
+  "sources": [
+    { "label": "Trang chủ SmartConnect", "url": "https://www.smartconnectiot.com" },
+    { "label": "Case studies", "url": "https://www.smartconnectiot.com/case-studies" },
+    { "label": "Về SmartConnect", "url": "https://www.smartconnectiot.com/about-us" }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "short": "Nền tảng IoT",
+      "color": "#16A6C9",
+      "heading": "Nền tảng IoT end-to-end SmartConnect",
+      "note": "Chuỗi: thu thập tại biên → lưu trữ đám mây → phân tích → AI/ML. Trung lập nhà cung cấp cảm biến, đa giao thức.",
+      "groups": [
+        {
+          "rows": [
+            ["SmartBoitier", "Edge Compute — thiết bị/giải pháp thu thập, tổng hợp, giám sát, lưu trữ & truyền dữ liệu an toàn ngay tại biên (edge), dùng ngay (plug-and-play).", [["Trang sản phẩm", "https://www.smartconnectiot.com/smartboitier"]]],
+            ["SmartStorage", "Cloud Storage — lưu trữ đám mây an toàn, hợp tác với các nhà cung cấp cloud lớn để lưu dữ liệu trực tuyến bảo mật.", [["Trang sản phẩm", "https://www.smartconnectiot.com/smartstorage"]]],
+            ["SmartBoard", "Advanced Analytics — ứng dụng web trực quan hoá dữ liệu, cung cấp KPI & dashboard tổng quan cho phân tích nâng cao.", [["Trang sản phẩm", "https://www.smartconnectiot.com/smartboard"]]],
+            ["SmartAIML", "Data Intelligence — công cụ AI/Machine Learning phân tích dữ liệu hỗ trợ ra quyết định và tự động hoá.", [["Trang sản phẩm", "https://www.smartconnectiot.com/smartaiml"]]]
+          ]
+        }
+      ]
+    }
+  ]
+}
