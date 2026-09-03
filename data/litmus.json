@@ -1,0 +1,50 @@
+{
+  "brand": "litmus",
+  "name": "LITMUS",
+  "country": "USA",
+  "tagline": "The Modern Industrial Data Platform for AI",
+  "accent": "#7A5AF8",
+  "title": "LITMUS — Nền tảng dữ liệu công nghiệp cho AI (Edge / DataOps)",
+  "subtitle": "Nền tảng dữ liệu công nghiệp của Litmus: thu thập & chuẩn hoá dữ liệu OT tại biên, unified namespace, quản trị dữ liệu và AI — do HOANTRANTDH phân phối/triển khai.",
+  "intro": "6 sản phẩm nền tảng dữ liệu công nghiệp (edge → DataOps → AI) của Litmus. Đây là hãng nền tảng phần mềm — 'mã' là tên sản phẩm, tài liệu trỏ trang chính hãng (nguồn: litmus.io).",
+  "groupType": "tech",
+  "sources": [
+    { "label": "Trang chủ Litmus", "url": "https://litmus.io" },
+    { "label": "Giải pháp", "url": "https://litmus.io/solutions" },
+    { "label": "Tích hợp (AWS · Azure · GCP · Snowflake · Databricks…)", "url": "https://litmus.io/integrations" },
+    { "label": "Bảng giá", "url": "https://litmus.io/pricing" }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "short": "Nền tảng dữ liệu",
+      "color": "#7A5AF8",
+      "heading": "Sản phẩm nền tảng dữ liệu công nghiệp",
+      "note": "Chuỗi: thu thập tại biên → unified namespace → quản trị dữ liệu → phân tích & AI.",
+      "groups": [
+        {
+          "rows": [
+            ["Litmus Edge", "Nền tảng dữ liệu biên công nghiệp — kết nối hệ thống OT, chuẩn hoá dữ liệu và chạy phân tích & AI ngay tại biên.", [["Trang sản phẩm", "https://litmus.io/litmus-edge"]]],
+            ["Litmus Edge Manager", "Quản lý tập trung các thiết bị biên phân tán — triển khai, giám sát & quản trị thiết bị/ứng dụng/mô hình AI trên toàn nhà máy.", [["Trang sản phẩm", "https://litmus.io/litmus-edge-manager"]]],
+            ["Litmus Unify", "Unified Namespace (UNS) trên nền MQTT — chuẩn hoá việc xuất bản, phân cấp và quản trị dữ liệu OT–IT an toàn.", [["Trang sản phẩm", "https://litmus.io/litmus-unify"]]],
+            ["Litmus Data Catalog", "Danh mục dữ liệu công nghiệp (AI) — khám phá, tìm kiếm, truy vết nguồn gốc và quản trị metadata giữa OT và IT.", [["Trang sản phẩm", "https://litmus.io/litmus-data-catalog"]]]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Công cụ & bản dùng thử",
+      "color": "#0EA5A4",
+      "heading": "Công cụ mở & bản dành cho nhà phát triển",
+      "groups": [
+        {
+          "rows": [
+            ["Litmus MCP Server", "MCP Server mã nguồn mở cho Litmus Edge — tương tác bằng ngôn ngữ tự nhiên: truy vấn thiết bị, xem telemetry, quản lý ứng dụng.", [["Trang sản phẩm", "https://litmus.io/litmus-mcp-server"]]],
+            ["Litmus Edge Developer Edition", "Bản Developer miễn phí của Litmus Edge — kết nối thiết bị thật, thử edge AI và xây dựng giải pháp IoT công nghiệp.", [["Trang sản phẩm", "https://litmus.io/litmus-edge-developer-edition"]]]
+          ]
+        }
+      ]
+    }
+  ]
+}

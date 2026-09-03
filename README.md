@@ -91,6 +91,7 @@ Không có dependency runtime — `npm run build` chỉ cần Node ≥ 18.
 | **Broadsens** | USA | tech (A–F) | ✅ 24 mã · 26 tài liệu · 6 nhóm (cảm biến rung/nhiệt độ không dây + gateway, từ broadsens.com) |
 | **ei3** | USA | tech (A–D) | ✅ 23 mã · 4 nhóm (ConnectedAI · gateway edge · phân tích · bảo mật — nhập từ nhánh mặc định) |
 | **SmartConnect IoT** | France | tech (A) | ✅ 4 module nền tảng (edge · cloud · analytics · AI/ML) từ smartconnectiot.com |
+| **Litmus** | USA | tech (A–B) | ✅ 6 sản phẩm nền tảng dữ liệu công nghiệp (Edge · Unify · Data Catalog · MCP) từ litmus.io |
 | **Anhui Tiankang** | China | tech | ⏳ khung |
 | **HOANTRANTDH ISOLATION** | OEM | tech | ⏳ khung |
 
