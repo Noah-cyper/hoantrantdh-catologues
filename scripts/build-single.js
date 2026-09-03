@@ -254,11 +254,21 @@ function bundleScript() {
 // ---- assemble -----------------------------------------------------------
 
 function main() {
+  // Optional CLI args = brand slugs to include (subset export). None = all.
+  const only = process.argv.slice(2).map((s) => s.trim()).filter(Boolean);
+  const outFile = only.length ? `catalog-${only.join('-')}.html` : 'catalog-hub.html';
+  const OUT = path.join(DIST_DIR, outFile);
+
   const files = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith('.json')).sort();
-  const entries = [];
+  let entries = [];
   for (const file of files) {
     const data = JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), 'utf8'));
     entries.push({ data, total: countCodes(data) });
+  }
+  if (only.length) {
+    entries = only.map((slug) => entries.find((e) => e.data.brand === slug)).filter(Boolean);
+    const missing = only.filter((slug) => !entries.some((e) => e.data.brand === slug));
+    if (missing.length) console.warn(`⚠ Không tìm thấy hãng: ${missing.join(', ')}`);
   }
   // populated brands first, empties last
   const ordered = entries.slice().sort((a, b) => {
