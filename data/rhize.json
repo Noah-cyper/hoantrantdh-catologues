@@ -1,0 +1,269 @@
+{
+  "brand": "rhize",
+  "name": "RHIZE",
+  "country": "USA",
+  "unit": "giải pháp",
+  "tagline": "Manufacturing Data Hub · MOM · ISA-95",
+  "accent": "#4F46E5",
+  "title": "RHIZE — Manufacturing Data Hub (nền tảng dữ liệu sản xuất real-time)",
+  "subtitle": "Nền tảng trung tâm dữ liệu sản xuất real-time, hướng sự kiện, chuẩn ISA-95 của RHIZE do HOANTRANTDH giới thiệu.",
+  "intro": "RHIZE là Manufacturing Data Hub: chuẩn hoá dữ liệu vận hành theo ISA-95, ngữ cảnh hoá thành sự kiện thời gian thực (event-driven), truy cập qua GraphQL và điều phối bằng BPMN — nền tảng để xây đúng ứng dụng MOM/MES bạn cần. Đây là danh mục GIẢI PHÁP / NĂNG LỰC / USE-CASE (không phải mã đặt hàng); triển khai & báo giá theo dự án. Mỗi mục kèm link trang chính hãng.",
+  "groupType": "tech",
+  "sources": [
+    {
+      "label": "Trang chủ Rhize",
+      "url": "https://rhize.com/"
+    },
+    {
+      "label": "Platform",
+      "url": "https://rhize.com/platform/"
+    },
+    {
+      "label": "Use cases",
+      "url": "https://rhize.com/use-cases/"
+    },
+    {
+      "label": "Tài liệu (docs)",
+      "url": "https://docs.rhize.com/"
+    }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "short": "Nền tảng",
+      "color": "#4F46E5",
+      "heading": "Nền tảng — Manufacturing Data Hub",
+      "note": "Lõi nền tảng: mô hình ISA-95, event-driven, GraphQL, BPMN, tích hợp mở.",
+      "groups": [
+        {
+          "name": "A.1 Platform & năng lực lõi",
+          "rows": [
+            [
+              "Manufacturing Data Hub",
+              "Trung tâm dữ liệu sản xuất real-time, hướng sự kiện; tạo mô hình dữ liệu chuẩn ISA-95, sẵn sàng cho ứng dụng, cho toàn tổ chức.",
+              [
+                [
+                  "Platform",
+                  "https://rhize.com/platform/"
+                ],
+                [
+                  "Tài liệu",
+                  "https://docs.rhize.com/"
+                ]
+              ]
+            ],
+            [
+              "Event-driven Architecture",
+              "Kiến trúc hướng sự kiện, độ trễ thấp — ngữ cảnh hoá dữ liệu thô thành sự kiện thời gian thực.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/platform/"
+                ]
+              ]
+            ],
+            [
+              "ISA-95 Data Model",
+              "Mô hình dữ liệu chuẩn ISA-95 (B2MML) — chuẩn hoá dữ liệu vận hành, xoá silo dữ liệu.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/platform/"
+                ]
+              ]
+            ],
+            [
+              "BPMN Workflow & Rules Engine",
+              "Điều phối quy trình bằng BPMN + rules engine; tự động hoá logic vận hành.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/platform/"
+                ]
+              ]
+            ],
+            [
+              "GraphQL API (Apollo Router)",
+              "Truy cập dữ liệu headless qua GraphQL — chỉ xây đúng ứng dụng bạn cần.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/platform/"
+                ]
+              ]
+            ],
+            [
+              "Open Integrations",
+              "Tích hợp mở theo chuẩn/giao thức sản xuất (MQTT, OPC UA, REST…) — kết nối mọi tech stack.",
+              [
+                [
+                  "Integrations",
+                  "https://rhize.com/integrations/"
+                ]
+              ]
+            ],
+            [
+              "Cloud-native / Scale-on-demand",
+              "Sẵn sàng cloud-native, không downtime, mở rộng theo nhu cầu.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/platform/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Ứng dụng",
+      "color": "#0891B2",
+      "heading": "Ứng dụng & use-case sản xuất",
+      "note": "Các bài toán vận hành phổ biến triển khai trên nền tảng.",
+      "groups": [
+        {
+          "name": "B.1 Use cases",
+          "rows": [
+            [
+              "Event-Driven Workflows",
+              "Quy trình vận hành hướng sự kiện, kích hoạt theo thời gian thực.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/use-cases/"
+                ]
+              ]
+            ],
+            [
+              "Real-time Batch Records",
+              "Hồ sơ lô (batch record) thời gian thực cho sản xuất theo lô.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/use-cases/"
+                ]
+              ]
+            ],
+            [
+              "Integrated Track & Trace",
+              "Truy xuất nguồn gốc tích hợp toàn chuỗi sản xuất.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/use-cases/"
+                ]
+              ]
+            ],
+            [
+              "Advanced KPIs",
+              "Chỉ số KPI nâng cao tổng hợp từ dữ liệu vận hành.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/use-cases/"
+                ]
+              ]
+            ],
+            [
+              "Warehouse Management",
+              "Quản lý kho tích hợp dữ liệu sản xuất.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/use-cases/"
+                ]
+              ]
+            ],
+            [
+              "OEE",
+              "Hiệu suất thiết bị tổng thể (Overall Equipment Effectiveness).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/use-cases/"
+                ]
+              ]
+            ],
+            [
+              "Maintenance ANDON",
+              "Bảng ANDON & quản lý bảo trì.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/use-cases/"
+                ]
+              ]
+            ],
+            [
+              "Scheduling",
+              "Lập lịch sản xuất.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/use-cases/"
+                ]
+              ]
+            ],
+            [
+              "Product Genealogy",
+              "Phả hệ sản phẩm (genealogy) — dòng đời & thành phần.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://rhize.com/use-cases/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Ngành",
+      "color": "#DB2777",
+      "heading": "Giải pháp theo ngành",
+      "note": "Ứng dụng theo đặc thù ngành sản xuất.",
+      "groups": [
+        {
+          "name": "C.1 Industries",
+          "rows": [
+            [
+              "Life Sciences / Biopharma",
+              "Sản xuất dược phẩm sinh học — hồ sơ lô điện tử, tuân thủ quy định.",
+              [
+                [
+                  "Trang ngành",
+                  "https://rhize.com/life-sciences/"
+                ]
+              ]
+            ],
+            [
+              "Food & Beverage / CPG",
+              "Thực phẩm, đồ uống & hàng tiêu dùng đóng gói (CPG).",
+              [
+                [
+                  "Trang ngành",
+                  "https://rhize.com/food-beverage-cpg/"
+                ]
+              ]
+            ],
+            [
+              "Serialized Discrete",
+              "Sản xuất rời có định danh serial (serialized discrete) — truy xuất theo serial.",
+              [
+                [
+                  "Trang ngành",
+                  "https://rhize.com/serialized-discrete/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "note_end": "Danh mục biên soạn từ website chính hãng rhize.com. Đây là nền tảng/giải pháp phần mềm — KHÔNG phải mã đặt hàng rời; phạm vi triển khai, số node/ứng dụng và báo giá theo dự án."
+}
