@@ -1,0 +1,415 @@
+{
+  "brand": "plussmart",
+  "name": "PlusSmart",
+  "country": "Singapore",
+  "unit": "mục",
+  "tagline": "Pump Reliability · Rung/Nhiệt · Dầu · Điện · Phần mềm bơm",
+  "accent": "#0f7a5c",
+  "title": "PlusSmart Technology — Giám sát độ tin cậy bơm & thiết bị quay",
+  "subtitle": "Nhà tích hợp độ tin cậy cho bơm/thiết bị quay: cảm biến Poseidon (i-ALERT, Trident), phân tích điện Electrosine, làm kín Flexaseal, phần mềm ReliaPump & camera AI PlusVision — do HOANTRANTDH giới thiệu.",
+  "intro": "Chuỗi 'Đo → Kết nối → Phân tích → Hành động' cho bơm & thiết bị quay. Danh mục gồm cảm biến rung/nhiệt & dầu (Poseidon), phân tích chữ ký điện (Electrosine), nền tảng dữ liệu, phần mềm bơm ReliaPump, làm kín Flexaseal, camera AI PlusVision và dịch vụ kỹ thuật. Đây là danh mục SẢN PHẨM/GIẢI PHÁP/DỊCH VỤ (không phải mã đặt hàng rời); báo giá theo cấu hình & dự án. Thông số do hãng công bố — cần xác nhận khi chào.",
+  "groupType": "tech",
+  "sources": [
+    {
+      "label": "PlusSmart",
+      "url": "https://www.plussmart.tech/"
+    },
+    {
+      "label": "Poseidon Systems (sản phẩm)",
+      "url": "https://www.poseidonsys.com/products-and-services/products/"
+    },
+    {
+      "label": "i-ALERT Ai",
+      "url": "https://i-alert.ai"
+    },
+    {
+      "label": "Flexaseal",
+      "url": "https://www.flexaseal.com/"
+    }
+  ],
+  "sections": [
+    {
+      "id": "A",
+      "short": "Rung & nhiệt",
+      "color": "#2563eb",
+      "heading": "Cảm biến rung & nhiệt — Poseidon i-ALERT",
+      "note": "Hãng: Poseidon Systems (trước ITT Goulds) · PlusSmart độc quyền ANZ + ASEAN. Cửa vào rẻ nhất của hệ.",
+      "groups": [
+        {
+          "name": "A.1 i-ALERT",
+          "rows": [
+            [
+              "i-ALERT3",
+              "Cảm biến rung + nhiệt không dây gắn vỏ ổ bi: rung 3 trục X/Y/Z 4Hz–5kHz, nhiệt −40…+84°C, từ thông; edge (phổ rung, Kurtosis, dải tự đặt); Bluetooth 5 (30–100m), lưu 170 ngày; pin lithium 2–3 năm; IP68/NEMA 4X, Ex ia Zone 0 (bản ITT — cần xác nhận bản Poseidon).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.poseidonsys.com/products-and-services/products/"
+                ]
+              ]
+            ],
+            [
+              "App i-ALERT (mobile)",
+              "App thu thập đi tuần (miễn phí): quét Bluetooth nhiều cảm biến trong tầm, tải dữ liệu, xem phổ rung, hồ sơ máy — dùng khi chưa lắp gateway.",
+              [
+                [
+                  "Trang i-ALERT",
+                  "https://i-alert.ai"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "short": "Giám sát dầu",
+      "color": "#b45309",
+      "heading": "Giám sát dầu bôi trơn — Poseidon Trident",
+      "note": "Hãng: Poseidon Systems (Victor NY, ISO 9001) · PlusSmart phân phối APAC. Mạt kim loại xuất hiện sớm hơn rung.",
+      "groups": [
+        {
+          "name": "B.1 Trident & thiết bị dầu",
+          "rows": [
+            [
+              "Trident QW3100 / QW3150",
+              "Cảm biến chất lượng dầu + nước hoà tan (phổ trở kháng điện hoá EIS đa tần số): sức khoẻ phụ gia, phân huỷ dầu, nhiễm bẩn, nước, dự báo tuổi thọ dầu (RUL); RS485 Modbus RTU, CAN J1939.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.poseidonsys.com/products-and-services/products/"
+                ]
+              ]
+            ],
+            [
+              "Trident QM3100 / QM3150",
+              "Cảm biến chất lượng dầu (EIS, không đo nước) — bản rút gọn của QW, khi nước không phải rủi ro chính.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.poseidonsys.com/products-and-services/products/"
+                ]
+              ]
+            ],
+            [
+              "Trident DM4500 / DM4550 / DM4600",
+              "Cảm biến mạt kim loại lắp nối tiếp đường dầu: đếm & phân loại sắt/không sắt, đo kích thước hạt (từ 40µm sắt, 150µm không sắt); DM4500 tương thích ngược TechAlert 10.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.poseidonsys.com/products-and-services/products/"
+                ]
+              ]
+            ],
+            [
+              "Trident FQMS 2.0",
+              "Tủ giám sát dầu trọn gói: oil quality + wear metal + viscometer online + water monitor; cảm biến đi sẵn ống trong tủ NEMA 4, tuỳ chọn máy tính nhúng.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.poseidonsys.com/products-and-services/products/"
+                ]
+              ]
+            ],
+            [
+              "Midas / FerroQ",
+              "Thiết bị phân tích dầu cầm tay / để bàn: tình trạng dầu, mạt mòn, mức nhiễm bẩn tại hiện trường — giảm gửi mẫu phòng lab.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.poseidonsys.com/products-and-services/products/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "short": "Phân tích điện",
+      "color": "#7c3aed",
+      "heading": "Phân tích tín hiệu điện — Electrosine (ESA/MCSA)",
+      "note": "Hãng: Electro Sine Technologies (Ahmedabad, Ấn Độ, 2023). Đặt trong tủ MCC, đọc dòng/áp — không gắn gì lên máy.",
+      "groups": [
+        {
+          "name": "C.1 ESine",
+          "rows": [
+            [
+              "ESine3",
+              "Giám sát chữ ký điện theo từng động cơ: lỗi rotor (gãy thanh dẫn, lệch tâm), stator (chập vòng, suy giảm cách điện), ổ bi, cơ khí (lệch trục, mất cân bằng), tải (xâm thực, quá/non tải), nguồn (THDv, sóng hài, hệ số công suất).",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ],
+            [
+              "ESine4",
+              "Bản đa tài sản, độ phân giải cao: toàn bộ ESine3 + nhóm lỗi 3 pha (mất cân bằng áp/dòng, thứ tự nghịch, mất pha, cô lập lỗi stator theo pha A/B/C, công suất thực/phản kháng, chạm đất thứ tự không) — cho nhiều động cơ/MCC, trung thế.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "short": "Kết nối & nền tảng",
+      "color": "#0e7490",
+      "heading": "Kết nối & nền tảng dữ liệu",
+      "note": "3 nền tảng riêng, hội tụ qua kỹ sư PlusSmart; có Modbus RTU/TCP để đẩy thẳng vào SCADA/DCS.",
+      "groups": [
+        {
+          "name": "D.1 Gateway & nền tảng",
+          "rows": [
+            [
+              "i-ALERT Gateway",
+              "Cổng BLE → di động: cắm điện tự vào mạng, tự nhận cảm biến i-ALERT trong tầm, đẩy dữ liệu 24/7 — biến đi tuần thành giám sát liên tục.",
+              [
+                [
+                  "Trang i-ALERT",
+                  "https://i-alert.ai"
+                ]
+              ]
+            ],
+            [
+              "i-ALERT Ai Platform",
+              "Nền tảng đám mây học máy: chẩn đoán rung tự động, dashboard rung/nhiệt/giờ chạy/pin, ưu tiên máy cần xử lý.",
+              [
+                [
+                  "Trang i-ALERT",
+                  "https://i-alert.ai"
+                ]
+              ]
+            ],
+            [
+              "Trident AP2200",
+              "Edge / data logger: vào Modbus RTU, CANopen/J1939 (tuỳ chọn); ra Ethernet/Wi-Fi/di động, Modbus TCP master/slave/gateway; DIN rail −40…85°C, đệm 1.7GB, script JavaScript.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.poseidonsys.com/products-and-services/products/"
+                ]
+              ]
+            ],
+            [
+              "Poseidon Live",
+              "Đám mây giám sát dầu: gộp cảm biến online + kết quả lab + SCADA (+ i-ALERT trong gói Poseidon AI); cảnh báo tức thời, so sánh đội máy, phân quyền.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.poseidonsys.com/products-and-services/products/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "short": "Phần mềm bơm",
+      "color": "#0f7a5c",
+      "heading": "ReliaPump — phần mềm bơm tự phát triển",
+      "note": "'Không cảm biến': dùng dữ liệu VFD/PLC/DCS sẵn có + đường đặc tính bơm. 4 module mua riêng hoặc gộp.",
+      "groups": [
+        {
+          "name": "E.1 ReliaPump",
+          "rows": [
+            [
+              "ReliapumpIQ",
+              "Bảo vệ & chẩn đoán: phát hiện chạy khô (không báo giả), dead-head (nguyên nhân chính hỏng phớt), run-out; cảnh báo/lỗi/lệnh ngắt — không cần lắp thêm thiết bị đo.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ],
+            [
+              "ReliapumpOS",
+              "Hệ điều hành bơm: điều khiển lưu lượng không cảm biến, tối ưu điều khiển, tự động van điều khiển, chu trình vét bồn — sửa gốc do vận hành, tiết kiệm năng lượng.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ],
+            [
+              "ReliapumpSync",
+              "Điều phối nhiều bơm song song: cân bằng theo lưu lượng (không theo tốc độ), giảm số bơm chạy, tự chỉnh theo mức mòn — trạm bơm, bơm tuần hoàn/cấp nước nhà máy điện.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ],
+            [
+              "Reliapump360",
+              "Giám sát & phân tích toàn diện (điều khiển qua phần cứng + cloud/data lake): độ tin cậy, dự báo tuổi thọ, xếp hạng 'bad actor', hiệu suất năng lượng, lập ngân sách.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "short": "Làm kín",
+      "color": "#be123c",
+      "heading": "Làm kín — Flexaseal",
+      "note": "Hãng Mỹ (1983, Williston VT) · sửa chữa qua Flexaseal Australasia (Gladstone). Chọn phớt theo điều kiện chạy thực.",
+      "groups": [
+        {
+          "name": "F.1 Phớt & giải pháp làm kín",
+          "rows": [
+            [
+              "Danh mục phớt Flexaseal",
+              "Phớt cơ khí tiêu chuẩn & thiết kế riêng, phớt thay thế OEM, hệ hỗ trợ phớt (bồn dịch chắn), cartridge chẻ đôi đơn/kép + dịch vụ sửa chữa.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.flexaseal.com/"
+                ]
+              ]
+            ],
+            [
+              "Ống xếp kim loại 3 lớp",
+              "Phớt ống xếp (bellows) kim loại 3 lớp cho nhiệt/áp cực cao (>100.000 kPa) — bơm cấp nước lò hơi đốt than, địa nhiệt.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.flexaseal.com/"
+                ]
+              ]
+            ],
+            [
+              "FlexICE",
+              "Phủ carbon dạng kim cương (~160°C): chịu chênh áp lớn, chạy thiếu bôi trơn / chạy khô lâu hơn — bơm cấp lò, bơm bùn áp cao.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.flexaseal.com/"
+                ]
+              ]
+            ],
+            [
+              "Phớt cartridge chẻ đôi",
+              "Thay không cần tháo bơm — bơm trục lớn, bơm nước/turbine, bơm bùn thải quặng; giảm thời gian dừng máy.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.flexaseal.com/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "short": "Camera AI",
+      "color": "#4d7c0f",
+      "heading": "Camera AI — PlusVision",
+      "note": "Sản phẩm tự phát triển: camera chip nơ-ron xử lý tại biên hoặc trên luồng camera IP sẵn có; REST API → SCADA/historian/DCS.",
+      "groups": [
+        {
+          "name": "G.1 PlusVision",
+          "rows": [
+            [
+              "PlusVision — Thiết bị & quy trình",
+              "Nhánh bảo trì: phát hiện rò ống, xả van an toàn, rò phớt cơ khí, rò dầu, quá nhiệt/khói/lửa, rung, đọc kim đồng hồ áp, tràn bồn, tắc hố thu, rò bùn.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ],
+            [
+              "PlusVision — An toàn lao động (HSE)",
+              "Phát hiện PPE (mũ/kính/bịt tai/làm việc trên cao), LOTO, vị trí van cô lập, giấy phép hàn nóng, không gian hạn chế, người mệt mỏi/mất tập trung, trượt ngã.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ],
+            [
+              "PlusVision — An ninh & giao thông nội bộ",
+              "Phát hiện xâm nhập vành đai/vùng cấm, điểm tập kết sơ tán, vật bỏ quên, người bị cấm, xe & an toàn bốc dỡ.",
+              [
+                [
+                  "Trang sản phẩm",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "short": "Dịch vụ",
+      "color": "#475569",
+      "heading": "Dịch vụ kỹ thuật",
+      "note": "Phần tạo biên lợi nhuận lặp lại — khảo sát, tích hợp, phân tích theo hợp đồng.",
+      "groups": [
+        {
+          "name": "H.1 Dịch vụ",
+          "rows": [
+            [
+              "Health Assessment",
+              "Khảo sát rung/áp/lưu lượng, xếp hạng máy tốt→xấu, khắc phục nhanh (căn chỉnh, bóp van đầu đẩy chống run-out) — điểm vào đề xuất cho mọi nhà máy.",
+              [
+                [
+                  "Trang dịch vụ",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ],
+            [
+              "Triển khai & tích hợp",
+              "Lắp đặt, commissioning, tích hợp SCADA/DCS, work order, chạy thử hệ bơm có VFD, tối ưu/viết lại code PLC hệ bơm.",
+              [
+                [
+                  "Trang dịch vụ",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ],
+            [
+              "Phân tích & năng lượng",
+              "Phân tích tuỳ biến theo hợp đồng, cập nhật liên tục, lập ngân sách bảo trì, hệ quản lý năng lượng ISO 50001, đào tạo.",
+              [
+                [
+                  "Trang dịch vụ",
+                  "https://www.plussmart.tech/"
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "note_end": "Biên soạn từ catalog PlusSmart (plussmart.tech) và tài liệu hãng (Poseidon, Electrosine, Flexaseal). PlusSmart là nhà tích hợp — pháp nhân/độc quyền khu vực và chứng nhận (ATEX/IECEx bản Poseidon) cần xác nhận lại với hãng khi báo giá."
+}
